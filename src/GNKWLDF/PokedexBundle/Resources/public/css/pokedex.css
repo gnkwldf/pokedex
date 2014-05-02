@@ -1,5 +1,5 @@
 .pokedex-screen{
-    background: #ddd;
+    background: #cfffff;
     margin: -100px 20px;
     padding: 100px 0px;
 }
@@ -18,7 +18,7 @@
 }
 .pokedex-choice p span{
     height: 42px;
-    background: #ccc;
+    background: #41caff;
     border-radius: 5px;
     border: 1px solid #fff;
 }
@@ -77,44 +77,141 @@
 
 .pokedex-top > .pokedex-row > .pokedex-center
 {
-    background-image: url('../images/mt.png');
+    background-image: url('../images/design/medium/mt.png');
 }
 .pokedex-top > .pokedex-row > .pokedex-right
 {
-    background-image: url('../images/rt-repeat.png');
+    background-image: url('../images/design/medium/rt-repeat.png');
 }
 .pokedex-top > .pokedex-row > .pokedex-left
 {
-    background-image: url('../images/lt-repeat.png');
+    background-image: url('../images/design/medium/lt-repeat.png');
 }
 
 .pokedex-top > .pokedex-row > .pokedex-corner-right
 {
-    background-image: url('../images/crt.png');
+    background-image: url('../images/design/medium/crt.png');
 }
 .pokedex-top > .pokedex-row > .pokedex-corner-left
 {
-    background-image: url('../images/clt.png');
+    background-image: url('../images/design/medium/clt.png');
 }
 
 .pokedex-bottom > .pokedex-row > .pokedex-center
 {
-    background-image: url('../images/mb.png');
+    background-image: url('../images/design/medium/mb.png');
 }
 .pokedex-bottom > .pokedex-row > .pokedex-right
 {
-    background-image: url('../images/rb-repeat.png');
+    background-image: url('../images/design/medium/rb-repeat.png');
 }
 .pokedex-bottom > .pokedex-row > .pokedex-left
 {
-    background-image: url('../images/lb-repeat.png');
+    background-image: url('../images/design/medium/lb-repeat.png');
 }
 
 .pokedex-bottom > .pokedex-row > .pokedex-corner-right
 {
-    background-image: url('../images/crb.png');
+    background-image: url('../images/design/medium/crb.png');
 }
 .pokedex-bottom > .pokedex-row > .pokedex-corner-left
 {
-    background-image: url('../images/clb.png');
+    background-image: url('../images/design/medium/clb.png');
+}
+
+.pokedex-view
+{
+    display: table-row;
+    overflow: auto;
+}
+
+.pokedex-img,
+.pokedex-info
+{
+    height: 200px;
+    vertical-align: middle;
+    display: table-cell;
+    padding: 10px;
+}
+
+.pokelabel-grass
+{
+    background: #00aa00;
+}
+
+@media screen and (min-width: 0px) and (max-width: 992px) {
+    
+    
+    .pokedex-screen{
+        background: #cfffff;
+        margin: -50px 0px;
+        padding: 50px 0px;
+    }
+
+    .pokedex-hf > .pokedex-row > .pokedex-center
+    {
+        width: 134px;
+        height: 100px;
+    }
+
+    .pokedex-hf > .pokedex-row > .pokedex-right
+    {
+        height: 100px;
+    }
+
+    .pokedex-hf > .pokedex-row > .pokedex-left
+    {
+        height: 100px;
+    }
+
+    .pokedex-hf > .pokedex-row > .pokedex-corner-right,
+    .pokedex-hf > .pokedex-row > .pokedex-corner-left
+    {
+        width: 46px;
+        height: 100px;
+    }
+    
+    .pokedex-top > .pokedex-row > .pokedex-center
+    {
+        background-image: url('../images/design/small/mt.png');
+    }
+    .pokedex-top > .pokedex-row > .pokedex-right
+    {
+        background-image: url('../images/design/small/rt-repeat.png');
+    }
+    .pokedex-top > .pokedex-row > .pokedex-left
+    {
+        background-image: url('../images/design/small/lt-repeat.png');
+    }
+
+    .pokedex-top > .pokedex-row > .pokedex-corner-right
+    {
+        background-image: url('../images/design/small/crt.png');
+    }
+    .pokedex-top > .pokedex-row > .pokedex-corner-left
+    {
+        background-image: url('../images/design/small/clt.png');
+    }
+
+    .pokedex-bottom > .pokedex-row > .pokedex-center
+    {
+        background-image: url('../images/design/small/mb.png');
+    }
+    .pokedex-bottom > .pokedex-row > .pokedex-right
+    {
+        background-image: url('../images/design/small/rb-repeat.png');
+    }
+    .pokedex-bottom > .pokedex-row > .pokedex-left
+    {
+        background-image: url('../images/design/small/lb-repeat.png');
+    }
+
+    .pokedex-bottom > .pokedex-row > .pokedex-corner-right
+    {
+        background-image: url('../images/design/small/crb.png');
+    }
+    .pokedex-bottom > .pokedex-row > .pokedex-corner-left
+    {
+        background-image: url('../images/design/small/clb.png');
+    }
 }

@@ -4,7 +4,7 @@
 
 {% block body %}
 <div class="container">
-    <h1>{% trans %}Pokedex{% endtrans %}</h1>
+    <h1 class="hide">{% trans %}Pokedex{% endtrans %}</h1>
     <div class="pokedex-top pokedex-hf">
         <div class="pokedex-row">
             <div class="pokedex-corner-left">
@@ -19,18 +19,35 @@
             </div>
         </div>
     </div>
-    <div class="pokedex-screen">
-        <div class="pokedex-view">
+    <div class="pokedex-screen row">
+        <div class="pokedex-view col-xs-12 col-sm-6">
+            <div class="pokedex-img">
+                <img src="{{ asset('bundles/gnkwldfpokedex/images/pokemon/normal/1.jpg') }}" height="150px" width="150px" alt="Pokémon">
+            </div>
+            <div class="pokedex-info">
+                <ul>
+                    <li><strong>{% trans %}Bulbasaur{% endtrans %}</strong></li>
+                    <li>Mini description</li>
+                    <li><strong>{% trans %}Type{% endtrans %}</strong> <span class="label pokelabel-grass">{% trans %}grass{% endtrans %}</span></li>
+                </ul>
+            </div>
+            <div class="pokedex-description">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam accumsan, purus quis lacinia molestie, lectus lacus condimentum felis, quis sollicitudin turpis arcu eu arcu. Vestibulum eget dui mi. Duis sed purus eget tellus tristique placerat eu consequat justo. Duis accumsan metus arcu, ac euismod odio convallis nec. Pellentesque ultricies venenatis odio, non euismod nulla ultrices at. Aenean lacinia tellus mi, ut dictum nisi euismod et. Integer consequat urna arcu, eu commodo urna elementum in. Vestibulum elementum ante nec ipsum imperdiet, vitae dignissim odio fermentum. Fusce vitae nulla lacus. Sed tincidunt est a urna pellentesque, non malesuada est facilisis. Fusce mattis eros ornare diam convallis, a ullamcorper ipsum rutrum. In tempor varius ligula, et hendrerit nisl tincidunt eu. Ut fermentum elit sit amet magna volutpat, nec tempor ipsum venenatis. Etiam urna risus, malesuada at dui at, iaculis imperdiet ante. Donec eu quam risus. Pellentesque non consequat ligula.
+                </p>
+            </div>
         </div>
-        <div class="pokedex-choice">
+        <div class="pokedex-choice col-xs-12 col-sm-6">
             <div class="row">
             {% for i in 0..number %}
-                <p id="choice-{{ i }}" class="col-sm-4 col-md-2 col-xs-6"><a href="#choice-{{ i }}"><span class="col-xs-12">{{ i }}</span></a></p>
-                {% if ((i+1) % 6) == 0 %}
+                <p class="col-sm-4 col-md-2 col-xs-3"><a href="#"><span class="col-xs-12">{{ i }}</span></a></p>
+                {% if ((i+1) % 12) == 0 %}
                 <div class="clearfix visible-md clearfix visible-sm clearfix visible-xs"></div>
+                {% elseif ((i+1) % 6) == 0 %}
+                <div class="clearfix visible-md"></div>
                 {% elseif ((i+1) % 3) == 0 %}
                 <div class="clearfix visible-sm"></div>
-                {% elseif ((i+1) % 2) == 0 %}
+                {% elseif ((i+1) % 4) == 0 %}
                 <div class="clearfix visible-xs"></div>
                 {% endif %}
             {% endfor %}

@@ -6,6 +6,18 @@
                 <source>Pokedex</source>
                 <target>Pokédex</target>
             </trans-unit>
+            <trans-unit id="2">
+                <source>Type</source>
+                <target>Type</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>grass</source>
+                <target>plante</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Bulbasaur</source>
+                <target>Bulbizarre</target>
+            </trans-unit>
         </body>
     </file>
 </xliff>
