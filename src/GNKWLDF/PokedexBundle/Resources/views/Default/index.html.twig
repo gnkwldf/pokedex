@@ -1,9 +1,27 @@
 {% extends "GNKWLDFPokedexBundle::layout.html.twig" %}
 
-{% block title "Pokédex" %}
+{% block title %}{% trans %}Pokedex{% endtrans %}{% endblock %}
 
 {% block body %}
 <div class="container">
-    <h1>Pokédex</h1>
+    <h1>{% trans %}Pokedex{% endtrans %}</h1>
+    <div class="pokedex-screen">
+        <div class="pokedex-view">
+        </div>
+        <div class="pokedex-choice">
+            <div class="row">
+            {% for i in 0..number %}
+                <p id="choice-{{ i }}" class="col-sm-4 col-md-2 col-xs-6"><a href="#choice-{{ i }}"><span class="col-xs-12">{{ i }}</span></a></p>
+                {% if ((i+1) % 6) == 0 %}
+                <div class="clearfix visible-md clearfix visible-sm clearfix visible-xs"></div>
+                {% elseif ((i+1) % 3) == 0 %}
+                <div class="clearfix visible-sm"></div>
+                {% elseif ((i+1) % 2) == 0 %}
+                <div class="clearfix visible-xs"></div>
+                {% endif %}
+            {% endfor %}
+            </div>
+        </div>
+    </div>
 </div>
 {% endblock %}

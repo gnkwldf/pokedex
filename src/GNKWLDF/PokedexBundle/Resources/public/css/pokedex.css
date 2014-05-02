@@ -1,0 +1,26 @@
+.pokedex-screen{
+    background: #ddd;
+    margin: 20px 100px;
+}
+.pokedex-choice{
+    text-align: center;
+    overflow: auto;
+    padding: 0px 20px;
+}
+.pokedex-choice, .pokedex-view{
+    height: 300px;
+}
+.pokedex-choice p{
+    text-align: center;
+    height: 40px;
+    padding: 4px;
+}
+.pokedex-choice p span{
+    height: 42px;
+    background: #ccc;
+    border-radius: 5px;
+    border: 1px solid #fff;
+}
+.pokedex-choice p:target span{
+    border: 1px solid #800;
+}
