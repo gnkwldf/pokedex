@@ -1,6 +1,7 @@
 .pokedex-screen{
     background: #ddd;
-    margin: 20px 100px;
+    margin: -100px 20px;
+    padding: 100px 0px;
 }
 .pokedex-choice{
     text-align: center;
@@ -23,4 +24,97 @@
 }
 .pokedex-choice p:target span{
     border: 1px solid #800;
+}
+.pokedex-hf{
+    display: table;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+.pokedex-row{
+    display: table-row;
+    border-collapse: collapse;
+}
+
+.pokedex-hf > .pokedex-row > .pokedex-center
+{
+    width: 424px;
+    height: 317px;
+    background-repeat: no-repeat;
+}
+
+.pokedex-hf > .pokedex-row > .pokedex-right
+{
+    background-repeat: repeat-x;
+    height: 317px;
+    display: table-cell;
+    min-width: 20px;
+    width:50%;
+}
+
+.pokedex-hf > .pokedex-row > .pokedex-left
+{
+    background-repeat: repeat-x;
+    height: 317px;
+    display: table-cell;
+    min-width: 20px;
+    width:50%;
+}
+
+.pokedex-hf > .pokedex-row > .pokedex-corner-right
+{
+    width: 146px;
+    height: 317px;
+    background-repeat: no-repeat;
+}
+
+.pokedex-hf > .pokedex-row > .pokedex-corner-left
+{
+    width: 146px;
+    height: 317px;
+    background-repeat: no-repeat;
+}
+
+.pokedex-top > .pokedex-row > .pokedex-center
+{
+    background-image: url('../images/mt.png');
+}
+.pokedex-top > .pokedex-row > .pokedex-right
+{
+    background-image: url('../images/rt-repeat.png');
+}
+.pokedex-top > .pokedex-row > .pokedex-left
+{
+    background-image: url('../images/lt-repeat.png');
+}
+
+.pokedex-top > .pokedex-row > .pokedex-corner-right
+{
+    background-image: url('../images/crt.png');
+}
+.pokedex-top > .pokedex-row > .pokedex-corner-left
+{
+    background-image: url('../images/clt.png');
+}
+
+.pokedex-bottom > .pokedex-row > .pokedex-center
+{
+    background-image: url('../images/mb.png');
+}
+.pokedex-bottom > .pokedex-row > .pokedex-right
+{
+    background-image: url('../images/rb-repeat.png');
+}
+.pokedex-bottom > .pokedex-row > .pokedex-left
+{
+    background-image: url('../images/lb-repeat.png');
+}
+
+.pokedex-bottom > .pokedex-row > .pokedex-corner-right
+{
+    background-image: url('../images/crb.png');
+}
+.pokedex-bottom > .pokedex-row > .pokedex-corner-left
+{
+    background-image: url('../images/clb.png');
 }
