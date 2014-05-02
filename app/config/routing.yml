@@ -1,0 +1,5 @@
+gnkwldf_pokedex:
+    resource: "@GNKWLDFPokedexBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
