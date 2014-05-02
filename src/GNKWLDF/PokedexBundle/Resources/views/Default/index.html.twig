@@ -1,10 +1,14 @@
 {% extends "GNKWLDFPokedexBundle::layout.html.twig" %}
 
-{% block title %}{% trans %}Pokedex{% endtrans %}{% endblock %}
+{% block title %}{% trans %}Pokédex{% endtrans %}{% endblock %}
+
+{% block stylesheets %}
+<link href="{{ asset('bundles/gnkwldfpokedex/css/sprites.css') }}" rel="stylesheet">
+{% endblock %}
 
 {% block body %}
 <div class="container">
-    <h1 class="hide">{% trans %}Pokedex{% endtrans %}</h1>
+    <h1 class="hide">{% trans %}Pokédex{% endtrans %}</h1>
     <div class="pokedex-top pokedex-hf">
         <div class="pokedex-row">
             <div class="pokedex-corner-left">
@@ -40,7 +44,7 @@
         <div class="pokedex-choice col-xs-12 col-sm-6">
             <div class="row">
             {% for i in 0..number %}
-                <p class="col-sm-4 col-md-2 col-xs-3"><a href="#"><span class="col-xs-12">{{ i }}</span></a></p>
+                <p class="col-sm-4 col-md-2 col-xs-3"><a href="#" title="{{list[i]|trans}}"><span class="col-xs-12 pokedex-element"><span class="pokesprite pokesprite-{{i}}"></span><span class="pokedex-number">{{ i }}</span></span></a></p>
                 {% if ((i+1) % 12) == 0 %}
                 <div class="clearfix visible-md clearfix visible-sm clearfix visible-xs"></div>
                 {% elseif ((i+1) % 6) == 0 %}

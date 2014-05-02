@@ -3,7 +3,7 @@
     <file source-language="en" datatype="plaintext" original="file.ext">
         <body>
             <trans-unit id="1">
-                <source>Pokedex</source>
+                <source>Pokédex</source>
                 <target>Pokédex</target>
             </trans-unit>
             <trans-unit id="2">

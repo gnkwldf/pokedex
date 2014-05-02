@@ -29,6 +29,8 @@ class DefaultController extends Controller
      */
     public function indexAction()
     {
-        return array('number' => 718);
+        $listtext = file_get_contents(__DIR__ . '/../data/pokemon/list.json');
+        $list = json_decode($listtext, true);
+        return array('number' => 719, 'list' => $list);
     }
 }

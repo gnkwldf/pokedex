@@ -16,14 +16,11 @@
     height: 40px;
     padding: 4px;
 }
-.pokedex-choice p span{
+.pokedex-choice p .pokedex-element{
     height: 42px;
     background: #41caff;
     border-radius: 5px;
     border: 1px solid #fff;
-}
-.pokedex-choice p:target span{
-    border: 1px solid #800;
 }
 .pokedex-hf{
     display: table;
@@ -137,6 +134,22 @@
 .pokelabel-grass
 {
     background: #00aa00;
+}
+
+.pokedex-number
+{
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+    color: #fff;
+}
+
+.pokesprite
+{
+    background: url('../images/pokemon/sprites.png') no-repeat top left;
+    position: absolute;
+    top: 4px;
+    left: 4px;
 }
 
 @media screen and (min-width: 0px) and (max-width: 992px) {
