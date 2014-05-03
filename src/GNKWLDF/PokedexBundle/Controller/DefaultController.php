@@ -60,9 +60,40 @@ class DefaultController extends Controller
         }
         $response = array(
             'name' => $this->get('translator')->trans('pokemon.list.' . $number . '.name'),
-            'image' => $this->container->get('templating.helper.assets')->getUrl('bundles/gnkwldfpokedex/images/pokemon/normal/'.$number.'.jpg'),
-            'description' => null
+            'image' => $this->container->get('templating.helper.assets')->getUrl('bundles/gnkwldfpokedex/images/pokemon/no-pokemon.jpg'),
+            'description' => $this->get('translator')->trans('pokemon.default.no.description'),
+            'species' => $this->get('translator')->trans('pokemon.default.no.species'),
+            'types' => null
         );
+        if(is_file(__DIR__ . '/../Resources/public/images/pokemon/normal/'.$number.'.jpg'))
+        {
+            $response['image'] = $this->container->get('templating.helper.assets')->getUrl('bundles/gnkwldfpokedex/images/pokemon/normal/'.$number.'.jpg');
+        }
+        if(is_file(__DIR__ . '/../properties/pokemon/list/'.$number.'.json'))
+        {
+            $propertiestext = file_get_contents(__DIR__ . '/../properties/pokemon/list/'.$number.'.json');
+            $properties = json_decode($propertiestext, true);
+            if(isset($properties['types']))
+            {
+                $response['types'] = array();
+                foreach($properties['types'] AS $type)
+                {
+                    $response['types'][] = array(
+                        'tag' => $type,
+                        'name' => $this->get('translator')->trans('pokemon.type.' . $type)
+                    );
+                }
+            }
+            if(!empty($properties['species']))
+            {
+                $response['species'] = $this->get('translator')->trans('pokemon.list.' . $number . '.species');
+            }
+            if(!empty($properties['description']))
+            {
+                $response['description'] = $this->get('translator')->trans('pokemon.list.' . $number . '.description');
+            }
+        }
+        
         return new FormattedResponse($response);
     }
 }

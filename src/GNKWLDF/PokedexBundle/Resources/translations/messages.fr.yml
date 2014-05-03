@@ -19,15 +19,23 @@ pokemon:
         steel: acier
         fairy: fée
         unknown: ???
+    default:
+        no:
+            description: Ce pokémon n'a pas encore de description
+            species: Espèce non divulguée
     list:
         0:
             name: MissingNo.
         1:
             name: Bulbizarre
+            species: Pokémon Graine
+            description: Les spores qu'il rejette depuis son bulbe desservent un message de paix dans le monde depuis sa naissance.
         2:
             name: Herbizarre
+            species: Pokémon Graine
         3:
             name: Florizarre
+            species: Pokémon Graine
         4:
             name: Salamèche
         5:
@@ -44,6 +52,8 @@ pokemon:
             name: Chenipan
         11:
             name: Chrysacier
+            species: Pokémon Cocon
+            description: L'armure qu'il revêt étant composée d'un alliage de titanium et d'or, elle lui octroie une très forte robustesse.
         12:
             name: Papilusion
         13:

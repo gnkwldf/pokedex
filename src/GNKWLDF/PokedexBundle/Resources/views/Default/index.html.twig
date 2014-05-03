@@ -11,15 +11,30 @@
     $(document).ready(function(){
         $(".pokedex-action").click(function(){
             var number = $(this).attr("data-pokemon-number");
-//             console.log(Routing.generate('pokedex_api_pokemon_description', { number: number }));
             $.ajax({
                 type: "GET",
                 url: Routing.generate('pokedex_api_pokemon_description', { number: number }),
                 success: function(data){
-                    $(".pokedex-pokemon-name").text(data.name);
-                    $(".pokedex-img img").prop("alt", data.name);
-                    $(".pokedex-img img").prop("title", data.name);
-                    $(".pokedex-img img").prop("src", data.image);
+                    var view = $(".pokedex-view");
+                    view.html('');
+                    view.append('<div class="pokedex-img"><img src="' + data.image + '" height="150px" width="150px" alt="Pokémon"></div>');
+                    view.append('<div class="pokedex-info"><ul></ul></div>');
+                    view.append('<div class="pokedex-description"><p></p></div>');
+                    $(".pokedex-description p").text(data.description);
+                    var ulinfo = $(".pokedex-view .pokedex-info ul");
+                    ulinfo.append('<li class="pokedex-pokemon-name"><strong></strong></li>');
+                    ulinfo.append('<li class="pokedex-pokemon-species"></li>');
+                    $(".pokedex-view .pokedex-info ul .pokedex-pokemon-name strong").text(data.name);
+                    $(".pokedex-view .pokedex-info ul .pokedex-pokemon-species").text(data.species);
+                    if(data.types !== null)
+                    {
+                        ulinfo.append('<li class="pokedex-pokemon-types"></li>');
+                        for(var key in data.types)
+                        {
+                            $(".pokedex-view .pokedex-info ul .pokedex-pokemon-types").append('<span class="label pokelabel-'+data.types[key].tag+'"></span> ');
+                            $('.pokelabel-'+data.types[key].tag).text(data.types[key].name);
+                        }
+                    }
                 },
             });
         });
@@ -47,39 +62,12 @@
     <div class="pokedex-screen row">
         <div class="pokedex-view col-xs-12 col-sm-6">
             <div class="pokedex-img">
-                <img src="{{ asset('bundles/gnkwldfpokedex/images/pokemon/normal/1.jpg') }}" height="150px" width="150px" alt="Pokémon">
+                <img src="{{ asset('bundles/gnkwldfpokedex/images/pokemon/pokemon.jpg') }}" height="150px" width="150px" alt="Pokémon">
             </div>
             <div class="pokedex-info">
                 <ul>
-                    <li><strong class="pokedex-pokemon-name">{% trans %}pokemon.list.1.name{% endtrans %}</strong></li>
-                    <li>Mini description</li>
-                    <li>
-                        <span class="label pokelabel-bird">{% trans %}pokemon.type.bird{% endtrans %}</span>
-                        <span class="label pokelabel-normal">{% trans %}pokemon.type.normal{% endtrans %}</span>
-                        <span class="label pokelabel-fire">{% trans %}pokemon.type.fire{% endtrans %}</span>
-                        <span class="label pokelabel-fighting">{% trans %}pokemon.type.fighting{% endtrans %}</span>
-                        <span class="label pokelabel-water">{% trans %}pokemon.type.water{% endtrans %}</span>
-                        <span class="label pokelabel-flying">{% trans %}pokemon.type.flying{% endtrans %}</span>
-                        <span class="label pokelabel-grass">{% trans %}pokemon.type.grass{% endtrans %}</span>
-                        <span class="label pokelabel-poison">{% trans %}pokemon.type.poison{% endtrans %}</span>
-                        <span class="label pokelabel-electric">{% trans %}pokemon.type.electric{% endtrans %}</span>
-                        <span class="label pokelabel-ground">{% trans %}pokemon.type.ground{% endtrans %}</span>
-                        <span class="label pokelabel-rock">{% trans %}pokemon.type.rock{% endtrans %}</span>
-                        <span class="label pokelabel-ice">{% trans %}pokemon.type.ice{% endtrans %}</span>
-                        <span class="label pokelabel-bug">{% trans %}pokemon.type.bug{% endtrans %}</span>
-                        <span class="label pokelabel-dragon">{% trans %}pokemon.type.dragon{% endtrans %}</span>
-                        <span class="label pokelabel-ghost">{% trans %}pokemon.type.ghost{% endtrans %}</span>
-                        <span class="label pokelabel-dark">{% trans %}pokemon.type.dark{% endtrans %}</span>
-                        <span class="label pokelabel-steel">{% trans %}pokemon.type.steel{% endtrans %}</span>
-                        <span class="label pokelabel-fairy">{% trans %}pokemon.type.fairy{% endtrans %}</span>
-                        <span class="label pokelabel-unknown">{% trans %}pokemon.type.unknown{% endtrans %}</span>
-                    </li>
+                    <li><strong class="pokedex-pokemon-name">{% trans %}Pokédex{% endtrans %}</strong></li>
                 </ul>
-            </div>
-            <div class="pokedex-description">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam accumsan, purus quis lacinia molestie, lectus lacus condimentum felis, quis sollicitudin turpis arcu eu arcu. Vestibulum eget dui mi. Duis sed purus eget tellus tristique placerat eu consequat justo. Duis accumsan metus arcu, ac euismod odio convallis nec. Pellentesque ultricies venenatis odio, non euismod nulla ultrices at. Aenean lacinia tellus mi, ut dictum nisi euismod et. Integer consequat urna arcu, eu commodo urna elementum in. Vestibulum elementum ante nec ipsum imperdiet, vitae dignissim odio fermentum. Fusce vitae nulla lacus. Sed tincidunt est a urna pellentesque, non malesuada est facilisis. Fusce mattis eros ornare diam convallis, a ullamcorper ipsum rutrum. In tempor varius ligula, et hendrerit nisl tincidunt eu. Ut fermentum elit sit amet magna volutpat, nec tempor ipsum venenatis. Etiam urna risus, malesuada at dui at, iaculis imperdiet ante. Donec eu quam risus. Pellentesque non consequat ligula.
-                </p>
             </div>
         </div>
         <div class="pokedex-choice col-xs-12 col-sm-6">

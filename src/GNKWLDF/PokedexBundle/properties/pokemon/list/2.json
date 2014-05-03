@@ -1,5 +1,5 @@
 {
     "species" : true,
     "types" : ["grass", "poison"],
-    "description" : true
+    "description" : false
 }
