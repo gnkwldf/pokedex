@@ -29,6 +29,11 @@ class DefaultController extends Controller
      */
     public function indexAction()
     {
+        $request = $this->getRequest();
+        $request->setLocale($request->getPreferredLanguage(array(
+            'fr',
+            'en'
+        )));
         $listtext = file_get_contents(__DIR__ . '/../data/pokemon/list.json');
         $list = json_decode($listtext, true);
         return array('number' => 719, 'list' => $list);

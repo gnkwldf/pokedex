@@ -4,75 +4,75 @@
         <body>
             <trans-unit id="1">
                 <source>pokemon.1.name</source>
-                <target>Bulbizarre</target>
+                <target>Bulbasaur</target>
             </trans-unit>
             <trans-unit id="2">
                 <source>pokemon.2.name</source>
-                <target>Herbizarre</target>
+                <target>Ivysaur</target>
             </trans-unit>
             <trans-unit id="3">
                 <source>pokemon.3.name</source>
-                <target>Florizarre</target>
+                <target>Venusaur</target>
             </trans-unit>
             <trans-unit id="4">
                 <source>pokemon.4.name</source>
-                <target>Salamèche</target>
+                <target>Charmander</target>
             </trans-unit>
             <trans-unit id="5">
                 <source>pokemon.5.name</source>
-                <target>Reptincel</target>
+                <target>Charmeleon</target>
             </trans-unit>
             <trans-unit id="6">
                 <source>pokemon.6.name</source>
-                <target>Dracaufeu</target>
+                <target>Charizard</target>
             </trans-unit>
             <trans-unit id="7">
                 <source>pokemon.7.name</source>
-                <target>Carapuce</target>
+                <target>Squirtle</target>
             </trans-unit>
             <trans-unit id="8">
                 <source>pokemon.8.name</source>
-                <target>Carabaffe</target>
+                <target>Wartortle</target>
             </trans-unit>
             <trans-unit id="9">
                 <source>pokemon.9.name</source>
-                <target>Tortank</target>
+                <target>Blastoise</target>
             </trans-unit>
             <trans-unit id="10">
                 <source>pokemon.10.name</source>
-                <target>Chenipan</target>
+                <target>Caterpie</target>
             </trans-unit>
             <trans-unit id="11">
                 <source>pokemon.11.name</source>
-                <target>Chrysacier</target>
+                <target>Metapod</target>
             </trans-unit>
             <trans-unit id="12">
                 <source>pokemon.12.name</source>
-                <target>Papilusion</target>
+                <target>Butterfree</target>
             </trans-unit>
             <trans-unit id="13">
                 <source>pokemon.13.name</source>
-                <target>Aspicot</target>
+                <target>Weedle</target>
             </trans-unit>
             <trans-unit id="14">
                 <source>pokemon.14.name</source>
-                <target>Coconfort</target>
+                <target>Kakuna</target>
             </trans-unit>
             <trans-unit id="15">
                 <source>pokemon.15.name</source>
-                <target>Dardargnan</target>
+                <target>Beedrill</target>
             </trans-unit>
             <trans-unit id="16">
                 <source>pokemon.16.name</source>
-                <target>Roucool</target>
+                <target>Pidgey</target>
             </trans-unit>
             <trans-unit id="17">
                 <source>pokemon.17.name</source>
-                <target>Roucoups</target>
+                <target>Pidgeotto</target>
             </trans-unit>
             <trans-unit id="18">
                 <source>pokemon.18.name</source>
-                <target>Roucarnage</target>
+                <target>Pidgeot</target>
             </trans-unit>
             <trans-unit id="19">
                 <source>pokemon.19.name</source>
@@ -80,19 +80,19 @@
             </trans-unit>
             <trans-unit id="20">
                 <source>pokemon.20.name</source>
-                <target>Rattatac</target>
+                <target>Raticate</target>
             </trans-unit>
             <trans-unit id="21">
                 <source>pokemon.21.name</source>
-                <target>Piafabec</target>
+                <target>Spearow</target>
             </trans-unit>
             <trans-unit id="22">
                 <source>pokemon.22.name</source>
-                <target>Rapasdepic</target>
+                <target>Fearow</target>
             </trans-unit>
             <trans-unit id="23">
                 <source>pokemon.23.name</source>
-                <target>Abo</target>
+                <target>Ekans</target>
             </trans-unit>
             <trans-unit id="24">
                 <source>pokemon.24.name</source>
@@ -108,11 +108,11 @@
             </trans-unit>
             <trans-unit id="27">
                 <source>pokemon.27.name</source>
-                <target>Sabelette</target>
+                <target>Sandshrew</target>
             </trans-unit>
             <trans-unit id="28">
                 <source>pokemon.28.name</source>
-                <target>Sablaireau</target>
+                <target>Sandslash</target>
             </trans-unit>
             <trans-unit id="29">
                 <source>pokemon.29.name</source>
@@ -140,47 +140,47 @@
             </trans-unit>
             <trans-unit id="35">
                 <source>pokemon.35.name</source>
-                <target>Mélofée</target>
+                <target>Clefairy</target>
             </trans-unit>
             <trans-unit id="36">
                 <source>pokemon.36.name</source>
-                <target>Mélodelfe</target>
+                <target>Clefable</target>
             </trans-unit>
             <trans-unit id="37">
                 <source>pokemon.37.name</source>
-                <target>Goupix</target>
+                <target>Vulpix</target>
             </trans-unit>
             <trans-unit id="38">
                 <source>pokemon.38.name</source>
-                <target>Feunard</target>
+                <target>Ninetales</target>
             </trans-unit>
             <trans-unit id="39">
                 <source>pokemon.39.name</source>
-                <target>Rondoudou</target>
+                <target>Jigglypuff</target>
             </trans-unit>
             <trans-unit id="40">
                 <source>pokemon.40.name</source>
-                <target>Grodoudou</target>
+                <target>Wigglytuff</target>
             </trans-unit>
             <trans-unit id="41">
                 <source>pokemon.41.name</source>
-                <target>Nosferapti</target>
+                <target>Zubat</target>
             </trans-unit>
             <trans-unit id="42">
                 <source>pokemon.42.name</source>
-                <target>Nosferalto</target>
+                <target>Golbat</target>
             </trans-unit>
             <trans-unit id="43">
                 <source>pokemon.43.name</source>
-                <target>Mystherbe</target>
+                <target>Oddish</target>
             </trans-unit>
             <trans-unit id="44">
                 <source>pokemon.44.name</source>
-                <target>Ortide</target>
+                <target>Gloom</target>
             </trans-unit>
             <trans-unit id="45">
                 <source>pokemon.45.name</source>
-                <target>Rafflésia</target>
+                <target>Vileplume</target>
             </trans-unit>
             <trans-unit id="46">
                 <source>pokemon.46.name</source>
@@ -192,23 +192,23 @@
             </trans-unit>
             <trans-unit id="48">
                 <source>pokemon.48.name</source>
-                <target>Mimitoss</target>
+                <target>Venonat</target>
             </trans-unit>
             <trans-unit id="49">
                 <source>pokemon.49.name</source>
-                <target>Aéromite</target>
+                <target>Venomoth</target>
             </trans-unit>
             <trans-unit id="50">
                 <source>pokemon.50.name</source>
-                <target>Taupiqueur</target>
+                <target>Diglett</target>
             </trans-unit>
             <trans-unit id="51">
                 <source>pokemon.51.name</source>
-                <target>Triopikeur</target>
+                <target>Dugtrio</target>
             </trans-unit>
             <trans-unit id="52">
                 <source>pokemon.52.name</source>
-                <target>Miaouss</target>
+                <target>Meowth</target>
             </trans-unit>
             <trans-unit id="53">
                 <source>pokemon.53.name</source>
@@ -216,39 +216,39 @@
             </trans-unit>
             <trans-unit id="54">
                 <source>pokemon.54.name</source>
-                <target>Psykokwak</target>
+                <target>Psyduck</target>
             </trans-unit>
             <trans-unit id="55">
                 <source>pokemon.55.name</source>
-                <target>Akwakwak</target>
+                <target>Golduck</target>
             </trans-unit>
             <trans-unit id="56">
                 <source>pokemon.56.name</source>
-                <target>Férosinge</target>
+                <target>Mankey</target>
             </trans-unit>
             <trans-unit id="57">
                 <source>pokemon.57.name</source>
-                <target>Colossinge</target>
+                <target>Primeape</target>
             </trans-unit>
             <trans-unit id="58">
                 <source>pokemon.58.name</source>
-                <target>Caninos</target>
+                <target>Growlithe</target>
             </trans-unit>
             <trans-unit id="59">
                 <source>pokemon.59.name</source>
-                <target>Arcanin</target>
+                <target>Arcanine</target>
             </trans-unit>
             <trans-unit id="60">
                 <source>pokemon.60.name</source>
-                <target>Ptitard</target>
+                <target>Poliwag</target>
             </trans-unit>
             <trans-unit id="61">
                 <source>pokemon.61.name</source>
-                <target>Têtarte</target>
+                <target>Poliwhirl</target>
             </trans-unit>
             <trans-unit id="62">
                 <source>pokemon.62.name</source>
-                <target>Tartard</target>
+                <target>Poliwrath</target>
             </trans-unit>
             <trans-unit id="63">
                 <source>pokemon.63.name</source>
@@ -264,27 +264,27 @@
             </trans-unit>
             <trans-unit id="66">
                 <source>pokemon.66.name</source>
-                <target>Machoc</target>
+                <target>Machop</target>
             </trans-unit>
             <trans-unit id="67">
                 <source>pokemon.67.name</source>
-                <target>Machopeur</target>
+                <target>Machoke</target>
             </trans-unit>
             <trans-unit id="68">
                 <source>pokemon.68.name</source>
-                <target>Mackogneur</target>
+                <target>Machamp</target>
             </trans-unit>
             <trans-unit id="69">
                 <source>pokemon.69.name</source>
-                <target>Chétiflor</target>
+                <target>Bellsprout</target>
             </trans-unit>
             <trans-unit id="70">
                 <source>pokemon.70.name</source>
-                <target>Boustiflor</target>
+                <target>Weepinbell</target>
             </trans-unit>
             <trans-unit id="71">
                 <source>pokemon.71.name</source>
-                <target>Empiflor</target>
+                <target>Victreebel</target>
             </trans-unit>
             <trans-unit id="72">
                 <source>pokemon.72.name</source>
@@ -296,15 +296,15 @@
             </trans-unit>
             <trans-unit id="74">
                 <source>pokemon.74.name</source>
-                <target>Racaillou</target>
+                <target>Geodude</target>
             </trans-unit>
             <trans-unit id="75">
                 <source>pokemon.75.name</source>
-                <target>Gravalanch</target>
+                <target>Graveler</target>
             </trans-unit>
             <trans-unit id="76">
                 <source>pokemon.76.name</source>
-                <target>Grolem</target>
+                <target>Golem</target>
             </trans-unit>
             <trans-unit id="77">
                 <source>pokemon.77.name</source>
@@ -312,27 +312,27 @@
             </trans-unit>
             <trans-unit id="78">
                 <source>pokemon.78.name</source>
-                <target>Galopa</target>
+                <target>Rapidash</target>
             </trans-unit>
             <trans-unit id="79">
                 <source>pokemon.79.name</source>
-                <target>Ramoloss</target>
+                <target>Slowpoke</target>
             </trans-unit>
             <trans-unit id="80">
                 <source>pokemon.80.name</source>
-                <target>Flagadoss</target>
+                <target>Slowbro</target>
             </trans-unit>
             <trans-unit id="81">
                 <source>pokemon.81.name</source>
-                <target>Magnéti</target>
+                <target>Magnemite</target>
             </trans-unit>
             <trans-unit id="82">
                 <source>pokemon.82.name</source>
-                <target>Magnéton</target>
+                <target>Magneton</target>
             </trans-unit>
             <trans-unit id="83">
                 <source>pokemon.83.name</source>
-                <target>Canarticho</target>
+                <target>Farfetch</target>
             </trans-unit>
             <trans-unit id="84">
                 <source>pokemon.84.name</source>
@@ -344,39 +344,39 @@
             </trans-unit>
             <trans-unit id="86">
                 <source>pokemon.86.name</source>
-                <target>Otaria</target>
+                <target>Seel</target>
             </trans-unit>
             <trans-unit id="87">
                 <source>pokemon.87.name</source>
-                <target>Lamantine</target>
+                <target>Dewgong</target>
             </trans-unit>
             <trans-unit id="88">
                 <source>pokemon.88.name</source>
-                <target>Tadmorv</target>
+                <target>Grimer</target>
             </trans-unit>
             <trans-unit id="89">
                 <source>pokemon.89.name</source>
-                <target>Grotadmorv</target>
+                <target>Muk</target>
             </trans-unit>
             <trans-unit id="90">
                 <source>pokemon.90.name</source>
-                <target>Kokiyas</target>
+                <target>Shellder</target>
             </trans-unit>
             <trans-unit id="91">
                 <source>pokemon.91.name</source>
-                <target>Crustabri</target>
+                <target>Cloyster</target>
             </trans-unit>
             <trans-unit id="92">
                 <source>pokemon.92.name</source>
-                <target>Fantominus</target>
+                <target>Gastly</target>
             </trans-unit>
             <trans-unit id="93">
                 <source>pokemon.93.name</source>
-                <target>Spectrum</target>
+                <target>Haunter</target>
             </trans-unit>
             <trans-unit id="94">
                 <source>pokemon.94.name</source>
-                <target>Ectoplasma</target>
+                <target>Gengar</target>
             </trans-unit>
             <trans-unit id="95">
                 <source>pokemon.95.name</source>
@@ -384,11 +384,11 @@
             </trans-unit>
             <trans-unit id="96">
                 <source>pokemon.96.name</source>
-                <target>Soporifik</target>
+                <target>Drowzee</target>
             </trans-unit>
             <trans-unit id="97">
                 <source>pokemon.97.name</source>
-                <target>Hypnomade</target>
+                <target>Hypno</target>
             </trans-unit>
             <trans-unit id="98">
                 <source>pokemon.98.name</source>
@@ -396,111 +396,111 @@
             </trans-unit>
             <trans-unit id="99">
                 <source>pokemon.99.name</source>
-                <target>Krabboss</target>
+                <target>Kingler</target>
             </trans-unit>
             <trans-unit id="100">
                 <source>pokemon.100.name</source>
-                <target>Voltorbe</target>
+                <target>Voltorb</target>
             </trans-unit>
             <trans-unit id="101">
                 <source>pokemon.101.name</source>
-                <target>Électrode</target>
+                <target>Electrode</target>
             </trans-unit>
             <trans-unit id="102">
                 <source>pokemon.102.name</source>
-                <target>Nœunœuf</target>
+                <target>Exeggcute</target>
             </trans-unit>
             <trans-unit id="103">
                 <source>pokemon.103.name</source>
-                <target>Noadkoko</target>
+                <target>Exeggutor</target>
             </trans-unit>
             <trans-unit id="104">
                 <source>pokemon.104.name</source>
-                <target>Osselait</target>
+                <target>Cubone</target>
             </trans-unit>
             <trans-unit id="105">
                 <source>pokemon.105.name</source>
-                <target>Ossatueur</target>
+                <target>Marowak</target>
             </trans-unit>
             <trans-unit id="106">
                 <source>pokemon.106.name</source>
-                <target>Kicklee</target>
+                <target>Hitmonlee</target>
             </trans-unit>
             <trans-unit id="107">
                 <source>pokemon.107.name</source>
-                <target>Tygnon</target>
+                <target>Hitmonchan</target>
             </trans-unit>
             <trans-unit id="108">
                 <source>pokemon.108.name</source>
-                <target>Excelangue</target>
+                <target>Lickitung</target>
             </trans-unit>
             <trans-unit id="109">
                 <source>pokemon.109.name</source>
-                <target>Smogo</target>
+                <target>Koffing</target>
             </trans-unit>
             <trans-unit id="110">
                 <source>pokemon.110.name</source>
-                <target>Smogogo</target>
+                <target>Weezing</target>
             </trans-unit>
             <trans-unit id="111">
                 <source>pokemon.111.name</source>
-                <target>Rhinocorne</target>
+                <target>Rhyhorn</target>
             </trans-unit>
             <trans-unit id="112">
                 <source>pokemon.112.name</source>
-                <target>Rhinoféros</target>
+                <target>Rhydon</target>
             </trans-unit>
             <trans-unit id="113">
                 <source>pokemon.113.name</source>
-                <target>Leveinard</target>
+                <target>Chansey</target>
             </trans-unit>
             <trans-unit id="114">
                 <source>pokemon.114.name</source>
-                <target>Saquedeneu</target>
+                <target>Tangela</target>
             </trans-unit>
             <trans-unit id="115">
                 <source>pokemon.115.name</source>
-                <target>Kangourex</target>
+                <target>Kangaskhan</target>
             </trans-unit>
             <trans-unit id="116">
                 <source>pokemon.116.name</source>
-                <target>Hypotrempe</target>
+                <target>Horsea</target>
             </trans-unit>
             <trans-unit id="117">
                 <source>pokemon.117.name</source>
-                <target>Hypocéan</target>
+                <target>Seadra</target>
             </trans-unit>
             <trans-unit id="118">
                 <source>pokemon.118.name</source>
-                <target>Poissirène</target>
+                <target>Goldeen</target>
             </trans-unit>
             <trans-unit id="119">
                 <source>pokemon.119.name</source>
-                <target>Poissoroy</target>
+                <target>Seaking</target>
             </trans-unit>
             <trans-unit id="120">
                 <source>pokemon.120.name</source>
-                <target>Stari</target>
+                <target>Staryu</target>
             </trans-unit>
             <trans-unit id="121">
                 <source>pokemon.121.name</source>
-                <target>Staross</target>
+                <target>Starmie</target>
             </trans-unit>
             <trans-unit id="122">
                 <source>pokemon.122.name</source>
-                <target>M. Mime</target>
+                <target>Mr. Mime</target>
             </trans-unit>
             <trans-unit id="123">
                 <source>pokemon.123.name</source>
-                <target>Insécateur</target>
+                <target>Scyther</target>
             </trans-unit>
             <trans-unit id="124">
                 <source>pokemon.124.name</source>
-                <target>Lippoutou</target>
+                <target>Jynx</target>
             </trans-unit>
             <trans-unit id="125">
                 <source>pokemon.125.name</source>
-                <target>Élektek</target>
+                <target>Electabuzz</target>
             </trans-unit>
             <trans-unit id="126">
                 <source>pokemon.126.name</source>
@@ -508,7 +508,7 @@
             </trans-unit>
             <trans-unit id="127">
                 <source>pokemon.127.name</source>
-                <target>Scarabrute</target>
+                <target>Pinsir</target>
             </trans-unit>
             <trans-unit id="128">
                 <source>pokemon.128.name</source>
@@ -516,35 +516,35 @@
             </trans-unit>
             <trans-unit id="129">
                 <source>pokemon.129.name</source>
-                <target>Magicarpe</target>
+                <target>Magikarp</target>
             </trans-unit>
             <trans-unit id="130">
                 <source>pokemon.130.name</source>
-                <target>Léviator</target>
+                <target>Gyarados</target>
             </trans-unit>
             <trans-unit id="131">
                 <source>pokemon.131.name</source>
-                <target>Lokhlass</target>
+                <target>Lapras</target>
             </trans-unit>
             <trans-unit id="132">
                 <source>pokemon.132.name</source>
-                <target>Métamorph</target>
+                <target>Ditto</target>
             </trans-unit>
             <trans-unit id="133">
                 <source>pokemon.133.name</source>
-                <target>Évoli</target>
+                <target>Eevee</target>
             </trans-unit>
             <trans-unit id="134">
                 <source>pokemon.134.name</source>
-                <target>Aquali</target>
+                <target>Vaporeon</target>
             </trans-unit>
             <trans-unit id="135">
                 <source>pokemon.135.name</source>
-                <target>Voltali</target>
+                <target>Jolteon</target>
             </trans-unit>
             <trans-unit id="136">
                 <source>pokemon.136.name</source>
-                <target>Pyroli</target>
+                <target>Flareon</target>
             </trans-unit>
             <trans-unit id="137">
                 <source>pokemon.137.name</source>
@@ -552,11 +552,11 @@
             </trans-unit>
             <trans-unit id="138">
                 <source>pokemon.138.name</source>
-                <target>Amonita</target>
+                <target>Omanyte</target>
             </trans-unit>
             <trans-unit id="139">
                 <source>pokemon.139.name</source>
-                <target>Amonistar</target>
+                <target>Omastar</target>
             </trans-unit>
             <trans-unit id="140">
                 <source>pokemon.140.name</source>
@@ -568,35 +568,35 @@
             </trans-unit>
             <trans-unit id="142">
                 <source>pokemon.142.name</source>
-                <target>Ptéra</target>
+                <target>Aerodactyl</target>
             </trans-unit>
             <trans-unit id="143">
                 <source>pokemon.143.name</source>
-                <target>Ronflex</target>
+                <target>Snorlax</target>
             </trans-unit>
             <trans-unit id="144">
                 <source>pokemon.144.name</source>
-                <target>Artikodin</target>
+                <target>Articuno</target>
             </trans-unit>
             <trans-unit id="145">
                 <source>pokemon.145.name</source>
-                <target>Électhor</target>
+                <target>Zapdos</target>
             </trans-unit>
             <trans-unit id="146">
                 <source>pokemon.146.name</source>
-                <target>Sulfura</target>
+                <target>Moltres</target>
             </trans-unit>
             <trans-unit id="147">
                 <source>pokemon.147.name</source>
-                <target>Minidraco</target>
+                <target>Dratini</target>
             </trans-unit>
             <trans-unit id="148">
                 <source>pokemon.148.name</source>
-                <target>Draco</target>
+                <target>Dragonair</target>
             </trans-unit>
             <trans-unit id="149">
                 <source>pokemon.149.name</source>
-                <target>Dracolosse</target>
+                <target>Dragonite</target>
             </trans-unit>
             <trans-unit id="150">
                 <source>pokemon.150.name</source>
@@ -2888,7 +2888,7 @@
             </trans-unit>
             <trans-unit id="722">
                 <source>grass</source>
-                <target>plante</target>
+                <target>grass</target>
             </trans-unit>
         </body>
     </file>
