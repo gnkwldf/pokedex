@@ -1,271 +1,4319 @@
-.pokesprite-1{ background-position: 0 0; width: 32px; height: 32px; } 
-.pokesprite-10{ background-position: 0 -33px; width: 32px; height: 32px; } 
-.pokesprite-100{ background-position: 0 -66px; width: 32px; height: 32px; } 
-.pokesprite-101{ background-position: 0 -99px; width: 32px; height: 32px; } 
-.pokesprite-102{ background-position: 0 -132px; width: 32px; height: 32px; } 
-.pokesprite-103{ background-position: 0 -165px; width: 32px; height: 32px; } 
-.pokesprite-104{ background-position: 0 -198px; width: 32px; height: 32px; } 
-.pokesprite-105{ background-position: 0 -231px; width: 32px; height: 32px; } 
-.pokesprite-106{ background-position: 0 -264px; width: 32px; height: 32px; } 
-.pokesprite-107{ background-position: 0 -297px; width: 32px; height: 32px; } 
-.pokesprite-108{ background-position: 0 -330px; width: 32px; height: 32px; } 
-.pokesprite-109{ background-position: 0 -363px; width: 32px; height: 32px; } 
-.pokesprite-11{ background-position: 0 -396px; width: 32px; height: 32px; } 
-.pokesprite-110{ background-position: 0 -429px; width: 32px; height: 32px; } 
-.pokesprite-111{ background-position: 0 -462px; width: 32px; height: 32px; } 
-.pokesprite-112{ background-position: 0 -495px; width: 32px; height: 32px; } 
-.pokesprite-113{ background-position: 0 -528px; width: 32px; height: 32px; } 
-.pokesprite-114{ background-position: 0 -561px; width: 32px; height: 32px; } 
-.pokesprite-115{ background-position: 0 -594px; width: 32px; height: 32px; } 
-.pokesprite-116{ background-position: 0 -627px; width: 32px; height: 32px; } 
-.pokesprite-117{ background-position: 0 -660px; width: 32px; height: 32px; } 
-.pokesprite-118{ background-position: 0 -693px; width: 32px; height: 32px; } 
-.pokesprite-119{ background-position: 0 -726px; width: 32px; height: 32px; } 
-.pokesprite-12{ background-position: 0 -759px; width: 32px; height: 32px; } 
-.pokesprite-120{ background-position: 0 -792px; width: 32px; height: 32px; } 
-.pokesprite-121{ background-position: 0 -825px; width: 32px; height: 32px; } 
-.pokesprite-122{ background-position: 0 -858px; width: 32px; height: 32px; } 
-.pokesprite-123{ background-position: 0 -891px; width: 32px; height: 32px; } 
-.pokesprite-124{ background-position: 0 -924px; width: 32px; height: 32px; } 
-.pokesprite-125{ background-position: 0 -957px; width: 32px; height: 32px; } 
-.pokesprite-126{ background-position: 0 -990px; width: 32px; height: 32px; } 
-.pokesprite-127{ background-position: 0 -1023px; width: 32px; height: 32px; } 
-.pokesprite-128{ background-position: 0 -1056px; width: 32px; height: 32px; } 
-.pokesprite-129{ background-position: 0 -1089px; width: 32px; height: 32px; } 
-.pokesprite-13{ background-position: 0 -1122px; width: 32px; height: 32px; } 
-.pokesprite-130{ background-position: 0 -1155px; width: 32px; height: 32px; } 
-.pokesprite-131{ background-position: 0 -1188px; width: 32px; height: 32px; } 
-.pokesprite-132{ background-position: 0 -1221px; width: 32px; height: 32px; } 
-.pokesprite-133{ background-position: 0 -1254px; width: 32px; height: 32px; } 
-.pokesprite-134{ background-position: 0 -1287px; width: 32px; height: 32px; } 
-.pokesprite-135{ background-position: 0 -1320px; width: 32px; height: 32px; } 
-.pokesprite-136{ background-position: 0 -1353px; width: 32px; height: 32px; } 
-.pokesprite-137{ background-position: 0 -1386px; width: 32px; height: 32px; } 
-.pokesprite-138{ background-position: 0 -1419px; width: 32px; height: 32px; } 
-.pokesprite-139{ background-position: 0 -1452px; width: 32px; height: 32px; } 
-.pokesprite-14{ background-position: 0 -1485px; width: 32px; height: 32px; } 
-.pokesprite-140{ background-position: 0 -1518px; width: 32px; height: 32px; } 
-.pokesprite-141{ background-position: 0 -1551px; width: 32px; height: 32px; } 
-.pokesprite-142{ background-position: 0 -1584px; width: 32px; height: 32px; } 
-.pokesprite-143{ background-position: 0 -1617px; width: 32px; height: 32px; } 
-.pokesprite-144{ background-position: 0 -1650px; width: 32px; height: 32px; } 
-.pokesprite-145{ background-position: 0 -1683px; width: 32px; height: 32px; } 
-.pokesprite-146{ background-position: 0 -1716px; width: 32px; height: 32px; } 
-.pokesprite-147{ background-position: 0 -1749px; width: 32px; height: 32px; } 
-.pokesprite-148{ background-position: 0 -1782px; width: 32px; height: 32px; } 
-.pokesprite-149{ background-position: 0 -1815px; width: 32px; height: 32px; } 
-.pokesprite-15{ background-position: 0 -1848px; width: 32px; height: 32px; } 
-.pokesprite-150{ background-position: 0 -1881px; width: 32px; height: 32px; } 
-.pokesprite-151{ background-position: 0 -1914px; width: 32px; height: 32px; } 
-.pokesprite-16{ background-position: 0 -1947px; width: 32px; height: 32px; } 
-.pokesprite-17{ background-position: 0 -1980px; width: 32px; height: 32px; } 
-.pokesprite-18{ background-position: -33px 0; width: 32px; height: 32px; } 
-.pokesprite-19{ background-position: -33px -33px; width: 32px; height: 32px; } 
-.pokesprite-2{ background-position: -33px -66px; width: 32px; height: 32px; } 
-.pokesprite-20{ background-position: -33px -99px; width: 32px; height: 32px; } 
-.pokesprite-21{ background-position: -33px -132px; width: 32px; height: 32px; } 
-.pokesprite-22{ background-position: -33px -165px; width: 32px; height: 32px; } 
-.pokesprite-23{ background-position: -33px -198px; width: 32px; height: 32px; } 
-.pokesprite-24{ background-position: -33px -231px; width: 32px; height: 32px; } 
-.pokesprite-25{ background-position: -33px -264px; width: 32px; height: 32px; } 
-.pokesprite-26{ background-position: -33px -297px; width: 32px; height: 32px; } 
-.pokesprite-27{ background-position: -33px -330px; width: 32px; height: 32px; } 
-.pokesprite-28{ background-position: -33px -363px; width: 32px; height: 32px; } 
-.pokesprite-29{ background-position: -33px -396px; width: 32px; height: 32px; } 
-.pokesprite-3{ background-position: -33px -429px; width: 32px; height: 32px; } 
-.pokesprite-30{ background-position: -33px -462px; width: 32px; height: 32px; } 
-.pokesprite-31{ background-position: -33px -495px; width: 32px; height: 32px; } 
-.pokesprite-32{ background-position: -33px -528px; width: 32px; height: 32px; } 
-.pokesprite-33{ background-position: -33px -561px; width: 32px; height: 32px; } 
-.pokesprite-34{ background-position: -33px -594px; width: 32px; height: 32px; } 
-.pokesprite-35{ background-position: -33px -627px; width: 32px; height: 32px; } 
-.pokesprite-36{ background-position: -33px -660px; width: 32px; height: 32px; } 
-.pokesprite-37{ background-position: -33px -693px; width: 32px; height: 32px; } 
-.pokesprite-38{ background-position: -33px -726px; width: 32px; height: 32px; } 
-.pokesprite-39{ background-position: -33px -759px; width: 32px; height: 32px; } 
-.pokesprite-4{ background-position: -33px -792px; width: 32px; height: 32px; } 
-.pokesprite-40{ background-position: -33px -825px; width: 32px; height: 32px; } 
-.pokesprite-41{ background-position: -33px -858px; width: 32px; height: 32px; } 
-.pokesprite-42{ background-position: -33px -891px; width: 32px; height: 32px; } 
-.pokesprite-43{ background-position: -33px -924px; width: 32px; height: 32px; } 
-.pokesprite-44{ background-position: -33px -957px; width: 32px; height: 32px; } 
-.pokesprite-45{ background-position: -33px -990px; width: 32px; height: 32px; } 
-.pokesprite-46{ background-position: -33px -1023px; width: 32px; height: 32px; } 
-.pokesprite-47{ background-position: -33px -1056px; width: 32px; height: 32px; } 
-.pokesprite-48{ background-position: -33px -1089px; width: 32px; height: 32px; } 
-.pokesprite-49{ background-position: -33px -1122px; width: 32px; height: 32px; } 
-.pokesprite-5{ background-position: -33px -1155px; width: 32px; height: 32px; } 
-.pokesprite-50{ background-position: -33px -1188px; width: 32px; height: 32px; } 
-.pokesprite-51{ background-position: -33px -1221px; width: 32px; height: 32px; } 
-.pokesprite-52{ background-position: -33px -1254px; width: 32px; height: 32px; } 
-.pokesprite-53{ background-position: -33px -1287px; width: 32px; height: 32px; } 
-.pokesprite-54{ background-position: -33px -1320px; width: 32px; height: 32px; } 
-.pokesprite-55{ background-position: -33px -1353px; width: 32px; height: 32px; } 
-.pokesprite-56{ background-position: -33px -1386px; width: 32px; height: 32px; } 
-.pokesprite-57{ background-position: -33px -1419px; width: 32px; height: 32px; } 
-.pokesprite-58{ background-position: -33px -1452px; width: 32px; height: 32px; } 
-.pokesprite-59{ background-position: -33px -1485px; width: 32px; height: 32px; } 
-.pokesprite-6{ background-position: -33px -1518px; width: 32px; height: 32px; } 
-.pokesprite-60{ background-position: -33px -1551px; width: 32px; height: 32px; } 
-.pokesprite-600{ background-position: -33px -1584px; width: 32px; height: 32px; } 
-.pokesprite-601{ background-position: -33px -1617px; width: 32px; height: 32px; } 
-.pokesprite-602{ background-position: -33px -1650px; width: 32px; height: 32px; } 
-.pokesprite-603{ background-position: -33px -1683px; width: 32px; height: 32px; } 
-.pokesprite-604{ background-position: -33px -1716px; width: 32px; height: 32px; } 
-.pokesprite-605{ background-position: -33px -1749px; width: 32px; height: 32px; } 
-.pokesprite-606{ background-position: -33px -1782px; width: 32px; height: 32px; } 
-.pokesprite-607{ background-position: -33px -1815px; width: 32px; height: 32px; } 
-.pokesprite-608{ background-position: -33px -1848px; width: 32px; height: 32px; } 
-.pokesprite-609{ background-position: -33px -1881px; width: 32px; height: 32px; } 
-.pokesprite-61{ background-position: -33px -1914px; width: 32px; height: 32px; } 
-.pokesprite-610{ background-position: -33px -1947px; width: 32px; height: 32px; } 
-.pokesprite-611{ background-position: -33px -1980px; width: 32px; height: 32px; } 
-.pokesprite-612{ background-position: -66px 0; width: 32px; height: 32px; } 
-.pokesprite-613{ background-position: -66px -33px; width: 32px; height: 32px; } 
-.pokesprite-614{ background-position: -66px -66px; width: 32px; height: 32px; } 
-.pokesprite-615{ background-position: -66px -99px; width: 32px; height: 32px; } 
-.pokesprite-616{ background-position: -66px -132px; width: 32px; height: 32px; } 
-.pokesprite-617{ background-position: -66px -165px; width: 32px; height: 32px; } 
-.pokesprite-618{ background-position: -66px -198px; width: 32px; height: 32px; } 
-.pokesprite-619{ background-position: -66px -231px; width: 32px; height: 32px; } 
-.pokesprite-62{ background-position: -66px -264px; width: 32px; height: 32px; } 
-.pokesprite-620{ background-position: -66px -297px; width: 32px; height: 32px; } 
-.pokesprite-621{ background-position: -66px -330px; width: 32px; height: 32px; } 
-.pokesprite-622{ background-position: -66px -363px; width: 32px; height: 32px; } 
-.pokesprite-623{ background-position: -66px -396px; width: 32px; height: 32px; } 
-.pokesprite-624{ background-position: -66px -429px; width: 32px; height: 32px; } 
-.pokesprite-625{ background-position: -66px -462px; width: 32px; height: 32px; } 
-.pokesprite-626{ background-position: -66px -495px; width: 32px; height: 32px; } 
-.pokesprite-627{ background-position: -66px -528px; width: 32px; height: 32px; } 
-.pokesprite-628{ background-position: -66px -561px; width: 32px; height: 32px; } 
-.pokesprite-629{ background-position: -66px -594px; width: 32px; height: 32px; } 
-.pokesprite-63{ background-position: -66px -627px; width: 32px; height: 32px; } 
-.pokesprite-630{ background-position: -66px -660px; width: 32px; height: 32px; } 
-.pokesprite-631{ background-position: -66px -693px; width: 32px; height: 32px; } 
-.pokesprite-632{ background-position: -66px -726px; width: 32px; height: 32px; } 
-.pokesprite-633{ background-position: -66px -759px; width: 32px; height: 32px; } 
-.pokesprite-634{ background-position: -66px -792px; width: 32px; height: 32px; } 
-.pokesprite-635{ background-position: -66px -825px; width: 32px; height: 32px; } 
-.pokesprite-636{ background-position: -66px -858px; width: 32px; height: 32px; } 
-.pokesprite-637{ background-position: -66px -891px; width: 32px; height: 32px; } 
-.pokesprite-638{ background-position: -66px -924px; width: 32px; height: 32px; } 
-.pokesprite-639{ background-position: -66px -957px; width: 32px; height: 32px; } 
-.pokesprite-64{ background-position: -66px -990px; width: 32px; height: 32px; } 
-.pokesprite-640{ background-position: -66px -1023px; width: 32px; height: 32px; } 
-.pokesprite-641{ background-position: -66px -1056px; width: 32px; height: 32px; } 
-.pokesprite-642{ background-position: -66px -1089px; width: 32px; height: 32px; } 
-.pokesprite-643{ background-position: -66px -1122px; width: 32px; height: 32px; } 
-.pokesprite-644{ background-position: -66px -1155px; width: 32px; height: 32px; } 
-.pokesprite-645{ background-position: -66px -1188px; width: 32px; height: 32px; } 
-.pokesprite-646{ background-position: -66px -1221px; width: 32px; height: 32px; } 
-.pokesprite-647{ background-position: -66px -1254px; width: 32px; height: 32px; } 
-.pokesprite-648{ background-position: -66px -1287px; width: 32px; height: 32px; } 
-.pokesprite-649{ background-position: -66px -1320px; width: 32px; height: 32px; } 
-.pokesprite-65{ background-position: -66px -1353px; width: 32px; height: 32px; } 
-.pokesprite-650{ background-position: -66px -1386px; width: 32px; height: 32px; } 
-.pokesprite-651{ background-position: -66px -1419px; width: 32px; height: 32px; } 
-.pokesprite-652{ background-position: -66px -1452px; width: 32px; height: 32px; } 
-.pokesprite-653{ background-position: -66px -1485px; width: 32px; height: 32px; } 
-.pokesprite-654{ background-position: -66px -1518px; width: 32px; height: 32px; } 
-.pokesprite-655{ background-position: -66px -1551px; width: 32px; height: 32px; } 
-.pokesprite-656{ background-position: -66px -1584px; width: 32px; height: 32px; } 
-.pokesprite-657{ background-position: -66px -1617px; width: 32px; height: 32px; } 
-.pokesprite-658{ background-position: -66px -1650px; width: 32px; height: 32px; } 
-.pokesprite-659{ background-position: -66px -1683px; width: 32px; height: 32px; } 
-.pokesprite-66{ background-position: -66px -1716px; width: 32px; height: 32px; } 
-.pokesprite-660{ background-position: -66px -1749px; width: 32px; height: 32px; } 
-.pokesprite-661{ background-position: -66px -1782px; width: 32px; height: 32px; } 
-.pokesprite-662{ background-position: -66px -1815px; width: 32px; height: 32px; } 
-.pokesprite-663{ background-position: -66px -1848px; width: 32px; height: 32px; } 
-.pokesprite-664{ background-position: -66px -1881px; width: 32px; height: 32px; } 
-.pokesprite-665{ background-position: -66px -1914px; width: 32px; height: 32px; } 
-.pokesprite-666{ background-position: -66px -1947px; width: 32px; height: 32px; } 
-.pokesprite-667{ background-position: -66px -1980px; width: 32px; height: 32px; } 
-.pokesprite-668{ background-position: -99px 0; width: 32px; height: 32px; } 
-.pokesprite-669{ background-position: -99px -33px; width: 32px; height: 32px; } 
-.pokesprite-67{ background-position: -99px -66px; width: 32px; height: 32px; } 
-.pokesprite-670{ background-position: -99px -99px; width: 32px; height: 32px; } 
-.pokesprite-671{ background-position: -99px -132px; width: 32px; height: 32px; } 
-.pokesprite-672{ background-position: -99px -165px; width: 32px; height: 32px; } 
-.pokesprite-673{ background-position: -99px -198px; width: 32px; height: 32px; } 
-.pokesprite-674{ background-position: -99px -231px; width: 32px; height: 32px; } 
-.pokesprite-675{ background-position: -99px -264px; width: 32px; height: 32px; } 
-.pokesprite-676{ background-position: -99px -297px; width: 32px; height: 32px; } 
-.pokesprite-677{ background-position: -99px -330px; width: 32px; height: 32px; } 
-.pokesprite-678{ background-position: -99px -363px; width: 32px; height: 32px; } 
-.pokesprite-679{ background-position: -99px -396px; width: 32px; height: 32px; } 
-.pokesprite-68{ background-position: -99px -429px; width: 32px; height: 32px; } 
-.pokesprite-680{ background-position: -99px -462px; width: 32px; height: 32px; } 
-.pokesprite-681{ background-position: -99px -495px; width: 35px; height: 35px; } 
-.pokesprite-682{ background-position: -99px -531px; width: 32px; height: 32px; } 
-.pokesprite-683{ background-position: -99px -564px; width: 32px; height: 32px; } 
-.pokesprite-684{ background-position: -99px -597px; width: 32px; height: 32px; } 
-.pokesprite-685{ background-position: -99px -630px; width: 32px; height: 32px; } 
-.pokesprite-686{ background-position: -99px -663px; width: 32px; height: 32px; } 
-.pokesprite-687{ background-position: -99px -696px; width: 32px; height: 32px; } 
-.pokesprite-688{ background-position: -99px -729px; width: 32px; height: 32px; } 
-.pokesprite-689{ background-position: -99px -762px; width: 32px; height: 32px; } 
-.pokesprite-69{ background-position: -99px -795px; width: 32px; height: 32px; } 
-.pokesprite-690{ background-position: -99px -828px; width: 32px; height: 32px; } 
-.pokesprite-691{ background-position: -99px -861px; width: 32px; height: 32px; } 
-.pokesprite-692{ background-position: -99px -894px; width: 32px; height: 32px; } 
-.pokesprite-693{ background-position: -99px -927px; width: 32px; height: 32px; } 
-.pokesprite-694{ background-position: -99px -960px; width: 32px; height: 32px; } 
-.pokesprite-695{ background-position: -99px -993px; width: 32px; height: 32px; } 
-.pokesprite-696{ background-position: -99px -1026px; width: 32px; height: 32px; } 
-.pokesprite-697{ background-position: -99px -1059px; width: 32px; height: 32px; } 
-.pokesprite-698{ background-position: -99px -1092px; width: 32px; height: 32px; } 
-.pokesprite-699{ background-position: -99px -1125px; width: 32px; height: 32px; } 
-.pokesprite-7{ background-position: -99px -1158px; width: 32px; height: 32px; } 
-.pokesprite-70{ background-position: -99px -1191px; width: 32px; height: 32px; } 
-.pokesprite-700{ background-position: -99px -1224px; width: 32px; height: 32px; } 
-.pokesprite-701{ background-position: -99px -1257px; width: 32px; height: 32px; } 
-.pokesprite-702{ background-position: -99px -1290px; width: 32px; height: 32px; } 
-.pokesprite-703{ background-position: -99px -1323px; width: 32px; height: 32px; } 
-.pokesprite-704{ background-position: -99px -1356px; width: 32px; height: 32px; } 
-.pokesprite-705{ background-position: -99px -1389px; width: 32px; height: 32px; } 
-.pokesprite-706{ background-position: -99px -1422px; width: 32px; height: 32px; } 
-.pokesprite-707{ background-position: -99px -1455px; width: 32px; height: 32px; } 
-.pokesprite-708{ background-position: -99px -1488px; width: 32px; height: 32px; } 
-.pokesprite-709{ background-position: -99px -1521px; width: 32px; height: 32px; } 
-.pokesprite-71{ background-position: -99px -1554px; width: 32px; height: 32px; } 
-.pokesprite-710{ background-position: -99px -1587px; width: 32px; height: 32px; } 
-.pokesprite-711{ background-position: -99px -1620px; width: 32px; height: 32px; } 
-.pokesprite-712{ background-position: -99px -1653px; width: 32px; height: 32px; } 
-.pokesprite-713{ background-position: -99px -1686px; width: 32px; height: 32px; } 
-.pokesprite-714{ background-position: -99px -1719px; width: 32px; height: 32px; } 
-.pokesprite-715{ background-position: -99px -1752px; width: 32px; height: 32px; } 
-.pokesprite-716{ background-position: -99px -1785px; width: 32px; height: 32px; } 
-.pokesprite-717{ background-position: -99px -1818px; width: 32px; height: 32px; } 
-.pokesprite-718{ background-position: -99px -1851px; width: 32px; height: 32px; } 
-.pokesprite-719{ background-position: -99px -1884px; width: 32px; height: 32px; } 
-.pokesprite-72{ background-position: -99px -1917px; width: 32px; height: 32px; } 
-.pokesprite-73{ background-position: -99px -1950px; width: 32px; height: 32px; } 
-.pokesprite-74{ background-position: -99px -1983px; width: 32px; height: 32px; } 
-.pokesprite-75{ background-position: -135px 0; width: 32px; height: 32px; } 
-.pokesprite-76{ background-position: -135px -33px; width: 32px; height: 32px; } 
-.pokesprite-77{ background-position: -135px -66px; width: 32px; height: 32px; } 
-.pokesprite-78{ background-position: -135px -99px; width: 32px; height: 32px; } 
-.pokesprite-79{ background-position: -135px -132px; width: 32px; height: 32px; } 
-.pokesprite-8{ background-position: -135px -165px; width: 32px; height: 32px; } 
-.pokesprite-80{ background-position: -135px -198px; width: 32px; height: 32px; } 
-.pokesprite-81{ background-position: -135px -231px; width: 32px; height: 32px; } 
-.pokesprite-82{ background-position: -135px -264px; width: 32px; height: 32px; } 
-.pokesprite-83{ background-position: -135px -297px; width: 32px; height: 32px; } 
-.pokesprite-84{ background-position: -135px -330px; width: 32px; height: 32px; } 
-.pokesprite-85{ background-position: -135px -363px; width: 32px; height: 32px; } 
-.pokesprite-86{ background-position: -135px -396px; width: 32px; height: 32px; } 
-.pokesprite-87{ background-position: -135px -429px; width: 32px; height: 32px; } 
-.pokesprite-88{ background-position: -135px -462px; width: 32px; height: 32px; } 
-.pokesprite-89{ background-position: -135px -495px; width: 32px; height: 32px; } 
-.pokesprite-9{ background-position: -135px -528px; width: 32px; height: 32px; } 
-.pokesprite-90{ background-position: -135px -561px; width: 32px; height: 32px; } 
-.pokesprite-91{ background-position: -135px -594px; width: 32px; height: 32px; } 
-.pokesprite-92{ background-position: -135px -627px; width: 32px; height: 32px; } 
-.pokesprite-93{ background-position: -135px -660px; width: 32px; height: 32px; } 
-.pokesprite-94{ background-position: -135px -693px; width: 32px; height: 32px; } 
-.pokesprite-95{ background-position: -135px -726px; width: 32px; height: 32px; } 
-.pokesprite-96{ background-position: -135px -759px; width: 32px; height: 32px; } 
-.pokesprite-97{ background-position: -135px -792px; width: 32px; height: 32px; } 
-.pokesprite-98{ background-position: -135px -825px; width: 32px; height: 32px; } 
-.pokesprite-99{ background-position: -135px -858px; width: 32px; height: 32px; } 
+.pokesprite-0 {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -5px;
+}
+
+.pokesprite-1 {
+    width: 32px;
+    height: 32px;
+    background-position: -47px -5px;
+}
+
+.pokesprite-10 {
+    width: 32px;
+    height: 32px;
+    background-position: -89px -5px;
+}
+
+.pokesprite-100 {
+    width: 32px;
+    height: 32px;
+    background-position: -131px -5px;
+}
+
+.pokesprite-101 {
+    width: 32px;
+    height: 32px;
+    background-position: -173px -5px;
+}
+
+.pokesprite-102 {
+    width: 32px;
+    height: 32px;
+    background-position: -215px -5px;
+}
+
+.pokesprite-103 {
+    width: 32px;
+    height: 32px;
+    background-position: -257px -5px;
+}
+
+.pokesprite-104 {
+    width: 32px;
+    height: 32px;
+    background-position: -299px -5px;
+}
+
+.pokesprite-105 {
+    width: 32px;
+    height: 32px;
+    background-position: -341px -5px;
+}
+
+.pokesprite-106 {
+    width: 32px;
+    height: 32px;
+    background-position: -383px -5px;
+}
+
+.pokesprite-107 {
+    width: 32px;
+    height: 32px;
+    background-position: -425px -5px;
+}
+
+.pokesprite-108 {
+    width: 32px;
+    height: 32px;
+    background-position: -467px -5px;
+}
+
+.pokesprite-109 {
+    width: 32px;
+    height: 32px;
+    background-position: -509px -5px;
+}
+
+.pokesprite-11 {
+    width: 32px;
+    height: 32px;
+    background-position: -551px -5px;
+}
+
+.pokesprite-110 {
+    width: 32px;
+    height: 32px;
+    background-position: -593px -5px;
+}
+
+.pokesprite-111 {
+    width: 32px;
+    height: 32px;
+    background-position: -635px -5px;
+}
+
+.pokesprite-112 {
+    width: 32px;
+    height: 32px;
+    background-position: -677px -5px;
+}
+
+.pokesprite-113 {
+    width: 32px;
+    height: 32px;
+    background-position: -719px -5px;
+}
+
+.pokesprite-114 {
+    width: 32px;
+    height: 32px;
+    background-position: -761px -5px;
+}
+
+.pokesprite-115 {
+    width: 32px;
+    height: 32px;
+    background-position: -803px -5px;
+}
+
+.pokesprite-116 {
+    width: 32px;
+    height: 32px;
+    background-position: -845px -5px;
+}
+
+.pokesprite-117 {
+    width: 32px;
+    height: 32px;
+    background-position: -887px -5px;
+}
+
+.pokesprite-118 {
+    width: 32px;
+    height: 32px;
+    background-position: -929px -5px;
+}
+
+.pokesprite-119 {
+    width: 32px;
+    height: 32px;
+    background-position: -971px -5px;
+}
+
+.pokesprite-12 {
+    width: 32px;
+    height: 32px;
+    background-position: -1013px -5px;
+}
+
+.pokesprite-120 {
+    width: 32px;
+    height: 32px;
+    background-position: -1055px -5px;
+}
+
+.pokesprite-121 {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -47px;
+}
+
+.pokesprite-122 {
+    width: 32px;
+    height: 32px;
+    background-position: -47px -47px;
+}
+
+.pokesprite-123 {
+    width: 32px;
+    height: 32px;
+    background-position: -89px -47px;
+}
+
+.pokesprite-124 {
+    width: 32px;
+    height: 32px;
+    background-position: -131px -47px;
+}
+
+.pokesprite-125 {
+    width: 32px;
+    height: 32px;
+    background-position: -173px -47px;
+}
+
+.pokesprite-126 {
+    width: 32px;
+    height: 32px;
+    background-position: -215px -47px;
+}
+
+.pokesprite-127 {
+    width: 32px;
+    height: 32px;
+    background-position: -257px -47px;
+}
+
+.pokesprite-128 {
+    width: 32px;
+    height: 32px;
+    background-position: -299px -47px;
+}
+
+.pokesprite-129 {
+    width: 32px;
+    height: 32px;
+    background-position: -341px -47px;
+}
+
+.pokesprite-13 {
+    width: 32px;
+    height: 32px;
+    background-position: -383px -47px;
+}
+
+.pokesprite-130 {
+    width: 32px;
+    height: 32px;
+    background-position: -425px -47px;
+}
+
+.pokesprite-131 {
+    width: 32px;
+    height: 32px;
+    background-position: -467px -47px;
+}
+
+.pokesprite-132 {
+    width: 32px;
+    height: 32px;
+    background-position: -509px -47px;
+}
+
+.pokesprite-133 {
+    width: 32px;
+    height: 32px;
+    background-position: -551px -47px;
+}
+
+.pokesprite-134 {
+    width: 32px;
+    height: 32px;
+    background-position: -593px -47px;
+}
+
+.pokesprite-135 {
+    width: 32px;
+    height: 32px;
+    background-position: -635px -47px;
+}
+
+.pokesprite-136 {
+    width: 32px;
+    height: 32px;
+    background-position: -677px -47px;
+}
+
+.pokesprite-137 {
+    width: 32px;
+    height: 32px;
+    background-position: -719px -47px;
+}
+
+.pokesprite-138 {
+    width: 32px;
+    height: 32px;
+    background-position: -761px -47px;
+}
+
+.pokesprite-139 {
+    width: 32px;
+    height: 32px;
+    background-position: -803px -47px;
+}
+
+.pokesprite-14 {
+    width: 32px;
+    height: 32px;
+    background-position: -845px -47px;
+}
+
+.pokesprite-140 {
+    width: 32px;
+    height: 32px;
+    background-position: -887px -47px;
+}
+
+.pokesprite-141 {
+    width: 32px;
+    height: 32px;
+    background-position: -929px -47px;
+}
+
+.pokesprite-142 {
+    width: 32px;
+    height: 32px;
+    background-position: -971px -47px;
+}
+
+.pokesprite-143 {
+    width: 32px;
+    height: 32px;
+    background-position: -1013px -47px;
+}
+
+.pokesprite-144 {
+    width: 32px;
+    height: 32px;
+    background-position: -1055px -47px;
+}
+
+.pokesprite-145 {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -89px;
+}
+
+.pokesprite-146 {
+    width: 32px;
+    height: 32px;
+    background-position: -47px -89px;
+}
+
+.pokesprite-147 {
+    width: 32px;
+    height: 32px;
+    background-position: -89px -89px;
+}
+
+.pokesprite-148 {
+    width: 32px;
+    height: 32px;
+    background-position: -131px -89px;
+}
+
+.pokesprite-149 {
+    width: 32px;
+    height: 32px;
+    background-position: -173px -89px;
+}
+
+.pokesprite-15 {
+    width: 32px;
+    height: 32px;
+    background-position: -215px -89px;
+}
+
+.pokesprite-150 {
+    width: 32px;
+    height: 32px;
+    background-position: -257px -89px;
+}
+
+.pokesprite-151 {
+    width: 32px;
+    height: 32px;
+    background-position: -299px -89px;
+}
+
+.pokesprite-152 {
+    width: 32px;
+    height: 32px;
+    background-position: -341px -89px;
+}
+
+.pokesprite-153 {
+    width: 32px;
+    height: 32px;
+    background-position: -383px -89px;
+}
+
+.pokesprite-154 {
+    width: 32px;
+    height: 32px;
+    background-position: -425px -89px;
+}
+
+.pokesprite-155 {
+    width: 32px;
+    height: 32px;
+    background-position: -467px -89px;
+}
+
+.pokesprite-156 {
+    width: 32px;
+    height: 32px;
+    background-position: -509px -89px;
+}
+
+.pokesprite-157 {
+    width: 32px;
+    height: 32px;
+    background-position: -551px -89px;
+}
+
+.pokesprite-158 {
+    width: 32px;
+    height: 32px;
+    background-position: -593px -89px;
+}
+
+.pokesprite-159 {
+    width: 32px;
+    height: 32px;
+    background-position: -635px -89px;
+}
+
+.pokesprite-16 {
+    width: 32px;
+    height: 32px;
+    background-position: -677px -89px;
+}
+
+.pokesprite-160 {
+    width: 32px;
+    height: 32px;
+    background-position: -719px -89px;
+}
+
+.pokesprite-161 {
+    width: 32px;
+    height: 32px;
+    background-position: -761px -89px;
+}
+
+.pokesprite-162 {
+    width: 32px;
+    height: 32px;
+    background-position: -803px -89px;
+}
+
+.pokesprite-163 {
+    width: 32px;
+    height: 32px;
+    background-position: -845px -89px;
+}
+
+.pokesprite-164 {
+    width: 32px;
+    height: 32px;
+    background-position: -887px -89px;
+}
+
+.pokesprite-165 {
+    width: 32px;
+    height: 32px;
+    background-position: -929px -89px;
+}
+
+.pokesprite-166 {
+    width: 32px;
+    height: 32px;
+    background-position: -971px -89px;
+}
+
+.pokesprite-167 {
+    width: 32px;
+    height: 32px;
+    background-position: -1013px -89px;
+}
+
+.pokesprite-168 {
+    width: 32px;
+    height: 32px;
+    background-position: -1055px -89px;
+}
+
+.pokesprite-169 {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -131px;
+}
+
+.pokesprite-17 {
+    width: 32px;
+    height: 32px;
+    background-position: -47px -131px;
+}
+
+.pokesprite-170 {
+    width: 32px;
+    height: 32px;
+    background-position: -89px -131px;
+}
+
+.pokesprite-171 {
+    width: 32px;
+    height: 32px;
+    background-position: -131px -131px;
+}
+
+.pokesprite-172 {
+    width: 32px;
+    height: 32px;
+    background-position: -173px -131px;
+}
+
+.pokesprite-173 {
+    width: 32px;
+    height: 32px;
+    background-position: -215px -131px;
+}
+
+.pokesprite-174 {
+    width: 32px;
+    height: 32px;
+    background-position: -257px -131px;
+}
+
+.pokesprite-175 {
+    width: 32px;
+    height: 32px;
+    background-position: -299px -131px;
+}
+
+.pokesprite-176 {
+    width: 32px;
+    height: 32px;
+    background-position: -341px -131px;
+}
+
+.pokesprite-177 {
+    width: 32px;
+    height: 32px;
+    background-position: -383px -131px;
+}
+
+.pokesprite-178 {
+    width: 32px;
+    height: 32px;
+    background-position: -425px -131px;
+}
+
+.pokesprite-179 {
+    width: 32px;
+    height: 32px;
+    background-position: -467px -131px;
+}
+
+.pokesprite-18 {
+    width: 32px;
+    height: 32px;
+    background-position: -509px -131px;
+}
+
+.pokesprite-180 {
+    width: 32px;
+    height: 32px;
+    background-position: -551px -131px;
+}
+
+.pokesprite-181 {
+    width: 32px;
+    height: 32px;
+    background-position: -593px -131px;
+}
+
+.pokesprite-182 {
+    width: 32px;
+    height: 32px;
+    background-position: -635px -131px;
+}
+
+.pokesprite-183 {
+    width: 32px;
+    height: 32px;
+    background-position: -677px -131px;
+}
+
+.pokesprite-184 {
+    width: 32px;
+    height: 32px;
+    background-position: -719px -131px;
+}
+
+.pokesprite-185 {
+    width: 32px;
+    height: 32px;
+    background-position: -761px -131px;
+}
+
+.pokesprite-186 {
+    width: 32px;
+    height: 32px;
+    background-position: -803px -131px;
+}
+
+.pokesprite-187 {
+    width: 32px;
+    height: 32px;
+    background-position: -845px -131px;
+}
+
+.pokesprite-188 {
+    width: 32px;
+    height: 32px;
+    background-position: -887px -131px;
+}
+
+.pokesprite-189 {
+    width: 32px;
+    height: 32px;
+    background-position: -929px -131px;
+}
+
+.pokesprite-19 {
+    width: 32px;
+    height: 32px;
+    background-position: -971px -131px;
+}
+
+.pokesprite-190 {
+    width: 32px;
+    height: 32px;
+    background-position: -1013px -131px;
+}
+
+.pokesprite-191 {
+    width: 32px;
+    height: 32px;
+    background-position: -1055px -131px;
+}
+
+.pokesprite-192 {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -173px;
+}
+
+.pokesprite-193 {
+    width: 32px;
+    height: 32px;
+    background-position: -47px -173px;
+}
+
+.pokesprite-194 {
+    width: 32px;
+    height: 32px;
+    background-position: -89px -173px;
+}
+
+.pokesprite-195 {
+    width: 32px;
+    height: 32px;
+    background-position: -131px -173px;
+}
+
+.pokesprite-196 {
+    width: 32px;
+    height: 32px;
+    background-position: -173px -173px;
+}
+
+.pokesprite-197 {
+    width: 32px;
+    height: 32px;
+    background-position: -215px -173px;
+}
+
+.pokesprite-198 {
+    width: 32px;
+    height: 32px;
+    background-position: -257px -173px;
+}
+
+.pokesprite-199 {
+    width: 32px;
+    height: 32px;
+    background-position: -299px -173px;
+}
+
+.pokesprite-2 {
+    width: 32px;
+    height: 32px;
+    background-position: -341px -173px;
+}
+
+.pokesprite-20 {
+    width: 32px;
+    height: 32px;
+    background-position: -383px -173px;
+}
+
+.pokesprite-200 {
+    width: 32px;
+    height: 32px;
+    background-position: -425px -173px;
+}
+
+.pokesprite-201 {
+    width: 32px;
+    height: 32px;
+    background-position: -467px -173px;
+}
+
+.pokesprite-202 {
+    width: 32px;
+    height: 32px;
+    background-position: -509px -173px;
+}
+
+.pokesprite-203 {
+    width: 32px;
+    height: 32px;
+    background-position: -551px -173px;
+}
+
+.pokesprite-204 {
+    width: 32px;
+    height: 32px;
+    background-position: -593px -173px;
+}
+
+.pokesprite-205 {
+    width: 32px;
+    height: 32px;
+    background-position: -635px -173px;
+}
+
+.pokesprite-206 {
+    width: 32px;
+    height: 32px;
+    background-position: -677px -173px;
+}
+
+.pokesprite-207 {
+    width: 32px;
+    height: 32px;
+    background-position: -719px -173px;
+}
+
+.pokesprite-208 {
+    width: 36px;
+    height: 32px;
+    background-position: -761px -173px;
+}
+
+.pokesprite-209 {
+    width: 32px;
+    height: 32px;
+    background-position: -807px -173px;
+}
+
+.pokesprite-21 {
+    width: 32px;
+    height: 32px;
+    background-position: -849px -173px;
+}
+
+.pokesprite-210 {
+    width: 32px;
+    height: 32px;
+    background-position: -891px -173px;
+}
+
+.pokesprite-211 {
+    width: 32px;
+    height: 32px;
+    background-position: -933px -173px;
+}
+
+.pokesprite-212 {
+    width: 32px;
+    height: 32px;
+    background-position: -975px -173px;
+}
+
+.pokesprite-213 {
+    width: 32px;
+    height: 32px;
+    background-position: -1017px -173px;
+}
+
+.pokesprite-214 {
+    width: 32px;
+    height: 32px;
+    background-position: -1059px -173px;
+}
+
+.pokesprite-215 {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -215px;
+}
+
+.pokesprite-216 {
+    width: 32px;
+    height: 32px;
+    background-position: -47px -215px;
+}
+
+.pokesprite-217 {
+    width: 32px;
+    height: 32px;
+    background-position: -89px -215px;
+}
+
+.pokesprite-218 {
+    width: 32px;
+    height: 32px;
+    background-position: -131px -215px;
+}
+
+.pokesprite-219 {
+    width: 32px;
+    height: 32px;
+    background-position: -173px -215px;
+}
+
+.pokesprite-22 {
+    width: 32px;
+    height: 32px;
+    background-position: -215px -215px;
+}
+
+.pokesprite-220 {
+    width: 32px;
+    height: 32px;
+    background-position: -257px -215px;
+}
+
+.pokesprite-221 {
+    width: 32px;
+    height: 32px;
+    background-position: -299px -215px;
+}
+
+.pokesprite-222 {
+    width: 32px;
+    height: 32px;
+    background-position: -341px -215px;
+}
+
+.pokesprite-223 {
+    width: 32px;
+    height: 32px;
+    background-position: -383px -215px;
+}
+
+.pokesprite-224 {
+    width: 32px;
+    height: 32px;
+    background-position: -425px -215px;
+}
+
+.pokesprite-225 {
+    width: 32px;
+    height: 32px;
+    background-position: -467px -215px;
+}
+
+.pokesprite-226 {
+    width: 32px;
+    height: 32px;
+    background-position: -509px -215px;
+}
+
+.pokesprite-227 {
+    width: 32px;
+    height: 32px;
+    background-position: -551px -215px;
+}
+
+.pokesprite-228 {
+    width: 32px;
+    height: 32px;
+    background-position: -593px -215px;
+}
+
+.pokesprite-229 {
+    width: 32px;
+    height: 32px;
+    background-position: -635px -215px;
+}
+
+.pokesprite-23 {
+    width: 32px;
+    height: 32px;
+    background-position: -677px -215px;
+}
+
+.pokesprite-230 {
+    width: 32px;
+    height: 32px;
+    background-position: -719px -215px;
+}
+
+.pokesprite-231 {
+    width: 32px;
+    height: 32px;
+    background-position: -761px -215px;
+}
+
+.pokesprite-232 {
+    width: 32px;
+    height: 32px;
+    background-position: -803px -215px;
+}
+
+.pokesprite-233 {
+    width: 32px;
+    height: 32px;
+    background-position: -845px -215px;
+}
+
+.pokesprite-234 {
+    width: 32px;
+    height: 32px;
+    background-position: -887px -215px;
+}
+
+.pokesprite-235 {
+    width: 32px;
+    height: 32px;
+    background-position: -929px -215px;
+}
+
+.pokesprite-236 {
+    width: 32px;
+    height: 32px;
+    background-position: -971px -215px;
+}
+
+.pokesprite-237 {
+    width: 32px;
+    height: 32px;
+    background-position: -1013px -215px;
+}
+
+.pokesprite-238 {
+    width: 32px;
+    height: 32px;
+    background-position: -1055px -215px;
+}
+
+.pokesprite-239 {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -257px;
+}
+
+.pokesprite-24 {
+    width: 32px;
+    height: 32px;
+    background-position: -47px -257px;
+}
+
+.pokesprite-240 {
+    width: 32px;
+    height: 32px;
+    background-position: -89px -257px;
+}
+
+.pokesprite-241 {
+    width: 32px;
+    height: 32px;
+    background-position: -131px -257px;
+}
+
+.pokesprite-242 {
+    width: 32px;
+    height: 32px;
+    background-position: -173px -257px;
+}
+
+.pokesprite-243 {
+    width: 32px;
+    height: 32px;
+    background-position: -215px -257px;
+}
+
+.pokesprite-244 {
+    width: 32px;
+    height: 32px;
+    background-position: -257px -257px;
+}
+
+.pokesprite-245 {
+    width: 32px;
+    height: 32px;
+    background-position: -299px -257px;
+}
+
+.pokesprite-246 {
+    width: 32px;
+    height: 32px;
+    background-position: -341px -257px;
+}
+
+.pokesprite-247 {
+    width: 32px;
+    height: 32px;
+    background-position: -383px -257px;
+}
+
+.pokesprite-248 {
+    width: 32px;
+    height: 32px;
+    background-position: -425px -257px;
+}
+
+.pokesprite-249 {
+    width: 33px;
+    height: 32px;
+    background-position: -467px -257px;
+}
+
+.pokesprite-25 {
+    width: 32px;
+    height: 32px;
+    background-position: -510px -257px;
+}
+
+.pokesprite-250 {
+    width: 32px;
+    height: 32px;
+    background-position: -552px -257px;
+}
+
+.pokesprite-251 {
+    width: 32px;
+    height: 32px;
+    background-position: -594px -257px;
+}
+
+.pokesprite-252 {
+    width: 32px;
+    height: 32px;
+    background-position: -636px -257px;
+}
+
+.pokesprite-253 {
+    width: 32px;
+    height: 32px;
+    background-position: -678px -257px;
+}
+
+.pokesprite-254 {
+    width: 32px;
+    height: 32px;
+    background-position: -720px -257px;
+}
+
+.pokesprite-255 {
+    width: 32px;
+    height: 32px;
+    background-position: -762px -257px;
+}
+
+.pokesprite-256 {
+    width: 32px;
+    height: 32px;
+    background-position: -804px -257px;
+}
+
+.pokesprite-257 {
+    width: 32px;
+    height: 32px;
+    background-position: -846px -257px;
+}
+
+.pokesprite-258 {
+    width: 32px;
+    height: 32px;
+    background-position: -888px -257px;
+}
+
+.pokesprite-259 {
+    width: 32px;
+    height: 32px;
+    background-position: -930px -257px;
+}
+
+.pokesprite-26 {
+    width: 32px;
+    height: 32px;
+    background-position: -972px -257px;
+}
+
+.pokesprite-260 {
+    width: 32px;
+    height: 32px;
+    background-position: -1014px -257px;
+}
+
+.pokesprite-261 {
+    width: 32px;
+    height: 32px;
+    background-position: -1056px -257px;
+}
+
+.pokesprite-262 {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -299px;
+}
+
+.pokesprite-263 {
+    width: 32px;
+    height: 32px;
+    background-position: -47px -299px;
+}
+
+.pokesprite-264 {
+    width: 32px;
+    height: 32px;
+    background-position: -89px -299px;
+}
+
+.pokesprite-265 {
+    width: 32px;
+    height: 32px;
+    background-position: -131px -299px;
+}
+
+.pokesprite-266 {
+    width: 32px;
+    height: 32px;
+    background-position: -173px -299px;
+}
+
+.pokesprite-267 {
+    width: 32px;
+    height: 32px;
+    background-position: -215px -299px;
+}
+
+.pokesprite-268 {
+    width: 32px;
+    height: 32px;
+    background-position: -257px -299px;
+}
+
+.pokesprite-269 {
+    width: 32px;
+    height: 32px;
+    background-position: -299px -299px;
+}
+
+.pokesprite-27 {
+    width: 32px;
+    height: 32px;
+    background-position: -341px -299px;
+}
+
+.pokesprite-270 {
+    width: 32px;
+    height: 32px;
+    background-position: -383px -299px;
+}
+
+.pokesprite-271 {
+    width: 32px;
+    height: 32px;
+    background-position: -425px -299px;
+}
+
+.pokesprite-272 {
+    width: 32px;
+    height: 32px;
+    background-position: -467px -299px;
+}
+
+.pokesprite-273 {
+    width: 32px;
+    height: 32px;
+    background-position: -509px -299px;
+}
+
+.pokesprite-274 {
+    width: 32px;
+    height: 32px;
+    background-position: -551px -299px;
+}
+
+.pokesprite-275 {
+    width: 32px;
+    height: 32px;
+    background-position: -593px -299px;
+}
+
+.pokesprite-276 {
+    width: 32px;
+    height: 32px;
+    background-position: -635px -299px;
+}
+
+.pokesprite-277 {
+    width: 32px;
+    height: 32px;
+    background-position: -677px -299px;
+}
+
+.pokesprite-278 {
+    width: 32px;
+    height: 32px;
+    background-position: -719px -299px;
+}
+
+.pokesprite-279 {
+    width: 32px;
+    height: 32px;
+    background-position: -761px -299px;
+}
+
+.pokesprite-28 {
+    width: 32px;
+    height: 32px;
+    background-position: -803px -299px;
+}
+
+.pokesprite-280 {
+    width: 32px;
+    height: 32px;
+    background-position: -845px -299px;
+}
+
+.pokesprite-281 {
+    width: 32px;
+    height: 32px;
+    background-position: -887px -299px;
+}
+
+.pokesprite-282 {
+    width: 32px;
+    height: 32px;
+    background-position: -929px -299px;
+}
+
+.pokesprite-283 {
+    width: 32px;
+    height: 32px;
+    background-position: -971px -299px;
+}
+
+.pokesprite-284 {
+    width: 32px;
+    height: 32px;
+    background-position: -1013px -299px;
+}
+
+.pokesprite-285 {
+    width: 32px;
+    height: 32px;
+    background-position: -1055px -299px;
+}
+
+.pokesprite-286 {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -341px;
+}
+
+.pokesprite-287 {
+    width: 32px;
+    height: 32px;
+    background-position: -47px -341px;
+}
+
+.pokesprite-288 {
+    width: 32px;
+    height: 32px;
+    background-position: -89px -341px;
+}
+
+.pokesprite-289 {
+    width: 32px;
+    height: 32px;
+    background-position: -131px -341px;
+}
+
+.pokesprite-29 {
+    width: 32px;
+    height: 32px;
+    background-position: -173px -341px;
+}
+
+.pokesprite-290 {
+    width: 32px;
+    height: 32px;
+    background-position: -215px -341px;
+}
+
+.pokesprite-291 {
+    width: 32px;
+    height: 32px;
+    background-position: -257px -341px;
+}
+
+.pokesprite-292 {
+    width: 32px;
+    height: 32px;
+    background-position: -299px -341px;
+}
+
+.pokesprite-293 {
+    width: 32px;
+    height: 32px;
+    background-position: -341px -341px;
+}
+
+.pokesprite-294 {
+    width: 32px;
+    height: 32px;
+    background-position: -383px -341px;
+}
+
+.pokesprite-295 {
+    width: 32px;
+    height: 32px;
+    background-position: -425px -341px;
+}
+
+.pokesprite-296 {
+    width: 32px;
+    height: 32px;
+    background-position: -467px -341px;
+}
+
+.pokesprite-297 {
+    width: 32px;
+    height: 32px;
+    background-position: -509px -341px;
+}
+
+.pokesprite-298 {
+    width: 32px;
+    height: 32px;
+    background-position: -551px -341px;
+}
+
+.pokesprite-299 {
+    width: 32px;
+    height: 32px;
+    background-position: -593px -341px;
+}
+
+.pokesprite-3 {
+    width: 32px;
+    height: 32px;
+    background-position: -635px -341px;
+}
+
+.pokesprite-30 {
+    width: 32px;
+    height: 32px;
+    background-position: -677px -341px;
+}
+
+.pokesprite-300 {
+    width: 32px;
+    height: 32px;
+    background-position: -719px -341px;
+}
+
+.pokesprite-301 {
+    width: 32px;
+    height: 32px;
+    background-position: -761px -341px;
+}
+
+.pokesprite-302 {
+    width: 32px;
+    height: 32px;
+    background-position: -803px -341px;
+}
+
+.pokesprite-303 {
+    width: 32px;
+    height: 32px;
+    background-position: -845px -341px;
+}
+
+.pokesprite-304 {
+    width: 32px;
+    height: 32px;
+    background-position: -887px -341px;
+}
+
+.pokesprite-305 {
+    width: 32px;
+    height: 32px;
+    background-position: -929px -341px;
+}
+
+.pokesprite-306 {
+    width: 32px;
+    height: 32px;
+    background-position: -971px -341px;
+}
+
+.pokesprite-307 {
+    width: 32px;
+    height: 32px;
+    background-position: -1013px -341px;
+}
+
+.pokesprite-308 {
+    width: 32px;
+    height: 32px;
+    background-position: -1055px -341px;
+}
+
+.pokesprite-309 {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -383px;
+}
+
+.pokesprite-31 {
+    width: 32px;
+    height: 32px;
+    background-position: -47px -383px;
+}
+
+.pokesprite-310 {
+    width: 32px;
+    height: 32px;
+    background-position: -89px -383px;
+}
+
+.pokesprite-311 {
+    width: 32px;
+    height: 32px;
+    background-position: -131px -383px;
+}
+
+.pokesprite-312 {
+    width: 32px;
+    height: 32px;
+    background-position: -173px -383px;
+}
+
+.pokesprite-313 {
+    width: 32px;
+    height: 32px;
+    background-position: -215px -383px;
+}
+
+.pokesprite-314 {
+    width: 32px;
+    height: 32px;
+    background-position: -257px -383px;
+}
+
+.pokesprite-315 {
+    width: 32px;
+    height: 32px;
+    background-position: -299px -383px;
+}
+
+.pokesprite-316 {
+    width: 32px;
+    height: 32px;
+    background-position: -341px -383px;
+}
+
+.pokesprite-317 {
+    width: 32px;
+    height: 32px;
+    background-position: -383px -383px;
+}
+
+.pokesprite-318 {
+    width: 32px;
+    height: 32px;
+    background-position: -425px -383px;
+}
+
+.pokesprite-319 {
+    width: 32px;
+    height: 32px;
+    background-position: -467px -383px;
+}
+
+.pokesprite-32 {
+    width: 32px;
+    height: 32px;
+    background-position: -509px -383px;
+}
+
+.pokesprite-320 {
+    width: 32px;
+    height: 32px;
+    background-position: -551px -383px;
+}
+
+.pokesprite-321 {
+    width: 32px;
+    height: 32px;
+    background-position: -593px -383px;
+}
+
+.pokesprite-322 {
+    width: 32px;
+    height: 32px;
+    background-position: -635px -383px;
+}
+
+.pokesprite-323 {
+    width: 32px;
+    height: 32px;
+    background-position: -677px -383px;
+}
+
+.pokesprite-324 {
+    width: 32px;
+    height: 32px;
+    background-position: -719px -383px;
+}
+
+.pokesprite-325 {
+    width: 32px;
+    height: 32px;
+    background-position: -761px -383px;
+}
+
+.pokesprite-326 {
+    width: 32px;
+    height: 32px;
+    background-position: -803px -383px;
+}
+
+.pokesprite-327 {
+    width: 32px;
+    height: 32px;
+    background-position: -845px -383px;
+}
+
+.pokesprite-328 {
+    width: 32px;
+    height: 32px;
+    background-position: -887px -383px;
+}
+
+.pokesprite-329 {
+    width: 32px;
+    height: 32px;
+    background-position: -929px -383px;
+}
+
+.pokesprite-33 {
+    width: 32px;
+    height: 32px;
+    background-position: -971px -383px;
+}
+
+.pokesprite-330 {
+    width: 32px;
+    height: 32px;
+    background-position: -1013px -383px;
+}
+
+.pokesprite-331 {
+    width: 32px;
+    height: 32px;
+    background-position: -1055px -383px;
+}
+
+.pokesprite-332 {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -425px;
+}
+
+.pokesprite-333 {
+    width: 32px;
+    height: 32px;
+    background-position: -47px -425px;
+}
+
+.pokesprite-334 {
+    width: 32px;
+    height: 32px;
+    background-position: -89px -425px;
+}
+
+.pokesprite-335 {
+    width: 32px;
+    height: 32px;
+    background-position: -131px -425px;
+}
+
+.pokesprite-336 {
+    width: 32px;
+    height: 32px;
+    background-position: -173px -425px;
+}
+
+.pokesprite-337 {
+    width: 32px;
+    height: 32px;
+    background-position: -215px -425px;
+}
+
+.pokesprite-338 {
+    width: 32px;
+    height: 32px;
+    background-position: -257px -425px;
+}
+
+.pokesprite-339 {
+    width: 32px;
+    height: 32px;
+    background-position: -299px -425px;
+}
+
+.pokesprite-34 {
+    width: 32px;
+    height: 32px;
+    background-position: -341px -425px;
+}
+
+.pokesprite-340 {
+    width: 32px;
+    height: 32px;
+    background-position: -383px -425px;
+}
+
+.pokesprite-341 {
+    width: 32px;
+    height: 32px;
+    background-position: -425px -425px;
+}
+
+.pokesprite-342 {
+    width: 32px;
+    height: 32px;
+    background-position: -467px -425px;
+}
+
+.pokesprite-343 {
+    width: 32px;
+    height: 32px;
+    background-position: -509px -425px;
+}
+
+.pokesprite-344 {
+    width: 32px;
+    height: 32px;
+    background-position: -551px -425px;
+}
+
+.pokesprite-345 {
+    width: 32px;
+    height: 32px;
+    background-position: -593px -425px;
+}
+
+.pokesprite-346 {
+    width: 32px;
+    height: 32px;
+    background-position: -635px -425px;
+}
+
+.pokesprite-347 {
+    width: 32px;
+    height: 32px;
+    background-position: -677px -425px;
+}
+
+.pokesprite-348 {
+    width: 32px;
+    height: 32px;
+    background-position: -719px -425px;
+}
+
+.pokesprite-349 {
+    width: 32px;
+    height: 32px;
+    background-position: -761px -425px;
+}
+
+.pokesprite-35 {
+    width: 32px;
+    height: 32px;
+    background-position: -803px -425px;
+}
+
+.pokesprite-350 {
+    width: 32px;
+    height: 32px;
+    background-position: -845px -425px;
+}
+
+.pokesprite-351 {
+    width: 32px;
+    height: 32px;
+    background-position: -887px -425px;
+}
+
+.pokesprite-352 {
+    width: 32px;
+    height: 32px;
+    background-position: -929px -425px;
+}
+
+.pokesprite-353 {
+    width: 32px;
+    height: 32px;
+    background-position: -971px -425px;
+}
+
+.pokesprite-354 {
+    width: 32px;
+    height: 32px;
+    background-position: -1013px -425px;
+}
+
+.pokesprite-355 {
+    width: 32px;
+    height: 32px;
+    background-position: -1055px -425px;
+}
+
+.pokesprite-356 {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -467px;
+}
+
+.pokesprite-357 {
+    width: 32px;
+    height: 32px;
+    background-position: -47px -467px;
+}
+
+.pokesprite-358 {
+    width: 32px;
+    height: 32px;
+    background-position: -89px -467px;
+}
+
+.pokesprite-359 {
+    width: 32px;
+    height: 32px;
+    background-position: -131px -467px;
+}
+
+.pokesprite-36 {
+    width: 32px;
+    height: 32px;
+    background-position: -173px -467px;
+}
+
+.pokesprite-360 {
+    width: 32px;
+    height: 32px;
+    background-position: -215px -467px;
+}
+
+.pokesprite-361 {
+    width: 32px;
+    height: 32px;
+    background-position: -257px -467px;
+}
+
+.pokesprite-362 {
+    width: 32px;
+    height: 32px;
+    background-position: -299px -467px;
+}
+
+.pokesprite-363 {
+    width: 32px;
+    height: 32px;
+    background-position: -341px -467px;
+}
+
+.pokesprite-364 {
+    width: 32px;
+    height: 32px;
+    background-position: -383px -467px;
+}
+
+.pokesprite-365 {
+    width: 32px;
+    height: 32px;
+    background-position: -425px -467px;
+}
+
+.pokesprite-366 {
+    width: 32px;
+    height: 32px;
+    background-position: -467px -467px;
+}
+
+.pokesprite-367 {
+    width: 32px;
+    height: 32px;
+    background-position: -509px -467px;
+}
+
+.pokesprite-368 {
+    width: 32px;
+    height: 32px;
+    background-position: -551px -467px;
+}
+
+.pokesprite-369 {
+    width: 32px;
+    height: 32px;
+    background-position: -593px -467px;
+}
+
+.pokesprite-37 {
+    width: 32px;
+    height: 32px;
+    background-position: -635px -467px;
+}
+
+.pokesprite-370 {
+    width: 32px;
+    height: 32px;
+    background-position: -677px -467px;
+}
+
+.pokesprite-371 {
+    width: 32px;
+    height: 32px;
+    background-position: -719px -467px;
+}
+
+.pokesprite-372 {
+    width: 32px;
+    height: 32px;
+    background-position: -761px -467px;
+}
+
+.pokesprite-373 {
+    width: 32px;
+    height: 32px;
+    background-position: -803px -467px;
+}
+
+.pokesprite-374 {
+    width: 32px;
+    height: 32px;
+    background-position: -845px -467px;
+}
+
+.pokesprite-375 {
+    width: 32px;
+    height: 32px;
+    background-position: -887px -467px;
+}
+
+.pokesprite-376 {
+    width: 32px;
+    height: 32px;
+    background-position: -929px -467px;
+}
+
+.pokesprite-377 {
+    width: 32px;
+    height: 32px;
+    background-position: -971px -467px;
+}
+
+.pokesprite-378 {
+    width: 32px;
+    height: 32px;
+    background-position: -1013px -467px;
+}
+
+.pokesprite-379 {
+    width: 32px;
+    height: 32px;
+    background-position: -1055px -467px;
+}
+
+.pokesprite-38 {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -509px;
+}
+
+.pokesprite-380 {
+    width: 32px;
+    height: 32px;
+    background-position: -47px -509px;
+}
+
+.pokesprite-381 {
+    width: 32px;
+    height: 32px;
+    background-position: -89px -509px;
+}
+
+.pokesprite-382 {
+    width: 33px;
+    height: 32px;
+    background-position: -131px -509px;
+}
+
+.pokesprite-383 {
+    width: 33px;
+    height: 32px;
+    background-position: -174px -509px;
+}
+
+.pokesprite-384 {
+    width: 32px;
+    height: 32px;
+    background-position: -217px -509px;
+}
+
+.pokesprite-385 {
+    width: 32px;
+    height: 32px;
+    background-position: -259px -509px;
+}
+
+.pokesprite-386 {
+    width: 32px;
+    height: 32px;
+    background-position: -301px -509px;
+}
+
+.pokesprite-387 {
+    width: 32px;
+    height: 32px;
+    background-position: -343px -509px;
+}
+
+.pokesprite-388 {
+    width: 32px;
+    height: 32px;
+    background-position: -385px -509px;
+}
+
+.pokesprite-389 {
+    width: 32px;
+    height: 32px;
+    background-position: -427px -509px;
+}
+
+.pokesprite-39 {
+    width: 32px;
+    height: 32px;
+    background-position: -469px -509px;
+}
+
+.pokesprite-390 {
+    width: 32px;
+    height: 32px;
+    background-position: -511px -509px;
+}
+
+.pokesprite-391 {
+    width: 32px;
+    height: 32px;
+    background-position: -553px -509px;
+}
+
+.pokesprite-392 {
+    width: 32px;
+    height: 32px;
+    background-position: -595px -509px;
+}
+
+.pokesprite-393 {
+    width: 32px;
+    height: 32px;
+    background-position: -637px -509px;
+}
+
+.pokesprite-394 {
+    width: 32px;
+    height: 32px;
+    background-position: -679px -509px;
+}
+
+.pokesprite-395 {
+    width: 32px;
+    height: 32px;
+    background-position: -721px -509px;
+}
+
+.pokesprite-396 {
+    width: 32px;
+    height: 32px;
+    background-position: -763px -509px;
+}
+
+.pokesprite-397 {
+    width: 32px;
+    height: 32px;
+    background-position: -805px -509px;
+}
+
+.pokesprite-398 {
+    width: 32px;
+    height: 32px;
+    background-position: -847px -509px;
+}
+
+.pokesprite-399 {
+    width: 32px;
+    height: 32px;
+    background-position: -889px -509px;
+}
+
+.pokesprite-4 {
+    width: 32px;
+    height: 32px;
+    background-position: -931px -509px;
+}
+
+.pokesprite-40 {
+    width: 32px;
+    height: 32px;
+    background-position: -973px -509px;
+}
+
+.pokesprite-400 {
+    width: 32px;
+    height: 32px;
+    background-position: -1015px -509px;
+}
+
+.pokesprite-401 {
+    width: 32px;
+    height: 32px;
+    background-position: -1057px -509px;
+}
+
+.pokesprite-402 {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -551px;
+}
+
+.pokesprite-403 {
+    width: 32px;
+    height: 32px;
+    background-position: -47px -551px;
+}
+
+.pokesprite-404 {
+    width: 32px;
+    height: 32px;
+    background-position: -89px -551px;
+}
+
+.pokesprite-405 {
+    width: 32px;
+    height: 32px;
+    background-position: -131px -551px;
+}
+
+.pokesprite-406 {
+    width: 32px;
+    height: 32px;
+    background-position: -173px -551px;
+}
+
+.pokesprite-407 {
+    width: 32px;
+    height: 32px;
+    background-position: -215px -551px;
+}
+
+.pokesprite-408 {
+    width: 32px;
+    height: 32px;
+    background-position: -257px -551px;
+}
+
+.pokesprite-409 {
+    width: 32px;
+    height: 32px;
+    background-position: -299px -551px;
+}
+
+.pokesprite-41 {
+    width: 32px;
+    height: 32px;
+    background-position: -341px -551px;
+}
+
+.pokesprite-410 {
+    width: 32px;
+    height: 32px;
+    background-position: -383px -551px;
+}
+
+.pokesprite-411 {
+    width: 32px;
+    height: 32px;
+    background-position: -425px -551px;
+}
+
+.pokesprite-412 {
+    width: 32px;
+    height: 32px;
+    background-position: -467px -551px;
+}
+
+.pokesprite-413 {
+    width: 32px;
+    height: 32px;
+    background-position: -509px -551px;
+}
+
+.pokesprite-414 {
+    width: 32px;
+    height: 32px;
+    background-position: -551px -551px;
+}
+
+.pokesprite-415 {
+    width: 32px;
+    height: 32px;
+    background-position: -593px -551px;
+}
+
+.pokesprite-416 {
+    width: 32px;
+    height: 32px;
+    background-position: -635px -551px;
+}
+
+.pokesprite-417 {
+    width: 32px;
+    height: 32px;
+    background-position: -677px -551px;
+}
+
+.pokesprite-418 {
+    width: 32px;
+    height: 32px;
+    background-position: -719px -551px;
+}
+
+.pokesprite-419 {
+    width: 32px;
+    height: 32px;
+    background-position: -761px -551px;
+}
+
+.pokesprite-42 {
+    width: 32px;
+    height: 32px;
+    background-position: -803px -551px;
+}
+
+.pokesprite-420 {
+    width: 32px;
+    height: 32px;
+    background-position: -845px -551px;
+}
+
+.pokesprite-421 {
+    width: 32px;
+    height: 32px;
+    background-position: -887px -551px;
+}
+
+.pokesprite-422 {
+    width: 32px;
+    height: 32px;
+    background-position: -929px -551px;
+}
+
+.pokesprite-423 {
+    width: 32px;
+    height: 32px;
+    background-position: -971px -551px;
+}
+
+.pokesprite-424 {
+    width: 32px;
+    height: 32px;
+    background-position: -1013px -551px;
+}
+
+.pokesprite-425 {
+    width: 32px;
+    height: 32px;
+    background-position: -1055px -551px;
+}
+
+.pokesprite-426 {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -593px;
+}
+
+.pokesprite-427 {
+    width: 32px;
+    height: 32px;
+    background-position: -47px -593px;
+}
+
+.pokesprite-428 {
+    width: 32px;
+    height: 32px;
+    background-position: -89px -593px;
+}
+
+.pokesprite-429 {
+    width: 32px;
+    height: 32px;
+    background-position: -131px -593px;
+}
+
+.pokesprite-43 {
+    width: 32px;
+    height: 32px;
+    background-position: -173px -593px;
+}
+
+.pokesprite-430 {
+    width: 32px;
+    height: 32px;
+    background-position: -215px -593px;
+}
+
+.pokesprite-431 {
+    width: 32px;
+    height: 32px;
+    background-position: -257px -593px;
+}
+
+.pokesprite-432 {
+    width: 32px;
+    height: 32px;
+    background-position: -299px -593px;
+}
+
+.pokesprite-433 {
+    width: 32px;
+    height: 32px;
+    background-position: -341px -593px;
+}
+
+.pokesprite-434 {
+    width: 32px;
+    height: 32px;
+    background-position: -383px -593px;
+}
+
+.pokesprite-435 {
+    width: 32px;
+    height: 32px;
+    background-position: -425px -593px;
+}
+
+.pokesprite-436 {
+    width: 32px;
+    height: 32px;
+    background-position: -467px -593px;
+}
+
+.pokesprite-437 {
+    width: 32px;
+    height: 32px;
+    background-position: -509px -593px;
+}
+
+.pokesprite-438 {
+    width: 32px;
+    height: 32px;
+    background-position: -551px -593px;
+}
+
+.pokesprite-439 {
+    width: 32px;
+    height: 32px;
+    background-position: -593px -593px;
+}
+
+.pokesprite-44 {
+    width: 32px;
+    height: 32px;
+    background-position: -635px -593px;
+}
+
+.pokesprite-440 {
+    width: 32px;
+    height: 32px;
+    background-position: -677px -593px;
+}
+
+.pokesprite-441 {
+    width: 32px;
+    height: 32px;
+    background-position: -719px -593px;
+}
+
+.pokesprite-442 {
+    width: 32px;
+    height: 32px;
+    background-position: -761px -593px;
+}
+
+.pokesprite-443 {
+    width: 32px;
+    height: 32px;
+    background-position: -803px -593px;
+}
+
+.pokesprite-444 {
+    width: 32px;
+    height: 32px;
+    background-position: -845px -593px;
+}
+
+.pokesprite-445 {
+    width: 32px;
+    height: 32px;
+    background-position: -887px -593px;
+}
+
+.pokesprite-446 {
+    width: 32px;
+    height: 32px;
+    background-position: -929px -593px;
+}
+
+.pokesprite-447 {
+    width: 32px;
+    height: 32px;
+    background-position: -971px -593px;
+}
+
+.pokesprite-448 {
+    width: 32px;
+    height: 32px;
+    background-position: -1013px -593px;
+}
+
+.pokesprite-449 {
+    width: 32px;
+    height: 32px;
+    background-position: -1055px -593px;
+}
+
+.pokesprite-45 {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -635px;
+}
+
+.pokesprite-450 {
+    width: 32px;
+    height: 32px;
+    background-position: -47px -635px;
+}
+
+.pokesprite-451 {
+    width: 32px;
+    height: 32px;
+    background-position: -89px -635px;
+}
+
+.pokesprite-452 {
+    width: 32px;
+    height: 32px;
+    background-position: -131px -635px;
+}
+
+.pokesprite-453 {
+    width: 32px;
+    height: 32px;
+    background-position: -173px -635px;
+}
+
+.pokesprite-454 {
+    width: 32px;
+    height: 32px;
+    background-position: -215px -635px;
+}
+
+.pokesprite-455 {
+    width: 32px;
+    height: 32px;
+    background-position: -257px -635px;
+}
+
+.pokesprite-456 {
+    width: 32px;
+    height: 32px;
+    background-position: -299px -635px;
+}
+
+.pokesprite-457 {
+    width: 32px;
+    height: 32px;
+    background-position: -341px -635px;
+}
+
+.pokesprite-458 {
+    width: 32px;
+    height: 32px;
+    background-position: -383px -635px;
+}
+
+.pokesprite-459 {
+    width: 32px;
+    height: 32px;
+    background-position: -425px -635px;
+}
+
+.pokesprite-46 {
+    width: 32px;
+    height: 32px;
+    background-position: -467px -635px;
+}
+
+.pokesprite-460 {
+    width: 32px;
+    height: 32px;
+    background-position: -509px -635px;
+}
+
+.pokesprite-461 {
+    width: 32px;
+    height: 32px;
+    background-position: -551px -635px;
+}
+
+.pokesprite-462 {
+    width: 32px;
+    height: 32px;
+    background-position: -593px -635px;
+}
+
+.pokesprite-463 {
+    width: 32px;
+    height: 32px;
+    background-position: -635px -635px;
+}
+
+.pokesprite-464 {
+    width: 32px;
+    height: 32px;
+    background-position: -677px -635px;
+}
+
+.pokesprite-465 {
+    width: 32px;
+    height: 32px;
+    background-position: -719px -635px;
+}
+
+.pokesprite-466 {
+    width: 32px;
+    height: 32px;
+    background-position: -761px -635px;
+}
+
+.pokesprite-467 {
+    width: 32px;
+    height: 32px;
+    background-position: -803px -635px;
+}
+
+.pokesprite-468 {
+    width: 32px;
+    height: 32px;
+    background-position: -845px -635px;
+}
+
+.pokesprite-469 {
+    width: 32px;
+    height: 32px;
+    background-position: -887px -635px;
+}
+
+.pokesprite-47 {
+    width: 32px;
+    height: 32px;
+    background-position: -929px -635px;
+}
+
+.pokesprite-470 {
+    width: 32px;
+    height: 32px;
+    background-position: -971px -635px;
+}
+
+.pokesprite-471 {
+    width: 32px;
+    height: 32px;
+    background-position: -1013px -635px;
+}
+
+.pokesprite-472 {
+    width: 32px;
+    height: 32px;
+    background-position: -1055px -635px;
+}
+
+.pokesprite-473 {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -677px;
+}
+
+.pokesprite-474 {
+    width: 32px;
+    height: 32px;
+    background-position: -47px -677px;
+}
+
+.pokesprite-475 {
+    width: 32px;
+    height: 32px;
+    background-position: -89px -677px;
+}
+
+.pokesprite-476 {
+    width: 32px;
+    height: 32px;
+    background-position: -131px -677px;
+}
+
+.pokesprite-477 {
+    width: 32px;
+    height: 32px;
+    background-position: -173px -677px;
+}
+
+.pokesprite-478 {
+    width: 32px;
+    height: 32px;
+    background-position: -215px -677px;
+}
+
+.pokesprite-479 {
+    width: 32px;
+    height: 32px;
+    background-position: -257px -677px;
+}
+
+.pokesprite-48 {
+    width: 32px;
+    height: 32px;
+    background-position: -299px -677px;
+}
+
+.pokesprite-480 {
+    width: 32px;
+    height: 32px;
+    background-position: -341px -677px;
+}
+
+.pokesprite-481 {
+    width: 32px;
+    height: 32px;
+    background-position: -383px -677px;
+}
+
+.pokesprite-482 {
+    width: 32px;
+    height: 32px;
+    background-position: -425px -677px;
+}
+
+.pokesprite-483 {
+    width: 32px;
+    height: 32px;
+    background-position: -467px -677px;
+}
+
+.pokesprite-484 {
+    width: 32px;
+    height: 32px;
+    background-position: -509px -677px;
+}
+
+.pokesprite-485 {
+    width: 34px;
+    height: 32px;
+    background-position: -551px -677px;
+}
+
+.pokesprite-486 {
+    width: 32px;
+    height: 32px;
+    background-position: -595px -677px;
+}
+
+.pokesprite-487 {
+    width: 32px;
+    height: 32px;
+    background-position: -637px -677px;
+}
+
+.pokesprite-488 {
+    width: 32px;
+    height: 32px;
+    background-position: -679px -677px;
+}
+
+.pokesprite-489 {
+    width: 32px;
+    height: 32px;
+    background-position: -721px -677px;
+}
+
+.pokesprite-49 {
+    width: 32px;
+    height: 32px;
+    background-position: -763px -677px;
+}
+
+.pokesprite-490 {
+    width: 32px;
+    height: 32px;
+    background-position: -805px -677px;
+}
+
+.pokesprite-491 {
+    width: 32px;
+    height: 32px;
+    background-position: -847px -677px;
+}
+
+.pokesprite-492 {
+    width: 32px;
+    height: 32px;
+    background-position: -889px -677px;
+}
+
+.pokesprite-493 {
+    width: 32px;
+    height: 32px;
+    background-position: -931px -677px;
+}
+
+.pokesprite-494 {
+    width: 32px;
+    height: 32px;
+    background-position: -973px -677px;
+}
+
+.pokesprite-495 {
+    width: 32px;
+    height: 32px;
+    background-position: -1015px -677px;
+}
+
+.pokesprite-496 {
+    width: 32px;
+    height: 32px;
+    background-position: -1057px -677px;
+}
+
+.pokesprite-497 {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -719px;
+}
+
+.pokesprite-498 {
+    width: 32px;
+    height: 32px;
+    background-position: -47px -719px;
+}
+
+.pokesprite-499 {
+    width: 32px;
+    height: 32px;
+    background-position: -89px -719px;
+}
+
+.pokesprite-5 {
+    width: 32px;
+    height: 32px;
+    background-position: -131px -719px;
+}
+
+.pokesprite-50 {
+    width: 32px;
+    height: 32px;
+    background-position: -173px -719px;
+}
+
+.pokesprite-500 {
+    width: 32px;
+    height: 32px;
+    background-position: -215px -719px;
+}
+
+.pokesprite-501 {
+    width: 32px;
+    height: 32px;
+    background-position: -257px -719px;
+}
+
+.pokesprite-502 {
+    width: 32px;
+    height: 32px;
+    background-position: -299px -719px;
+}
+
+.pokesprite-503 {
+    width: 32px;
+    height: 32px;
+    background-position: -341px -719px;
+}
+
+.pokesprite-504 {
+    width: 32px;
+    height: 32px;
+    background-position: -383px -719px;
+}
+
+.pokesprite-505 {
+    width: 32px;
+    height: 32px;
+    background-position: -425px -719px;
+}
+
+.pokesprite-506 {
+    width: 32px;
+    height: 32px;
+    background-position: -467px -719px;
+}
+
+.pokesprite-507 {
+    width: 32px;
+    height: 32px;
+    background-position: -509px -719px;
+}
+
+.pokesprite-508 {
+    width: 32px;
+    height: 32px;
+    background-position: -551px -719px;
+}
+
+.pokesprite-509 {
+    width: 32px;
+    height: 32px;
+    background-position: -593px -719px;
+}
+
+.pokesprite-51 {
+    width: 32px;
+    height: 32px;
+    background-position: -635px -719px;
+}
+
+.pokesprite-510 {
+    width: 32px;
+    height: 32px;
+    background-position: -677px -719px;
+}
+
+.pokesprite-511 {
+    width: 32px;
+    height: 32px;
+    background-position: -719px -719px;
+}
+
+.pokesprite-512 {
+    width: 32px;
+    height: 32px;
+    background-position: -761px -719px;
+}
+
+.pokesprite-513 {
+    width: 32px;
+    height: 32px;
+    background-position: -803px -719px;
+}
+
+.pokesprite-514 {
+    width: 32px;
+    height: 32px;
+    background-position: -845px -719px;
+}
+
+.pokesprite-515 {
+    width: 32px;
+    height: 32px;
+    background-position: -887px -719px;
+}
+
+.pokesprite-516 {
+    width: 32px;
+    height: 32px;
+    background-position: -929px -719px;
+}
+
+.pokesprite-517 {
+    width: 32px;
+    height: 32px;
+    background-position: -971px -719px;
+}
+
+.pokesprite-518 {
+    width: 32px;
+    height: 32px;
+    background-position: -1013px -719px;
+}
+
+.pokesprite-519 {
+    width: 32px;
+    height: 32px;
+    background-position: -1055px -719px;
+}
+
+.pokesprite-52 {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -761px;
+}
+
+.pokesprite-520 {
+    width: 32px;
+    height: 32px;
+    background-position: -47px -761px;
+}
+
+.pokesprite-521 {
+    width: 32px;
+    height: 32px;
+    background-position: -89px -761px;
+}
+
+.pokesprite-522 {
+    width: 32px;
+    height: 32px;
+    background-position: -131px -761px;
+}
+
+.pokesprite-523 {
+    width: 32px;
+    height: 32px;
+    background-position: -173px -761px;
+}
+
+.pokesprite-524 {
+    width: 32px;
+    height: 32px;
+    background-position: -215px -761px;
+}
+
+.pokesprite-525 {
+    width: 32px;
+    height: 32px;
+    background-position: -257px -761px;
+}
+
+.pokesprite-526 {
+    width: 32px;
+    height: 32px;
+    background-position: -299px -761px;
+}
+
+.pokesprite-527 {
+    width: 32px;
+    height: 32px;
+    background-position: -341px -761px;
+}
+
+.pokesprite-528 {
+    width: 32px;
+    height: 32px;
+    background-position: -383px -761px;
+}
+
+.pokesprite-529 {
+    width: 32px;
+    height: 32px;
+    background-position: -425px -761px;
+}
+
+.pokesprite-53 {
+    width: 32px;
+    height: 32px;
+    background-position: -467px -761px;
+}
+
+.pokesprite-530 {
+    width: 32px;
+    height: 32px;
+    background-position: -509px -761px;
+}
+
+.pokesprite-531 {
+    width: 32px;
+    height: 32px;
+    background-position: -551px -761px;
+}
+
+.pokesprite-532 {
+    width: 32px;
+    height: 32px;
+    background-position: -593px -761px;
+}
+
+.pokesprite-533 {
+    width: 32px;
+    height: 32px;
+    background-position: -635px -761px;
+}
+
+.pokesprite-534 {
+    width: 32px;
+    height: 32px;
+    background-position: -677px -761px;
+}
+
+.pokesprite-535 {
+    width: 32px;
+    height: 32px;
+    background-position: -719px -761px;
+}
+
+.pokesprite-536 {
+    width: 32px;
+    height: 32px;
+    background-position: -761px -761px;
+}
+
+.pokesprite-537 {
+    width: 32px;
+    height: 32px;
+    background-position: -803px -761px;
+}
+
+.pokesprite-538 {
+    width: 32px;
+    height: 32px;
+    background-position: -845px -761px;
+}
+
+.pokesprite-539 {
+    width: 32px;
+    height: 32px;
+    background-position: -887px -761px;
+}
+
+.pokesprite-54 {
+    width: 32px;
+    height: 32px;
+    background-position: -929px -761px;
+}
+
+.pokesprite-540 {
+    width: 32px;
+    height: 32px;
+    background-position: -971px -761px;
+}
+
+.pokesprite-541 {
+    width: 32px;
+    height: 32px;
+    background-position: -1013px -761px;
+}
+
+.pokesprite-542 {
+    width: 32px;
+    height: 32px;
+    background-position: -1055px -761px;
+}
+
+.pokesprite-543 {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -803px;
+}
+
+.pokesprite-544 {
+    width: 32px;
+    height: 32px;
+    background-position: -47px -803px;
+}
+
+.pokesprite-545 {
+    width: 32px;
+    height: 32px;
+    background-position: -89px -803px;
+}
+
+.pokesprite-546 {
+    width: 32px;
+    height: 32px;
+    background-position: -131px -803px;
+}
+
+.pokesprite-547 {
+    width: 32px;
+    height: 32px;
+    background-position: -173px -803px;
+}
+
+.pokesprite-548 {
+    width: 32px;
+    height: 32px;
+    background-position: -215px -803px;
+}
+
+.pokesprite-549 {
+    width: 32px;
+    height: 32px;
+    background-position: -257px -803px;
+}
+
+.pokesprite-55 {
+    width: 32px;
+    height: 32px;
+    background-position: -299px -803px;
+}
+
+.pokesprite-550 {
+    width: 32px;
+    height: 32px;
+    background-position: -341px -803px;
+}
+
+.pokesprite-551 {
+    width: 32px;
+    height: 32px;
+    background-position: -383px -803px;
+}
+
+.pokesprite-552 {
+    width: 32px;
+    height: 32px;
+    background-position: -425px -803px;
+}
+
+.pokesprite-553 {
+    width: 32px;
+    height: 32px;
+    background-position: -467px -803px;
+}
+
+.pokesprite-554 {
+    width: 32px;
+    height: 32px;
+    background-position: -509px -803px;
+}
+
+.pokesprite-555 {
+    width: 32px;
+    height: 32px;
+    background-position: -551px -803px;
+}
+
+.pokesprite-556 {
+    width: 32px;
+    height: 32px;
+    background-position: -593px -803px;
+}
+
+.pokesprite-557 {
+    width: 32px;
+    height: 32px;
+    background-position: -635px -803px;
+}
+
+.pokesprite-558 {
+    width: 32px;
+    height: 32px;
+    background-position: -677px -803px;
+}
+
+.pokesprite-559 {
+    width: 32px;
+    height: 32px;
+    background-position: -719px -803px;
+}
+
+.pokesprite-56 {
+    width: 32px;
+    height: 32px;
+    background-position: -761px -803px;
+}
+
+.pokesprite-560 {
+    width: 32px;
+    height: 32px;
+    background-position: -803px -803px;
+}
+
+.pokesprite-561 {
+    width: 32px;
+    height: 32px;
+    background-position: -845px -803px;
+}
+
+.pokesprite-562 {
+    width: 32px;
+    height: 32px;
+    background-position: -887px -803px;
+}
+
+.pokesprite-563 {
+    width: 32px;
+    height: 32px;
+    background-position: -929px -803px;
+}
+
+.pokesprite-564 {
+    width: 32px;
+    height: 32px;
+    background-position: -971px -803px;
+}
+
+.pokesprite-565 {
+    width: 32px;
+    height: 32px;
+    background-position: -1013px -803px;
+}
+
+.pokesprite-566 {
+    width: 32px;
+    height: 32px;
+    background-position: -1055px -803px;
+}
+
+.pokesprite-567 {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -845px;
+}
+
+.pokesprite-568 {
+    width: 32px;
+    height: 32px;
+    background-position: -47px -845px;
+}
+
+.pokesprite-569 {
+    width: 32px;
+    height: 32px;
+    background-position: -89px -845px;
+}
+
+.pokesprite-57 {
+    width: 32px;
+    height: 32px;
+    background-position: -131px -845px;
+}
+
+.pokesprite-570 {
+    width: 32px;
+    height: 32px;
+    background-position: -173px -845px;
+}
+
+.pokesprite-571 {
+    width: 32px;
+    height: 32px;
+    background-position: -215px -845px;
+}
+
+.pokesprite-572 {
+    width: 32px;
+    height: 32px;
+    background-position: -257px -845px;
+}
+
+.pokesprite-573 {
+    width: 32px;
+    height: 32px;
+    background-position: -299px -845px;
+}
+
+.pokesprite-574 {
+    width: 32px;
+    height: 32px;
+    background-position: -341px -845px;
+}
+
+.pokesprite-575 {
+    width: 32px;
+    height: 32px;
+    background-position: -383px -845px;
+}
+
+.pokesprite-576 {
+    width: 32px;
+    height: 32px;
+    background-position: -425px -845px;
+}
+
+.pokesprite-577 {
+    width: 32px;
+    height: 32px;
+    background-position: -467px -845px;
+}
+
+.pokesprite-578 {
+    width: 32px;
+    height: 32px;
+    background-position: -509px -845px;
+}
+
+.pokesprite-579 {
+    width: 32px;
+    height: 32px;
+    background-position: -551px -845px;
+}
+
+.pokesprite-58 {
+    width: 32px;
+    height: 32px;
+    background-position: -593px -845px;
+}
+
+.pokesprite-580 {
+    width: 32px;
+    height: 32px;
+    background-position: -635px -845px;
+}
+
+.pokesprite-581 {
+    width: 32px;
+    height: 32px;
+    background-position: -677px -845px;
+}
+
+.pokesprite-582 {
+    width: 32px;
+    height: 32px;
+    background-position: -719px -845px;
+}
+
+.pokesprite-583 {
+    width: 32px;
+    height: 32px;
+    background-position: -761px -845px;
+}
+
+.pokesprite-584 {
+    width: 32px;
+    height: 32px;
+    background-position: -803px -845px;
+}
+
+.pokesprite-585 {
+    width: 32px;
+    height: 32px;
+    background-position: -845px -845px;
+}
+
+.pokesprite-586 {
+    width: 32px;
+    height: 32px;
+    background-position: -887px -845px;
+}
+
+.pokesprite-587 {
+    width: 32px;
+    height: 32px;
+    background-position: -929px -845px;
+}
+
+.pokesprite-588 {
+    width: 32px;
+    height: 32px;
+    background-position: -971px -845px;
+}
+
+.pokesprite-589 {
+    width: 32px;
+    height: 32px;
+    background-position: -1013px -845px;
+}
+
+.pokesprite-59 {
+    width: 32px;
+    height: 32px;
+    background-position: -1055px -845px;
+}
+
+.pokesprite-590 {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -887px;
+}
+
+.pokesprite-591 {
+    width: 32px;
+    height: 32px;
+    background-position: -47px -887px;
+}
+
+.pokesprite-592 {
+    width: 32px;
+    height: 32px;
+    background-position: -89px -887px;
+}
+
+.pokesprite-593 {
+    width: 32px;
+    height: 32px;
+    background-position: -131px -887px;
+}
+
+.pokesprite-594 {
+    width: 32px;
+    height: 32px;
+    background-position: -173px -887px;
+}
+
+.pokesprite-595 {
+    width: 32px;
+    height: 32px;
+    background-position: -215px -887px;
+}
+
+.pokesprite-596 {
+    width: 32px;
+    height: 32px;
+    background-position: -257px -887px;
+}
+
+.pokesprite-597 {
+    width: 32px;
+    height: 32px;
+    background-position: -299px -887px;
+}
+
+.pokesprite-598 {
+    width: 32px;
+    height: 32px;
+    background-position: -341px -887px;
+}
+
+.pokesprite-599 {
+    width: 32px;
+    height: 32px;
+    background-position: -383px -887px;
+}
+
+.pokesprite-6 {
+    width: 32px;
+    height: 32px;
+    background-position: -425px -887px;
+}
+
+.pokesprite-60 {
+    width: 32px;
+    height: 32px;
+    background-position: -467px -887px;
+}
+
+.pokesprite-600 {
+    width: 32px;
+    height: 32px;
+    background-position: -509px -887px;
+}
+
+.pokesprite-601 {
+    width: 32px;
+    height: 32px;
+    background-position: -551px -887px;
+}
+
+.pokesprite-602 {
+    width: 32px;
+    height: 32px;
+    background-position: -593px -887px;
+}
+
+.pokesprite-603 {
+    width: 32px;
+    height: 32px;
+    background-position: -635px -887px;
+}
+
+.pokesprite-604 {
+    width: 32px;
+    height: 32px;
+    background-position: -677px -887px;
+}
+
+.pokesprite-605 {
+    width: 32px;
+    height: 32px;
+    background-position: -719px -887px;
+}
+
+.pokesprite-606 {
+    width: 32px;
+    height: 32px;
+    background-position: -761px -887px;
+}
+
+.pokesprite-607 {
+    width: 32px;
+    height: 32px;
+    background-position: -803px -887px;
+}
+
+.pokesprite-608 {
+    width: 32px;
+    height: 32px;
+    background-position: -845px -887px;
+}
+
+.pokesprite-609 {
+    width: 32px;
+    height: 32px;
+    background-position: -887px -887px;
+}
+
+.pokesprite-61 {
+    width: 32px;
+    height: 32px;
+    background-position: -929px -887px;
+}
+
+.pokesprite-610 {
+    width: 32px;
+    height: 32px;
+    background-position: -971px -887px;
+}
+
+.pokesprite-611 {
+    width: 32px;
+    height: 32px;
+    background-position: -1013px -887px;
+}
+
+.pokesprite-612 {
+    width: 32px;
+    height: 32px;
+    background-position: -1055px -887px;
+}
+
+.pokesprite-613 {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -929px;
+}
+
+.pokesprite-614 {
+    width: 32px;
+    height: 32px;
+    background-position: -47px -929px;
+}
+
+.pokesprite-615 {
+    width: 32px;
+    height: 32px;
+    background-position: -89px -929px;
+}
+
+.pokesprite-616 {
+    width: 32px;
+    height: 32px;
+    background-position: -131px -929px;
+}
+
+.pokesprite-617 {
+    width: 32px;
+    height: 32px;
+    background-position: -173px -929px;
+}
+
+.pokesprite-618 {
+    width: 32px;
+    height: 32px;
+    background-position: -215px -929px;
+}
+
+.pokesprite-619 {
+    width: 32px;
+    height: 32px;
+    background-position: -257px -929px;
+}
+
+.pokesprite-62 {
+    width: 32px;
+    height: 32px;
+    background-position: -299px -929px;
+}
+
+.pokesprite-620 {
+    width: 32px;
+    height: 32px;
+    background-position: -341px -929px;
+}
+
+.pokesprite-621 {
+    width: 32px;
+    height: 32px;
+    background-position: -383px -929px;
+}
+
+.pokesprite-622 {
+    width: 32px;
+    height: 32px;
+    background-position: -425px -929px;
+}
+
+.pokesprite-623 {
+    width: 32px;
+    height: 32px;
+    background-position: -467px -929px;
+}
+
+.pokesprite-624 {
+    width: 32px;
+    height: 32px;
+    background-position: -509px -929px;
+}
+
+.pokesprite-625 {
+    width: 32px;
+    height: 32px;
+    background-position: -551px -929px;
+}
+
+.pokesprite-626 {
+    width: 32px;
+    height: 32px;
+    background-position: -593px -929px;
+}
+
+.pokesprite-627 {
+    width: 32px;
+    height: 32px;
+    background-position: -635px -929px;
+}
+
+.pokesprite-628 {
+    width: 32px;
+    height: 32px;
+    background-position: -677px -929px;
+}
+
+.pokesprite-629 {
+    width: 32px;
+    height: 32px;
+    background-position: -719px -929px;
+}
+
+.pokesprite-63 {
+    width: 32px;
+    height: 32px;
+    background-position: -761px -929px;
+}
+
+.pokesprite-630 {
+    width: 32px;
+    height: 32px;
+    background-position: -803px -929px;
+}
+
+.pokesprite-631 {
+    width: 32px;
+    height: 32px;
+    background-position: -845px -929px;
+}
+
+.pokesprite-632 {
+    width: 32px;
+    height: 32px;
+    background-position: -887px -929px;
+}
+
+.pokesprite-633 {
+    width: 32px;
+    height: 32px;
+    background-position: -929px -929px;
+}
+
+.pokesprite-634 {
+    width: 32px;
+    height: 32px;
+    background-position: -971px -929px;
+}
+
+.pokesprite-635 {
+    width: 32px;
+    height: 32px;
+    background-position: -1013px -929px;
+}
+
+.pokesprite-636 {
+    width: 32px;
+    height: 32px;
+    background-position: -1055px -929px;
+}
+
+.pokesprite-637 {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -971px;
+}
+
+.pokesprite-638 {
+    width: 32px;
+    height: 32px;
+    background-position: -47px -971px;
+}
+
+.pokesprite-639 {
+    width: 32px;
+    height: 32px;
+    background-position: -89px -971px;
+}
+
+.pokesprite-64 {
+    width: 32px;
+    height: 32px;
+    background-position: -131px -971px;
+}
+
+.pokesprite-640 {
+    width: 32px;
+    height: 32px;
+    background-position: -173px -971px;
+}
+
+.pokesprite-641 {
+    width: 32px;
+    height: 32px;
+    background-position: -215px -971px;
+}
+
+.pokesprite-642 {
+    width: 32px;
+    height: 32px;
+    background-position: -257px -971px;
+}
+
+.pokesprite-643 {
+    width: 32px;
+    height: 32px;
+    background-position: -299px -971px;
+}
+
+.pokesprite-644 {
+    width: 32px;
+    height: 32px;
+    background-position: -341px -971px;
+}
+
+.pokesprite-645 {
+    width: 32px;
+    height: 32px;
+    background-position: -383px -971px;
+}
+
+.pokesprite-646 {
+    width: 32px;
+    height: 32px;
+    background-position: -425px -971px;
+}
+
+.pokesprite-647 {
+    width: 32px;
+    height: 32px;
+    background-position: -467px -971px;
+}
+
+.pokesprite-648 {
+    width: 32px;
+    height: 32px;
+    background-position: -509px -971px;
+}
+
+.pokesprite-649 {
+    width: 32px;
+    height: 32px;
+    background-position: -551px -971px;
+}
+
+.pokesprite-65 {
+    width: 32px;
+    height: 32px;
+    background-position: -593px -971px;
+}
+
+.pokesprite-650 {
+    width: 32px;
+    height: 32px;
+    background-position: -635px -971px;
+}
+
+.pokesprite-651 {
+    width: 32px;
+    height: 32px;
+    background-position: -677px -971px;
+}
+
+.pokesprite-652 {
+    width: 32px;
+    height: 32px;
+    background-position: -719px -971px;
+}
+
+.pokesprite-653 {
+    width: 32px;
+    height: 32px;
+    background-position: -761px -971px;
+}
+
+.pokesprite-654 {
+    width: 32px;
+    height: 32px;
+    background-position: -803px -971px;
+}
+
+.pokesprite-655 {
+    width: 32px;
+    height: 32px;
+    background-position: -845px -971px;
+}
+
+.pokesprite-656 {
+    width: 32px;
+    height: 32px;
+    background-position: -887px -971px;
+}
+
+.pokesprite-657 {
+    width: 32px;
+    height: 32px;
+    background-position: -929px -971px;
+}
+
+.pokesprite-658 {
+    width: 32px;
+    height: 32px;
+    background-position: -971px -971px;
+}
+
+.pokesprite-659 {
+    width: 32px;
+    height: 32px;
+    background-position: -1013px -971px;
+}
+
+.pokesprite-66 {
+    width: 32px;
+    height: 32px;
+    background-position: -1055px -971px;
+}
+
+.pokesprite-660 {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -1013px;
+}
+
+.pokesprite-661 {
+    width: 32px;
+    height: 32px;
+    background-position: -47px -1013px;
+}
+
+.pokesprite-662 {
+    width: 32px;
+    height: 32px;
+    background-position: -89px -1013px;
+}
+
+.pokesprite-663 {
+    width: 32px;
+    height: 32px;
+    background-position: -131px -1013px;
+}
+
+.pokesprite-664 {
+    width: 32px;
+    height: 32px;
+    background-position: -173px -1013px;
+}
+
+.pokesprite-665 {
+    width: 32px;
+    height: 32px;
+    background-position: -215px -1013px;
+}
+
+.pokesprite-666 {
+    width: 32px;
+    height: 32px;
+    background-position: -257px -1013px;
+}
+
+.pokesprite-667 {
+    width: 32px;
+    height: 32px;
+    background-position: -299px -1013px;
+}
+
+.pokesprite-668 {
+    width: 32px;
+    height: 32px;
+    background-position: -341px -1013px;
+}
+
+.pokesprite-669 {
+    width: 32px;
+    height: 32px;
+    background-position: -383px -1013px;
+}
+
+.pokesprite-67 {
+    width: 32px;
+    height: 32px;
+    background-position: -425px -1013px;
+}
+
+.pokesprite-670 {
+    width: 32px;
+    height: 32px;
+    background-position: -467px -1013px;
+}
+
+.pokesprite-671 {
+    width: 32px;
+    height: 32px;
+    background-position: -509px -1013px;
+}
+
+.pokesprite-672 {
+    width: 32px;
+    height: 32px;
+    background-position: -551px -1013px;
+}
+
+.pokesprite-673 {
+    width: 32px;
+    height: 32px;
+    background-position: -593px -1013px;
+}
+
+.pokesprite-674 {
+    width: 32px;
+    height: 32px;
+    background-position: -635px -1013px;
+}
+
+.pokesprite-675 {
+    width: 32px;
+    height: 32px;
+    background-position: -677px -1013px;
+}
+
+.pokesprite-676 {
+    width: 32px;
+    height: 32px;
+    background-position: -719px -1013px;
+}
+
+.pokesprite-677 {
+    width: 32px;
+    height: 32px;
+    background-position: -761px -1013px;
+}
+
+.pokesprite-678 {
+    width: 32px;
+    height: 32px;
+    background-position: -803px -1013px;
+}
+
+.pokesprite-679 {
+    width: 32px;
+    height: 32px;
+    background-position: -845px -1013px;
+}
+
+.pokesprite-68 {
+    width: 32px;
+    height: 32px;
+    background-position: -887px -1013px;
+}
+
+.pokesprite-680 {
+    width: 32px;
+    height: 32px;
+    background-position: -929px -1013px;
+}
+
+.pokesprite-681 {
+    width: 35px;
+    height: 35px;
+    background-position: -971px -1013px;
+}
+
+.pokesprite-682 {
+    width: 32px;
+    height: 32px;
+    background-position: -1016px -1013px;
+}
+
+.pokesprite-683 {
+    width: 32px;
+    height: 32px;
+    background-position: -1058px -1013px;
+}
+
+.pokesprite-684 {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -1055px;
+}
+
+.pokesprite-685 {
+    width: 32px;
+    height: 32px;
+    background-position: -47px -1055px;
+}
+
+.pokesprite-686 {
+    width: 32px;
+    height: 32px;
+    background-position: -89px -1055px;
+}
+
+.pokesprite-687 {
+    width: 32px;
+    height: 32px;
+    background-position: -131px -1055px;
+}
+
+.pokesprite-688 {
+    width: 32px;
+    height: 32px;
+    background-position: -173px -1055px;
+}
+
+.pokesprite-689 {
+    width: 32px;
+    height: 32px;
+    background-position: -215px -1055px;
+}
+
+.pokesprite-69 {
+    width: 32px;
+    height: 32px;
+    background-position: -257px -1055px;
+}
+
+.pokesprite-690 {
+    width: 32px;
+    height: 32px;
+    background-position: -299px -1055px;
+}
+
+.pokesprite-691 {
+    width: 32px;
+    height: 32px;
+    background-position: -341px -1055px;
+}
+
+.pokesprite-692 {
+    width: 32px;
+    height: 32px;
+    background-position: -383px -1055px;
+}
+
+.pokesprite-693 {
+    width: 32px;
+    height: 32px;
+    background-position: -425px -1055px;
+}
+
+.pokesprite-694 {
+    width: 32px;
+    height: 32px;
+    background-position: -467px -1055px;
+}
+
+.pokesprite-695 {
+    width: 32px;
+    height: 32px;
+    background-position: -509px -1055px;
+}
+
+.pokesprite-696 {
+    width: 32px;
+    height: 32px;
+    background-position: -551px -1055px;
+}
+
+.pokesprite-697 {
+    width: 32px;
+    height: 32px;
+    background-position: -593px -1055px;
+}
+
+.pokesprite-698 {
+    width: 32px;
+    height: 32px;
+    background-position: -635px -1055px;
+}
+
+.pokesprite-699 {
+    width: 32px;
+    height: 32px;
+    background-position: -677px -1055px;
+}
+
+.pokesprite-7 {
+    width: 32px;
+    height: 32px;
+    background-position: -719px -1055px;
+}
+
+.pokesprite-70 {
+    width: 32px;
+    height: 32px;
+    background-position: -761px -1055px;
+}
+
+.pokesprite-700 {
+    width: 32px;
+    height: 32px;
+    background-position: -803px -1055px;
+}
+
+.pokesprite-701 {
+    width: 32px;
+    height: 32px;
+    background-position: -845px -1055px;
+}
+
+.pokesprite-702 {
+    width: 32px;
+    height: 32px;
+    background-position: -887px -1055px;
+}
+
+.pokesprite-703 {
+    width: 32px;
+    height: 32px;
+    background-position: -929px -1055px;
+}
+
+.pokesprite-704 {
+    width: 32px;
+    height: 32px;
+    background-position: -1016px -1055px;
+}
+
+.pokesprite-705 {
+    width: 32px;
+    height: 32px;
+    background-position: -1058px -1055px;
+}
+
+.pokesprite-706 {
+    width: 32px;
+    height: 32px;
+    background-position: -1097px -5px;
+}
+
+.pokesprite-707 {
+    width: 32px;
+    height: 32px;
+    background-position: -1097px -47px;
+}
+
+.pokesprite-708 {
+    width: 32px;
+    height: 32px;
+    background-position: -1097px -89px;
+}
+
+.pokesprite-709 {
+    width: 32px;
+    height: 32px;
+    background-position: -1097px -131px;
+}
+
+.pokesprite-71 {
+    width: 32px;
+    height: 32px;
+    background-position: -1101px -173px;
+}
+
+.pokesprite-710 {
+    width: 32px;
+    height: 32px;
+    background-position: -1097px -215px;
+}
+
+.pokesprite-711 {
+    width: 32px;
+    height: 32px;
+    background-position: -1098px -257px;
+}
+
+.pokesprite-712 {
+    width: 32px;
+    height: 32px;
+    background-position: -1097px -299px;
+}
+
+.pokesprite-713 {
+    width: 32px;
+    height: 32px;
+    background-position: -1097px -341px;
+}
+
+.pokesprite-714 {
+    width: 32px;
+    height: 32px;
+    background-position: -1097px -383px;
+}
+
+.pokesprite-715 {
+    width: 32px;
+    height: 32px;
+    background-position: -1097px -425px;
+}
+
+.pokesprite-716 {
+    width: 32px;
+    height: 32px;
+    background-position: -1097px -467px;
+}
+
+.pokesprite-717 {
+    width: 32px;
+    height: 32px;
+    background-position: -1099px -509px;
+}
+
+.pokesprite-718 {
+    width: 32px;
+    height: 32px;
+    background-position: -1097px -551px;
+}
+
+.pokesprite-719 {
+    width: 32px;
+    height: 32px;
+    background-position: -1097px -593px;
+}
+
+.pokesprite-72 {
+    width: 32px;
+    height: 32px;
+    background-position: -1097px -635px;
+}
+
+.pokesprite-73 {
+    width: 32px;
+    height: 32px;
+    background-position: -1099px -677px;
+}
+
+.pokesprite-74 {
+    width: 32px;
+    height: 32px;
+    background-position: -1097px -719px;
+}
+
+.pokesprite-75 {
+    width: 32px;
+    height: 32px;
+    background-position: -1097px -761px;
+}
+
+.pokesprite-76 {
+    width: 32px;
+    height: 32px;
+    background-position: -1097px -803px;
+}
+
+.pokesprite-77 {
+    width: 32px;
+    height: 32px;
+    background-position: -1097px -845px;
+}
+
+.pokesprite-78 {
+    width: 32px;
+    height: 32px;
+    background-position: -1097px -887px;
+}
+
+.pokesprite-79 {
+    width: 32px;
+    height: 32px;
+    background-position: -1097px -929px;
+}
+
+.pokesprite-8 {
+    width: 32px;
+    height: 32px;
+    background-position: -1097px -971px;
+}
+
+.pokesprite-80 {
+    width: 32px;
+    height: 32px;
+    background-position: -1100px -1013px;
+}
+
+.pokesprite-81 {
+    width: 32px;
+    height: 32px;
+    background-position: -1100px -1055px;
+}
+
+.pokesprite-82 {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -1097px;
+}
+
+.pokesprite-83 {
+    width: 32px;
+    height: 32px;
+    background-position: -47px -1097px;
+}
+
+.pokesprite-84 {
+    width: 32px;
+    height: 32px;
+    background-position: -89px -1097px;
+}
+
+.pokesprite-85 {
+    width: 32px;
+    height: 32px;
+    background-position: -131px -1097px;
+}
+
+.pokesprite-86 {
+    width: 32px;
+    height: 32px;
+    background-position: -173px -1097px;
+}
+
+.pokesprite-87 {
+    width: 32px;
+    height: 32px;
+    background-position: -215px -1097px;
+}
+
+.pokesprite-88 {
+    width: 32px;
+    height: 32px;
+    background-position: -257px -1097px;
+}
+
+.pokesprite-89 {
+    width: 32px;
+    height: 32px;
+    background-position: -299px -1097px;
+}
+
+.pokesprite-9 {
+    width: 32px;
+    height: 32px;
+    background-position: -341px -1097px;
+}
+
+.pokesprite-90 {
+    width: 32px;
+    height: 32px;
+    background-position: -383px -1097px;
+}
+
+.pokesprite-91 {
+    width: 32px;
+    height: 32px;
+    background-position: -425px -1097px;
+}
+
+.pokesprite-92 {
+    width: 32px;
+    height: 32px;
+    background-position: -467px -1097px;
+}
+
+.pokesprite-93 {
+    width: 32px;
+    height: 32px;
+    background-position: -509px -1097px;
+}
+
+.pokesprite-94 {
+    width: 32px;
+    height: 32px;
+    background-position: -551px -1097px;
+}
+
+.pokesprite-95 {
+    width: 32px;
+    height: 32px;
+    background-position: -593px -1097px;
+}
+
+.pokesprite-96 {
+    width: 32px;
+    height: 32px;
+    background-position: -635px -1097px;
+}
+
+.pokesprite-97 {
+    width: 32px;
+    height: 32px;
+    background-position: -677px -1097px;
+}
+
+.pokesprite-98 {
+    width: 32px;
+    height: 32px;
+    background-position: -719px -1097px;
+}
+
+.pokesprite-99 {
+    width: 32px;
+    height: 32px;
+    background-position: -761px -1097px;
+}

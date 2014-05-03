@@ -1,3 +1,6 @@
 {
-    "name" : "Bulbasaur"
+    "name" : "Bulbasaur",
+    "summary" : "Short description",
+    "types" : ["grass", "poison"],
+    "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam accumsan, purus quis lacinia molestie, lectus lacus condimentum felis, quis sollicitudin turpis arcu eu arcu. Vestibulum eget dui mi. Duis sed purus eget tellus tristique placerat eu consequat justo. Duis accumsan metus arcu, ac euismod odio convallis nec. Pellentesque ultricies venenatis odio, non euismod nulla ultrices at. Aenean lacinia tellus mi, ut dictum nisi euismod et. Integer consequat urna arcu, eu commodo urna elementum in. Vestibulum elementum ante nec ipsum imperdiet, vitae dignissim odio fermentum. Fusce vitae nulla lacus. Sed tincidunt est a urna pellentesque, non malesuada est facilisis. Fusce mattis eros ornare diam convallis, a ullamcorper ipsum rutrum. In tempor varius ligula, et hendrerit nisl tincidunt eu. Ut fermentum elit sit amet magna volutpat, nec tempor ipsum venenatis. Etiam urna risus, malesuada at dui at, iaculis imperdiet ante. Donec eu quam risus. Pellentesque non consequat ligula."
 }

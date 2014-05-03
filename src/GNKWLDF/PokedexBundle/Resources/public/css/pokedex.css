@@ -128,9 +128,19 @@
     height: 200px;
     vertical-align: middle;
     display: table-cell;
-    padding: 10px;
+    padding: 10px 5px;
+}
+.pokedex-info ul
+{
+    margin: 0px;
+    padding: 0px;
 }
 
+
+.pokedex-info ul li
+{
+    list-style-type: none;
+}
 .pokelabel-grass
 {
     background: #00aa00;
