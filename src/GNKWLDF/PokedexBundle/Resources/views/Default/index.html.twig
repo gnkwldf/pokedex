@@ -6,6 +6,27 @@
 <link href="{{ asset('bundles/gnkwldfpokedex/css/sprites.css') }}" rel="stylesheet">
 {% endblock %}
 
+{% block javascripts %}
+<script type="text/javascript">
+    $(document).ready(function(){
+        $(".pokedex-action").click(function(){
+            var number = $(this).attr("data-pokemon-number");
+//             console.log(Routing.generate('pokedex_api_pokemon_description', { number: number }));
+            $.ajax({
+                type: "GET",
+                url: Routing.generate('pokedex_api_pokemon_description', { number: number }),
+                success: function(data){
+                    $(".pokedex-pokemon-name").text(data.name);
+                    $(".pokedex-img img").prop("alt", data.name);
+                    $(".pokedex-img img").prop("title", data.name);
+                    $(".pokedex-img img").prop("src", data.image);
+                },
+            });
+        });
+    });
+</script>
+{% endblock %}
+
 {% block body %}
 <div class="container">
     <h1 class="hide">{% trans %}Pokédex{% endtrans %}</h1>
@@ -30,9 +51,29 @@
             </div>
             <div class="pokedex-info">
                 <ul>
-                    <li><strong>{% trans %}pokemon.1.name{% endtrans %}</strong></li>
+                    <li><strong class="pokedex-pokemon-name">{% trans %}pokemon.list.1.name{% endtrans %}</strong></li>
                     <li>Mini description</li>
-                    <li><span class="label pokelabel-grass">{% trans %}grass{% endtrans %}</span></li>
+                    <li>
+                        <span class="label pokelabel-bird">{% trans %}pokemon.type.bird{% endtrans %}</span>
+                        <span class="label pokelabel-normal">{% trans %}pokemon.type.normal{% endtrans %}</span>
+                        <span class="label pokelabel-fire">{% trans %}pokemon.type.fire{% endtrans %}</span>
+                        <span class="label pokelabel-fighting">{% trans %}pokemon.type.fighting{% endtrans %}</span>
+                        <span class="label pokelabel-water">{% trans %}pokemon.type.water{% endtrans %}</span>
+                        <span class="label pokelabel-flying">{% trans %}pokemon.type.flying{% endtrans %}</span>
+                        <span class="label pokelabel-grass">{% trans %}pokemon.type.grass{% endtrans %}</span>
+                        <span class="label pokelabel-poison">{% trans %}pokemon.type.poison{% endtrans %}</span>
+                        <span class="label pokelabel-electric">{% trans %}pokemon.type.electric{% endtrans %}</span>
+                        <span class="label pokelabel-ground">{% trans %}pokemon.type.ground{% endtrans %}</span>
+                        <span class="label pokelabel-rock">{% trans %}pokemon.type.rock{% endtrans %}</span>
+                        <span class="label pokelabel-ice">{% trans %}pokemon.type.ice{% endtrans %}</span>
+                        <span class="label pokelabel-bug">{% trans %}pokemon.type.bug{% endtrans %}</span>
+                        <span class="label pokelabel-dragon">{% trans %}pokemon.type.dragon{% endtrans %}</span>
+                        <span class="label pokelabel-ghost">{% trans %}pokemon.type.ghost{% endtrans %}</span>
+                        <span class="label pokelabel-dark">{% trans %}pokemon.type.dark{% endtrans %}</span>
+                        <span class="label pokelabel-steel">{% trans %}pokemon.type.steel{% endtrans %}</span>
+                        <span class="label pokelabel-fairy">{% trans %}pokemon.type.fairy{% endtrans %}</span>
+                        <span class="label pokelabel-unknown">{% trans %}pokemon.type.unknown{% endtrans %}</span>
+                    </li>
                 </ul>
             </div>
             <div class="pokedex-description">
@@ -44,7 +85,7 @@
         <div class="pokedex-choice col-xs-12 col-sm-6">
             <div class="row">
             {% for i in 0..number %}
-                <p class="col-sm-4 col-md-2 col-xs-3"><a href="#" title="{{list[i]|trans}}"><span class="col-xs-12 pokedex-element"><span class="pokesprite pokesprite-{{i}}"></span><span class="pokedex-number">{{ i }}</span></span></a></p>
+                <p class="col-sm-4 col-md-2 col-xs-3"><a class="pokedex-action" href="#" data-pokemon-number="{{ i }}" title="{{('pokemon.list.' ~ i ~ '.name')|trans}}"><span class="col-xs-12 pokedex-element"><span class="pokesprite pokesprite-{{i}}"></span><span class="pokedex-number">{{ i }}</span></span></a></p>
                 {% if ((i+1) % 12) == 0 %}
                 <div class="clearfix visible-md clearfix visible-sm clearfix visible-xs"></div>
                 {% elseif ((i+1) % 6) == 0 %}

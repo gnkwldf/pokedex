@@ -1,0 +1,5 @@
+{
+    "summary" : true,
+    "types" : ["grass", "poison"],
+    "description" : true
+}

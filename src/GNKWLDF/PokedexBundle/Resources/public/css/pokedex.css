@@ -141,9 +141,100 @@
 {
     list-style-type: none;
 }
+
+.pokelabel-bird
+{
+    background: #000;
+}
+
+.pokelabel-normal
+{
+    background: #888;
+}
+
+.pokelabel-fire
+{
+    background: #d60;
+}
+
+.pokelabel-fighting
+{
+    background: #850;
+}
+
+.pokelabel-water
+{
+    background: #0af;
+}
+
+.pokelabel-flying
+{
+    background: #08f;
+}
+
+.pokelabel-poison
+{
+    background: #b4b;
+}
+
+.pokelabel-electric
+{
+    background: #db0;
+}
+
 .pokelabel-grass
 {
-    background: #00aa00;
+    background: #0a0;
+}
+
+.pokelabel-ground
+{
+    background: #c80;
+}
+
+.pokelabel-rock
+{
+    background: #975;
+}
+
+.pokelabel-ice
+{
+    background: #0df;
+}
+
+.pokelabel-bug
+{
+    background: #8a0;
+}
+
+.pokelabel-dragon
+{
+    background: #848;
+}
+
+.pokelabel-ghost
+{
+    background: #868;
+}
+
+.pokelabel-dark
+{
+    background: #444;
+}
+
+.pokelabel-steel
+{
+    background: #99a;
+}
+
+.pokelabel-fairy
+{
+    background: #f8a;
+}
+
+.pokelabel-unknown
+{
+    background: #4a6;
 }
 
 .pokedex-number
