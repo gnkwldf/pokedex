@@ -13,7 +13,7 @@
 {% block body %}
 <div class="container">
     <header>
-        <h1 class="hide">{% trans %}Pokédex{% endtrans %}</h1>
+        <h1 class="hide">Pokédex</h1>
         <div class="pokedex-top pokedex-hf">
             <div class="pokedex-row">
                 <div class="pokedex-corner-left">
@@ -35,26 +35,27 @@
                 <div id="pokeview" class="pokedex-view col-xs-12 col-sm-6">
                     <p class="pokedex-img"><img src="{{ asset('bundles/gnkwldfpokedex/images/pokemon/pokemon.jpg') }}" height="150px" width="150px" alt="Pokémon"></p>
                     <ul class="pokedex-info">
-                        <li><strong class="pokedex-pokemon-name">{% trans %}Pokédex{% endtrans %}</strong></li>
+                        <li><strong class="pokedex-pokemon-name">Pokédex</strong></li>
                     </ul>
                 </div>
             </section>
             <section>
                 <div class="pokedex-choice col-xs-12 col-sm-6">
-                    <div class="row">
+                    <h2 class="hide">{% trans %}pokedex.title.select{% endtrans %}</h2>
+                    <p class="row">
                     {% for i in 0..number %}
-                        <p class="col-sm-4 col-md-2 col-xs-3"><a class="pokedex-action" href="#pokeview" data-pokemon-number="{{ i }}" title="{{('pokemon.list.' ~ i ~ '.name')|trans}}"><span class="col-xs-12 pokedex-element"><span class="pokesprite pokesprite-{{i}}"></span><span class="pokedex-number">{{ i }}</span></span></a></p>
+                        <span class="pokedex-area col-sm-4 col-md-2 col-xs-3"><a class="pokedex-action" href="#pokeview" data-pokemon-number="{{ i }}" title="{{('pokemon.list.' ~ i ~ '.name')|trans}}"><span class="col-xs-12 pokedex-element"><span class="pokesprite pokesprite-{{i}}"></span><span class="pokedex-number">{{ i }}</span></span></a></span>
                         {% if ((i+1) % 12) == 0 %}
-                        <div class="clearfix visible-md clearfix visible-sm clearfix visible-xs"></div>
+                        <span class="clearfix visible-md clearfix visible-sm clearfix visible-xs"></span>
                         {% elseif ((i+1) % 6) == 0 %}
-                        <div class="clearfix visible-md"></div>
+                        <span class="clearfix visible-md"></span>
                         {% elseif ((i+1) % 3) == 0 %}
-                        <div class="clearfix visible-sm"></div>
+                        <span class="clearfix visible-sm"></span>
                         {% elseif ((i+1) % 4) == 0 %}
-                        <div class="clearfix visible-xs"></div>
+                        <span class="clearfix visible-xs"></span>
                         {% endif %}
                     {% endfor %}
-                    </div>
+                    </p>
                 </div>
             </section>
         </div>
@@ -74,7 +75,7 @@
                 </div>
             </div>
         </div>
-        <p>Code and design by Gnuk, drawings by LDF, content by Neozetare, Sika and BCDesign67 © <a href="http://www.gnkw.org" title="Gnuk's Network Kernel for Web">GNKW</a> &amp; <a href="http://ldfcorp.fr" title="Le Dessinateur Fou">LDF</a> 2014 - Sources on MIT License <a href=""><em class="label label-primary">Fork me on github</em></a></p>
+        <p>Code and design by Gnuk, drawings by LDF, content by Neozetare, Sika and BCDesign67 © <a href="http://www.gnkw.org" title="Gnuk's Network Kernel for Web">GNKW</a> &amp; <a href="http://ldfcorp.fr" title="Le Dessinateur Fou">LDF</a> 2014 - Sources on MIT License <a href="https://github.com/gnkwldf/pokedex"><em class="label label-primary">Fork me on github</em></a></p>
     </footer>
 </div>
 {% endblock %}

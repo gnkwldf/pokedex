@@ -1,3 +1,6 @@
+pokedex:
+    title:
+        select: Sélection du pokémon
 pokemon:
     type:
         bird: bird

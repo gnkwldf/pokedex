@@ -14,12 +14,16 @@
 .pokedex-view{
     max-height: 300px;
 }
-.pokedex-choice p{
+.pokedex-choice .pokedex-area{
     text-align: center;
     height: 40px;
     padding: 4px;
 }
-.pokedex-choice p .pokedex-element{
+.pokedex-area
+{
+    margin-bottom: 10px;
+}
+.pokedex-choice .pokedex-area .pokedex-element{
     height: 42px;
     background: #41caff;
     border-radius: 5px;
