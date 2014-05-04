@@ -1192,253 +1192,377 @@ pokemon:
             name: Deoxys
             species: Pokémon ADN
         387:
-            name: Turtwig
+            name: Tortipouss
+            species: Pokémon Minifeuille
         388:
-            name: Grotle
+            name: Boskara
+            species: Pokémon Bosquet
         389:
             name: Torterra
+            species: Pokémon Continent
         390:
-            name: Chimchar
+            name: Ouisticram
+            species: Pokémon Chimpanzé
         391:
-            name: Monferno
+            name: Chimpenfeu
+            species: Pokémon Garnement
         392:
-            name: Infernape
+            name: Simiabraz
+            species: Pokémon Flamme
         393:
-            name: Piplup
+            name: Tiplouf
+            species: Pokémon Pingouin
         394:
-            name: Prinplup
+            name: Prinplouf
+            species: Pokémon Pingouin
         395:
-            name: Empoleon
+            name: Pingoléon
+            species: Pokémon Empereur
         396:
-            name: Starly
+            name: Étourmi
+            species: Pokémon Étourneau
         397:
-            name: Staravia
+            name: Étourvol
+            species: Pokémon Étourneau
         398:
-            name: Staraptor
+            name: Étouraptor
+            species: Pokémon Rapace
         399:
-            name: Bidoof
+            name: Keunotor
+            species: Pokémon Souridodue
         400:
-            name: Bibarel
+            name: Castorno
+            species: Pokémon Castor
         401:
-            name: Kricketot
+            name: Crikzik
+            species: Pokémon Criquet
         402:
-            name: Kricketune
+            name: Mélokrik
+            species: Pokémon Criquet
         403:
-            name: Shinx
+            name: Lixy
+            species: Pokémon Flash
         404:
             name: Luxio
+            species: Pokémon Étincelle
         405:
             name: Luxray
+            species: Pokémon Brillœil
         406:
-            name: Budew
+            name: Rozbouton
+            species: Pokémon Bourgeon
         407:
             name: Roserade
+            species: Pokémon Bouquet
         408:
-            name: Cranidos
+            name: Kranidos
+            species: Pokémon Coud'Boule
         409:
-            name: Rampardos
+            name: Charkos
+            species: Pokémon Coud'Boule
         410:
-            name: Shieldon
+            name: Dinoclier
+            species: Pokémon Bouclier
         411:
             name: Bastiodon
+            species: Pokémon Bouclier
         412:
-            name: Burmy
+            name: Cheniti
+            species: Pokémon Ver Caché
         413:
-            name: Wormadam
+            name: Cheniselle
+            species: Pokémon Ver Caché
         414:
-            name: Mothim
+            name: Papilord
+            species: Pokémon Phalène
         415:
-            name: Combee
+            name: Apitrini
+            species: Pokémon Miniabeille
         416:
-            name: Vespiquen
+            name: Apireine
+            species: Pokémon Ruche
         417:
             name: Pachirisu
+            species: Pokémon Ecurélec
         418:
-            name: Buizel
+            name: Mustébouée
+            species: Pokémon Aquabelette
         419:
-            name: Floatzel
+            name: Mustéflott
+            species: Pokémon Aquabelette
         420:
-            name: Cherubi
+            name: Ceribou
+            species: Pokémon Cerise
         421:
-            name: Cherrim
+            name: Ceriflor
+            species: Pokémon Floraison
         422:
-            name: Shellos
+            name: Sancoki
+            species: Pokémon Aqualimace
         423:
-            name: Gastrodon
+            name: Tritosor
+            species: Pokémon Aqualimace
         424:
-            name: Ambipom
+            name: Capidextre
+            species: Pokémon Longqueue
         425:
-            name: Drifloon
+            name: Baudrive
+            species: Pokémon Bouboule
         426:
-            name: Drifblim
+            name: Grodrive
+            species: Pokémon Ballon
         427:
-            name: Buneary
+            name: Laporeille
+            species: Pokémon Lapin
         428:
-            name: Lopunny
+            name: Pockpin
+            species: Pokémon Lapin
         429:
-            name: Mismagius
+            name: Magirêve
+            species: Pokémon Magique
         430:
-            name: Honchkrow
+            name: Corboss
+            species: Pokémon Big Boss
         431:
-            name: Glameow
+            name: Chaglam
+            species: Pokémon Chafouin
         432:
-            name: Purugly
+            name: Chaffreux
+            species: Pokémon Chatigre
         433:
-            name: Chingling
+            name: Korillon
+            species: Pokémon Clochette
         434:
-            name: Stunky
+            name: Moufouette
+            species: Pokémon Moufette
         435:
-            name: Skuntank
+            name: Moufflait
+            species: Pokémon Moufflair
         436:
-            name: Bronzor
+            name: Archéomire
+            species: Pokémon Bronze
         437:
-            name: Bronzong
+            name: Archéodong
+            species: Pokémon Clochebronze
         438:
-            name: Bonsly
+            name: Manzaï
+            species: Pokémon Bonsaï
         439:
             name: Mime Jr.
+            species: Pokémon Mime
         440:
-            name: Happiny
+            name: Ptiravi
+            species: Pokémon Maisonjouet
         441:
-            name: Chatot
+            name: Pijako
+            species: Pokémon Note Musique
         442:
             name: Spiritomb
+            species: Pokémon Interdit
         443:
-            name: Gible
+            name: Griknot
+            species: Pokémon Terrequin
         444:
-            name: Gabite
+            name: Carmache
+            species: Pokémon Caverne
         445:
-            name: Garchomp
+            name: Carchacrok
+            species: Pokémon Supersonic
         446:
-            name: Munchlax
+            name: Goinfrex
+            species: Pokémon Goinfre
         447:
             name: Riolu
+            species: Pokémon Émanation
         448:
             name: Lucario
+            species: Pokémon Aura
         449:
             name: Hippopotas
+            species: Pokémon Hippo
         450:
-            name: Hippowdon
+            name: Hippodocus
+            species: Pokémon Poids Lourd
         451:
-            name: Skorupi
+            name: Rapion
+            species: Pokémon Scorpion
         452:
-            name: Drapion
+            name: Drascore
+            species: Pokémon Scorpogre
         453:
-            name: Croagunk
+            name: Cradopaud
+            species: Pokémon Toxique
         454:
-            name: Toxicroak
+            name: Coatox
+            species: Pokémon Toxique
         455:
-            name: Carnivine
+            name: Vortente
+            species: Pokémon Chopinsecte
         456:
-            name: Finneon
+            name: Ecayon
+            species: Pokémon Poisson Ailé
         457:
-            name: Lumineon
+            name: Luminéon
+            species: Pokémon Néon
         458:
-            name: Mantyke
+            name: Babimanta
+            species: Pokémon Cervolant
         459:
-            name: Snover
+            name: Blizzi
+            species: Pokémon Arbregelé
         460:
-            name: Abomasnow
+            name: Blizzaroi
+            species: Pokémon Abregelé
         461:
-            name: Weavile
+            name: Dimoret
+            species: Pokémon Grafacérée
         462:
-            name: Magnezone
+            name: Magnézone
+            species: Pokémon Aimant
         463:
-            name: Lickilicky
+            name: Coudlangue
+            species: Pokémon Lécheur
         464:
-            name: Rhyperior
+            name: Rhinastoc
+            species: Pokémon Perceur
         465:
-            name: Tangrowth
+            name: Bouldeneu
+            species: Pokémon Vigne
         466:
-            name: Electivire
+            name: Élékable
+            species: Pokémon Foudrélec
         467:
-            name: Magmortar
+            name: Maganon
+            species: Pokémon Explosion
         468:
             name: Togekiss
+            species: Pokémon Célébration
         469:
             name: Yanmega
+            species: Pokémon Libellogre
         470:
-            name: Leafeon
+            name: Phyllali
+            species: Pokémon Verdoyant
         471:
-            name: Glaceon
+            name: Givrali
+            species: Pokémon Poudreuse
         472:
-            name: Gliscor
+            name: Scorvol
+            species: Pokémon Scorpicroc
         473:
-            name: Mamoswine
+            name: Mammochon
+            species: Pokémon Deudéfenses
         474:
             name: Porygon-Z
+            species: Pokémon Virtuel
         475:
-            name: Gallade
+            name: Gallame
+            species: Pokémon Lame
         476:
-            name: Probopass
+            name: Tarinorme
+            species: Pokémon Boussole
         477:
-            name: Dusknoir
+            name: Noctunoir
+            species: Pokémon Mainpince
         478:
-            name: Froslass
+            name: Momartik
+            species: Pokémon Enneigement
         479:
-            name: Rotom
+            name: Motisma
+            species: Pokémon Plasma
         480:
-            name: Uxie
+            name: Créhelf
+            species: Pokémon Savoir
         481:
-            name: Mesprit
+            name: Créfollet
+            species: Pokémon Émotion
         482:
-            name: Azelf
+            name: Créfadet
+            species: Pokémon Volonté
         483:
             name: Dialga
+            species: Pokémon Temps
         484:
             name: Palkia
+            species: Pokémon Spatial
         485:
             name: Heatran
+            species: Pokémon Caldeira
         486:
             name: Regigigas
+            species: Pokémon Prodigieux
         487:
             name: Giratina
+            species: Pokémon Renégat
         488:
             name: Cresselia
+            species: Pokémon Lunaire
         489:
             name: Phione
+            species: Pokémon Dérvenmer
         490:
             name: Manaphy
+            species: Pokémon Voyagenmer
         491:
             name: Darkrai
+            species: Pokémon Noirtotal
         492:
             name: Shaymin
+            species: Pokémon Gratitude
         493:
             name: Arceus
+            species: Pokémon Alpha
         494:
             name: Victini
+            species: Pokémon Victoire
         495:
-            name: Snivy
+            name: Vipélierre
+            species: Pokémon Serpenterbe
         496:
-            name: Servine
+            name: Lianaja
+            species: Pokémon Serpenterbe
         497:
-            name: Serperior
+            name: Majaspic
+            species: Pokémon Majestueux
         498:
-            name: Tepig
+            name: Gruikui
+            species: Pokémon Cochon
         499:
-            name: Pignite
+            name: Grotichon
+            species: Pokémon Cochon
         500:
-            name: Emboar
+            name: Roitiflam
+            species: Pokémon Grochon Feu
         501:
-            name: Oshawott
+            name: Moustillon
+            species: Pokémon Loutre
         502:
-            name: Dewott
+            name: Mateloutre
+            species: Pokémon Entraînement
         503:
-            name: Samurott
+            name: Clamiral
+            species: Pokémon Dignitaire
         504:
-            name: Patrat
+            name: Ratentif
+            species: Pokémon Espion
         505:
-            name: Watchog
+            name: Miradar
+            species: Pokémon Vigilant
         506:
-            name: Lillipup
+            name: Ponchiot
+            species: Pokémon Chiot
         507:
-            name: Herdier
+            name: Ponchien
+            species: Pokémon Chien Fidèle
         508:
-            name: Stoutland
+            name: Mastouffe
+            species: Pokémon Magnanisme
         509:
-            name: Purrloin
+            name: Chacripan
+            species: Pokémon Scélérat
         510:
-            name: Liepard
+            name: Léopardus
+            species: Pokémon Implacable
         511:
             name: Pansage
         512:
