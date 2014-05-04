@@ -71,60 +71,88 @@ pokemon:
             species: Pokémon Papillion
         13:
             name: Aspicot
+            species: Pokémon Insectopic
         14:
             name: Coconfort
+            species: Pokémon Cocon
         15:
             name: Dardargnan
+            species: Pokémon Guêpoison
         16:
             name: Roucool
+            species: Pokémon Minioiseau
         17:
             name: Roucoups
+            species: Pokémon Oiseau
         18:
             name: Roucarnage
+            species: Pokémon Oiseau
         19:
             name: Rattata
+            species: Pokémon Souris
         20:
             name: Rattatac
+            species: Pokémon Souris
         21:
             name: Piafabec
+            species: Pokémon Minioiseau
         22:
             name: Rapasdepic
+            species: Pokémon Bec
         23:
             name: Abo
+            species: Pokémon Serpent
         24:
             name: Arbok
+            species: Pokémon Cobra
         25:
             name: Pikachu
+            species: Pokémon Souris
         26:
             name: Raichu
+            species: Pokémon Souris
         27:
             name: Sabelette
+            species: Pokémon Souris
         28:
             name: Sablaireau
+            species: Pokémon Souris
         29:
             name: Nidoran♀
+            species: Pokémon Venepic
         30:
             name: Nidorina
+            species: Pokémon Venepic
         31:
             name: Nidoqueen
+            species: Pokémon Perceur
         32:
             name: Nidoran♂
+            species: Pokémon Venepic
         33:
             name: Nidorino
+            species: Pokémon Venepic
         34:
             name: Nidoking
+            species: Pokémon Perceur
         35:
             name: Mélofée
+            species: Pokémon Fée
         36:
             name: Mélodelfe
+            species: Pokémon Fée
         37:
             name: Goupix
+            species: Pokémon Renard
         38:
             name: Feunard
+            species: Pokémon Renard
         39:
             name: Rondoudou
+            species: Pokémon Bouboule
         40:
             name: Grodoudou
+            species: Pokémon Bouboule
         41:
             name: Nosferapti
         42:
