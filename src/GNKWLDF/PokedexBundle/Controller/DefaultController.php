@@ -29,16 +29,22 @@ class DefaultController extends Controller
     /**
      * Standard action
      * @Route("/")
+     * @Route("/{number}", name="pokedex_index")
      * @Template()
      */
-    public function indexAction()
+    public function indexAction($number = null)
     {
         $request = $this->getRequest();
         $request->setLocale($request->getPreferredLanguage(array(
             'fr',
             'en'
         )));
-        return array('number' => $this->pokemonNumber);
+        $description = null;
+        if(isset($number))
+        {
+            $description = $this->getDescription($number);
+        }
+        return array('number' => $this->pokemonNumber, 'description' => $description);
     }
     
     /**
@@ -48,6 +54,19 @@ class DefaultController extends Controller
      */
     public function descriptionAction($number)
     {
+        $description = $this->getDescription($number);
+        if(null === $description)
+        {
+            return new Response('Problem with number', 400);
+        }
+        return new FormattedResponse($description);
+    }
+    
+    /**
+     * @return The description or null (problem with number)
+     */
+    private function getDescription($number)
+    {
         $number = intval($number);
         $request = $this->getRequest();
         $request->setLocale($request->getPreferredLanguage(array(
@@ -56,7 +75,7 @@ class DefaultController extends Controller
         )));
         if(!is_int($number) OR $this->pokemonNumber < $number OR 0 > $number)
         {
-            return new Response('Problem with number', 400);
+            return null;
         }
         $response = array(
             'name' => $this->get('translator')->trans('pokemon.list.' . $number . '.name'),
@@ -93,7 +112,6 @@ class DefaultController extends Controller
                 $response['description'] = $this->get('translator')->trans('pokemon.list.' . $number . '.description');
             }
         }
-        
-        return new FormattedResponse($response);
+        return $response;
     }
 }

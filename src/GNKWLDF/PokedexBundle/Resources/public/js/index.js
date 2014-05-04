@@ -1,5 +1,6 @@
 $(document).ready(function(){
-    $(".pokedex-action").click(function(){
+    $(".pokedex-action").click(function(event){
+        event.preventDefault();
         var number = $(this).attr("data-pokemon-number");
         $.ajax({
             type: "GET",
