@@ -1,5 +1,5 @@
 {
     "species" : true,
-    "types" : ["bug", "flying"],
+    "types" : ["bug", "poison"],
     "description" : false
 }
