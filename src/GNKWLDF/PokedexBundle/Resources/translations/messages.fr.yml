@@ -488,204 +488,304 @@ pokemon:
             species: Pokémon Nouveau
         152:
             name: Germignon
+            species: Pokémon Feuille
         153:
-            name: Bayleef
+            name: Macronium
+            species: Pokémon Feuille
         154:
-            name: Meganium
+            name: Méganium
+            species: Pokémon Herbe
         155:
-            name: Cyndaquil
+            name: Héricendre
+            species: Pokémon Souris Feu
         156:
-            name: Quilava
+            name: Feurisson
+            species: Pokémon Volcan
         157:
             name: Typhlosion
+            species: Pokémon Volcan
         158:
-            name: Totodile
+            name: Kaiminus
+            species: Pokémon Mâchoire
         159:
-            name: Croconaw
+            name: Crocodile
+            species: Pokémon Mâchoire
         160:
-            name: Feraligatr
+            name: Aligatueur
+            species: Pokémon Mâchoire
         161:
-            name: Sentret
+            name: Fouinette
+            species: Pokémon Espion
         162:
-            name: Furret
+            name: Fouinar
+            species: Pokémon Allongé
         163:
             name: Hoothoot
+            species: Pokémon Hibou
         164:
-            name: Noctowl
+            name: Noarfang
+            species: Pokémon Hibou
         165:
-            name: Ledyba
+            name: Coxy
+            species: Pokémon 5 Étoiles
         166:
-            name: Ledian
+            name: Coxyclaque
+            species: Pokémon 5 Étoiles
         167:
-            name: Spinarak
+            name: Mimigal
+            species: Pokémon Crache Fil
         168:
-            name: Ariados
+            name: Miaglos
+            species: Pokémon Long-Patte
         169:
-            name: Crobat
+            name: Nostenfer
+            species: Pokémon Chovsouris
         170:
-            name: Chinchou
+            name: Loupio
+            species: Pokémon Poisson
         171:
             name: Lanturn
+            species: Pokémon Lumière
         172:
             name: Pichu
+            species: Pokémon Minisouris
         173:
-            name: Cleffa
+            name: Mélo
+            species: Pokémon Étoile
         174:
-            name: Igglybuff
+            name: Toudoudou
+            species: Pokémon Bouboule
         175:
             name: Togepi
+            species: Pokémon Balle Pic
         176:
             name: Togetic
+            species: Pokémon Bonheur
         177:
             name: Natu
+            species: Pokémon Minioiseau
         178:
             name: Xatu
+            species: Pokémon Mystique
         179:
-            name: Mareep
+            name: Wattouat
+            species: Pokémon Laine
         180:
-            name: Flaaffy
+            name: Lainergie
+            species: Pokémon Laine
         181:
-            name: Ampharos
+            name: Pharamp
+            species: Pokémon Lumière
         182:
-            name: Bellossom
+            name: Joliflor
+            species: Pokémon Pokémon Fleur
         183:
             name: Marill
+            species: Pokémon Aquasouris
         184:
             name: Azumarill
+            species: Pokémon Aqualapin
         185:
-            name: Sudowoodo
+            name: Simularbre
+            species: Pokémon Imitation
         186:
-            name: Politoed
+            name: Tarpaud
+            species: Pokémon Grenouille
         187:
-            name: Hoppip
+            name: Granivol
+            species: Pokémon Pissenlit
         188:
-            name: Skiploom
+            name: Floravol
+            species: Pokémon Pissenlit
         189:
-            name: Jumpluff
+            name: Cotovol
+            species: Pokémon Pissenlit
         190:
-            name: Aipom
+            name: Capumain
+            species: Pokémon Longqueur
         191:
-            name: Sunkern
+            name: Tournegrin
+            species: Pokémon Graine
         192:
-            name: Sunflora
+            name: Tournegrain
+            species: Pokémon Soleil
         193:
             name: Yanma
+            species: Pokémon Translaile
         194:
-            name: Wooper
+            name: Axoloto
+            species: Pokémon Poisson
         195:
-            name: Quagsire
+            name: Maraiste
+            species: Pokémon Poisson
         196:
-            name: Espeon
+            name: Mentali
+            species: Pokémon Soleil
         197:
-            name: Umbreon
+            name: Noctli
+            species: Pokémon Lune
         198:
-            name: Murkrow
+            name: Cornèbre
+            species: Pokémon Obscurité
         199:
-            name: Slowking
+            name: Roigada
+            species: Pokémon Royal
         200:
-            name: Misdreavus
+            name: Feuforêve
+            species: Pokémon Strident
         201:
-            name: Unown
+            name: Zarbi
+            species: Pokémon Symbolique
         202:
-            name: Wobbuffet
+            name: Qulbutoké
+            species: Pokémon Patient
         203:
             name: Girafarig
+            species: Pokémon Long-Cou
         204:
-            name: Pineco
+            name: Pomdepik
+            species: Pokémon Ver Caché
         205:
-            name: Forretress
+            name: Foretress
+            species: Pokémon Ver Caché
         206:
-            name: Dunsparce
+            name: Insolourdo
+            species: Pokémon Serpent
         207:
-            name: Gligar
+            name: Scorplane
+            species: Pokémon Scorpivol
         208:
             name: Steelix
+            species: Pokémon Serpenfer
         209:
             name: Snubbull
+            species: Pokémon Fée
         210:
             name: Granbull
+            species: Pokémon Fée
         211:
             name: Qwilfish
+            species: Pokémon Bouboule
         212:
-            name: Scizor
+            name: Cizayox
+            species: Pokémon Pince
         213:
-            name: Shuckle
+            name: Caratroc
+            species: Pokémon Pourri
         214:
-            name: Heracross
+            name: Scarhino
+            species: Pokémon Unicorne
         215:
-            name: Sneasel
+            name: Farfuret
+            species: Pokémon Grifacérée
         216:
             name: Teddiursa
+            species: Pokémon Mini Ours
         217:
             name: Ursaring
+            species: Pokémon Hibernant
         218:
-            name: Slugma
+            name: Limagma
+            species: Pokémon Lave
         219:
-            name: Magcargo
+            name: Volcaropod
+            species: Pokémon Lave
         220:
-            name: Swinub
+            name: Marcacrin
+            species: Pokémon Cochon
         221:
-            name: Piloswine
+            name: Cochignon
+            species: Pokémon Porc
         222:
-            name: Corsola
+            name: Corayon
+            species: Pokémon Corail
         223:
             name: Remoraid
+            species: Pokémon Jet
         224:
             name: Octillery
+            species: Pokémon Jet
         225:
-            name: Delibird
+            name: Cadoizo
+            species: Pokémon Livraison
         226:
-            name: Mantine
+            name: Démanta
+            species: Pokémon Cervolant
         227:
-            name: Skarmory
+            name: Airmure
+            species: Pokémon Armoiseau
         228:
-            name: Houndour
+            name: Malosse
+            species: Pokémon Sombre
         229:
-            name: Houndoom
+            name: Démolosse
+            species: Pokémon Sombre
         230:
-            name: Kingdra
+            name: Hyporoi
+            species: Pokémon Dragon
         231:
             name: Phanpy
+            species: Pokémon Long-Nez
         232:
             name: Donphan
+            species: Pokémon Armure
         233:
-            name: Porygon
+            name: Porygon2
+            species: Pokémon Virtuel
         234:
-            name: Stantler
+            name: Cerfrousse
+            species: Pokémon Maxi Corne
         235:
-            name: Smeargle
+            name: Queulorior
+            species: Pokémon Peintre
         236:
-            name: Tyrogue
+            name: Débugant
+            species: Pokémon Bagarreur
         237:
-            name: Hitmontop
+            name: Kapoera
+            species: Pokémon Poirier
         238:
-            name: Smoochum
+            name: Lippouti
+            species: Pokémon Bisou
         239:
-            name: Elekid
+            name: Élekid
+            species: Pokémon Électrique
         240:
             name: Magby
+            species: Pokémon Charbon
         241:
-            name: Miltank
+            name: Écrémeuh
+            species: Pokémon Vachalait
         242:
-            name: Blissey
+            name: Leuphorie
+            species: Pokémon Bonheur
         243:
             name: Raikou
+            species: Pokémon Foudre
         244:
             name: Entei
+            species: Pokémon Volcan
         245:
             name: Suicune
+            species: Pokémon Aurore
         246:
-            name: Larvitar
+            name: Embrylex
+            species: Pokémon Peaupierre
         247:
-            name: Pupitar
+            name: Ymphect
+            species: Pokémon Carapadure
         248:
-            name: Tyranitar
+            name: Tyranocif
+            species: Pokémon Armure
         249:
             name: Lugia
+            species: Pokémon Plongeon
         250:
             name: Ho-Oh
+            species: Pokémon Arc-en-Ciel
         251:
             name: Celebi
+            species: Pokémon Temporel
         252:
             name: Treecko
         253:
