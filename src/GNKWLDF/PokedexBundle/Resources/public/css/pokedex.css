@@ -8,8 +8,11 @@
     overflow: auto;
     padding: 0px 20px;
 }
-.pokedex-choice, .pokedex-view{
+.pokedex-choice{
     height: 300px;
+}
+.pokedex-view{
+    max-height: 300px;
 }
 .pokedex-choice p{
     text-align: center;
