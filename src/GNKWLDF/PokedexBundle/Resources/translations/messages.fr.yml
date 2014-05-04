@@ -787,275 +787,410 @@ pokemon:
             name: Celebi
             species: Pokémon Temporel
         252:
-            name: Treecko
+            name: Arcko
+            species: Pokémon Bois Gecko
         253:
-            name: Grovyle
+            name: Massko
+            species: Pokémon Bois Gecko
         254:
-            name: Sceptile
+            name: Jungko
+            species: Pokémon Forêt
         255:
-            name: Torchic
+            name: Poussifeu
+            species: Pokémon Poussin
         256:
-            name: Combusken
+            name: Galifeu
+            species: Pokémon Poulet
         257:
-            name: Blaziken
+            name: Braségali
+            species: Pokémon 
         258:
-            name: Mudkip
+            name: Gobou
+            species: Pokémon Poissonboue
         259:
-            name: Marshtomp
+            name: Flobio
+            species: Pokémon Poissonboue
         260:
-            name: Swampert
+            name: Laggron
+            species: Pokémon Poissonboue
         261:
-            name: Poochyena
+            name: Medhyéna
+            species: Pokémon Morsure
         262:
-            name: Mightyena
+            name: Grahyéna
+            species: Pokémon Morsure
         263:
-            name: Zigzagoon
+            name: Zigzaton
+            species: Pokémon Petit Raton
         264:
-            name: Linoone
+            name: Linéon
+            species: Pokémon Fonceur
         265:
-            name: Wurmple
+            name: Chenipotte
+            species: Pokémon Ver Caché
         266:
-            name: Silcoon
+            name: Armulys
+            species: Pokémon Cocon
         267:
-            name: Beautifly
+            name: Charmillon
+            species: Pokémon Papillon
         268:
-            name: Cascoon
+            name: Blindalys
+            species: Pokémon Cocon
         269:
-            name: Dustox
+            name: Papinox
+            species: Pokémon Papipoison
         270:
-            name: Lotad
+            name: Nénupiot
+            species: Pokémon Aquaplante
         271:
             name: Lombre
+            species: Pokémon Jovial
         272:
             name: Ludicolo
+            species: Pokémon Insouciant
         273:
-            name: Seedot
+            name: Grainipiot
+            species: Pokémon Gland
         274:
-            name: Nuzleaf
+            name: Pifeuil
+            species: Pokémon Malin
         275:
-            name: Shiftry
+            name: Tengalice
+            species: Pokémon Malveillant
         276:
-            name: Taillow
+            name: Nirondelle
+            species: Pokémon Minirondel
         277:
-            name: Swellow
+            name: Hélédelle
+            species: Pokémon Hirondelle
         278:
-            name: Wingull
+            name: Goélise
+            species: Pokémon Mouette
         279:
-            name: Pelipper
+            name: Bekipan
+            species: Pokémon Oiseaudo
         280:
-            name: Ralts
+            name: Tarsal
+            species: Pokémon Sentiment
         281:
             name: Kirlia
+            species: Pokémon Émotion
         282:
             name: Gardevoir
+            species: Pokémon Étreinte
         283:
-            name: Surskit
+            name: Arakdo
+            species: Pokémon Maresurfeur
         284:
-            name: Masquerain
+            name: Maskadra
+            species: Pokémon Boule Œil
         285:
-            name: Shroomish
+            name: Balignon
+            species: Pokémon Champignon
         286:
-            name: Breloom
+            name: Chapignon
+            species: Pokémon Champignon
         287:
-            name: Slakoth
+            name: Parécool
+            species: Pokémon Flâneur
         288:
             name: Vigoroth
+            species: Pokémon Turbusinge
         289:
-            name: Slaking
+            name: Monaflèmit
+            species: Pokémon Fainéant
         290:
-            name: Nincada
+            name: Ningale
+            species: Pokémon Apprenti
         291:
             name: Ninjask
+            species: Pokémon Ninja
         292:
-            name: Shedinja
+            name: Munja
+            species: Pokémon Exuvie
         293:
-            name: Whismur
+            name: Chuchmur
+            species: Pokémon Chuchoteur
         294:
-            name: Loudred
+            name: Ramboum
+            species: Pokémon Grosse Voix
         295:
-            name: Exploud
+            name: Brouhabam
+            species: Pokémon Bruit Sourd
         296:
             name: Makuhita
+            species: Pokémon Tenace
         297:
             name: Hariyama
+            species: Pokémon Cogneur
         298:
             name: Azurill
+            species: Pokémon Point Polka
         299:
-            name: Nosepass
+            name: Tarinor
+            species: Pokémon Boussole
         300:
             name: Skitty
+            species: Pokémon Chaton
         301:
             name: Delcatty
+            species: Pokémon Guindé
         302:
-            name: Sableye
+            name: Ténéfix
+            species: Pokémon Obscurité
         303:
-            name: Mawile
+            name: Mysdibule
+            species: Pokémon Trompeur
         304:
-            name: Aron
+            name: Galekid
+            species: Pokémon Armurfer
         305:
-            name: Lairon
+            name: Galegon
+            species: Pokémon Armurfer
         306:
-            name: Aggron
+            name: Galeking
+            species: Pokémon Armurfer
         307:
-            name: Meditite
+            name: Méditikka
+            species: Pokémon Méditation
         308:
-            name: Medicham
+            name: Charmina
+            species: Pokémon Méditation
         309:
-            name: Electrike
+            name: Dynavolt
+            species: Pokémon Orage
         310:
-            name: Manectric
+            name: Élecsprint
+            species: Pokémon Décharge
         311:
-            name: Plusle
+            name: Posipi
+            species: Pokémon Acclameur
         312:
-            name: Minun
+            name: Négapi
+            species: Pokémon Acclameur
         313:
-            name: Volbeat
+            name: Muciole
+            species: Pokémon Luciole
         314:
-            name: Illumise
+            name: Lumivole
+            species: Pokémon Luciole
         315:
-            name: Roselia
+            name: Rosélia
+            species: Pokémon Épine
         316:
-            name: Gulpin
+            name: Gloupti
+            species: Pokémon Estomac
         317:
-            name: Swalot
+            name: Avaltout
+            species: Pokémon Sac Poison
         318:
             name: Carvanha
+            species: Pokémon Féroce
         319:
             name: Sharpedo
+            species: Pokémon Brutal
         320:
             name: Wailmer
+            species: Pokémon Baleinboule
         321:
             name: Wailord
+            species: Pokémon Cachabouée
         322:
-            name: Numel
+            name: Chamallot
+            species: Pokémon Engourdi
         323:
-            name: Camerupt
+            name: Camérupt
+            species: Pokémon Éruption
         324:
-            name: Torkoal
+            name: Chartor
+            species: Pokémon Charbon
         325:
             name: Spoink
+            species: Pokémon Rebond
         326:
-            name: Grumpig
+            name: Groret
+            species: Pokémon Magouilleur
         327:
             name: Spinda
+            species: Pokémon Panda Taché
         328:
-            name: Trapinch
+            name: Kraknoix
+            species: Pokémon Piégeur
         329:
-            name: Vibrava
+            name: Vibraninf
+            species: Pokémon Vibration
         330:
-            name: Flygon
+            name: Libégon
+            species: Pokémon Mystique
         331:
             name: Cacnea
+            species: Pokémon Cactus
         332:
             name: Cacturne
+            species: Pokémon Épouvantail
         333:
-            name: Swablu
+            name: Tylton
+            species: Pokémon Oiseaucoton
         334:
             name: Altaria
+            species: Pokémon Virevolteur
         335:
-            name: Zangoose
+            name: Mangriff
+            species: Pokémon Chat Furet
         336:
             name: Seviper
+            species: Pokémon Serpacroc
         337:
-            name: Lunatone
+            name: Séléroc
+            species: Pokémon Météorite
         338:
-            name: Solrock
+            name: Solaroc
+            species: Pokémon Météorite
         339:
-            name: Barboach
+            name: Barloche
+            species: Pokémon Babillon
         340:
-            name: Whiscash
+            name: Barbicha
+            species: Pokémon Babillon
         341:
-            name: Corphish
+            name: Écrapince
+            species: Pokémon Brute
         342:
-            name: Crawdaunt
+            name: Colhomard
+            species: Pokémon Crapule
         343:
-            name: Baltoy
+            name: Balbuto
+            species: Pokémon Poupargile
         344:
-            name: Claydol
+            name: Kaorine
+            species: Pokémon Poupargile
         345:
-            name: Lileep
+            name: Lilia
+            species: Pokémon Lis d'Eau
         346:
-            name: Cradily
+            name: Vacilys
+            species: Pokémon Bernacke
         347:
             name: Anorith
+            species: Pokémon Crustage
         348:
             name: Armaldo
+            species: Pokémon Blindage
         349:
-            name: Feebas
+            name: Barpau
+            species: Pokémon Poisson
         350:
-            name: Milotic
+            name: Milobellus
+            species: Pokémon Tendre
         351:
-            name: Castform
+            name: Morphéo
+            species: Pokémon Climat
         352:
             name: Kecleon
+            species: Pokémon Multicolor
         353:
-            name: Shuppet
+            name: Polichombr
+            species: Pokémon Poupée
         354:
-            name: Banette
+            name: Branette
+            species: Pokémon Marionnette
         355:
-            name: Duskull
+            name: Skélénox
+            species: Pokémon Requiem
         356:
-            name: Dusclops
+            name: Téraclope
+            species: Pokémon Appel
         357:
             name: Tropius
+            species: Pokémon Fruit
         358:
-            name: Chimecho
+            name: Éoko
+            species: Pokémon Carillon
         359:
             name: Absol
+            species: Pokémon Désastre
         360:
-            name: Wynaut
+            name: Okéoké
+            species: Pokémon Ravi
         361:
-            name: Snorunt
+            name: Stalgamin
+            species: Pokémon Capuche
         362:
-            name: Glalie
+            name: Oniglali
+            species: Pokémon Face
         363:
-            name: Spheal
+            name: Obali
+            species: Pokémon Clap Clap
         364:
-            name: Sealeo
+            name: Phogleur
+            species: Pokémon Roule Boule
         365:
-            name: Walrein
+            name: Kaimorse
+            species: Pokémon Brise Glace
         366:
-            name: Clamperl
+            name: Coquiperl
+            species: Pokémon Bivalve
         367:
-            name: Huntail
+            name: Serpang
+            species: Pokémon Abysse
         368:
-            name: Gorebyss
+            name: Rosabyss
+            species: Pokémon Mer du Sud
         369:
             name: Relicanth
+            species: Pokémon Longévité
         370:
-            name: Luvdisc
+            name: Lovdisc
+            species: Pokémon Rendez-vous
         371:
-            name: Bagon
+            name: Draby
+            species: Pokémon Tête de Roc
         372:
-            name: Shelgon
+            name: Drackhaus
+            species: Pokémon Endurant
         373:
-            name: Salamence
+            name: Drattak
+            species: Pokémon Dragon
         374:
-            name: Beldum
+            name: Terhal
+            species: Pokémon Boulefer
         375:
-            name: Metang
+            name: Métang
+            species: Pokémon Pincefer
         376:
-            name: Metagross
+            name: Métalosse
+            species: Pokémon Pattefer
         377:
             name: Regirock
+            species: Pokémon Pic Rocheux
         378:
             name: Regice
+            species: Pokémon Iceberg
         379:
             name: Registeel
+            species: Pokémon Fer
         380:
             name: Latias
+            species: Pokémon Éon
         381:
             name: Latios
+            species: Pokémon Éon
         382:
             name: Kyogre
+            species: Pokémon Bassinmarin
         383:
             name: Groudon
+            species: Pokémon Continent
         384:
             name: Rayquaza
+            species: Pokémon Cieux
         385:
             name: Jirachi
+            species: Pokémon Souhait
         386:
             name: Deoxys
+            species: Pokémon ADN
         387:
             name: Turtwig
         388:
