@@ -26,6 +26,8 @@ pokemon:
     list:
         0:
             name: MissingNo.
+            species: Pokémon 1001101
+            description: Error 404: Pokémon not found
         1:
             name: Bulbizarre
             species: Pokémon Graine
@@ -38,24 +40,32 @@ pokemon:
             species: Pokémon Graine
         4:
             name: Salamèche
+            species: Pokémon Lézard
         5:
             name: Reptincel
+            species: Pokémon Flamme
         6:
             name: Dracaufeu
+            species: Pokémon Flamme
         7:
             name: Carapuce
+            species: Pokémon Minitortue
         8:
             name: Carabaffe
+            species: Pokémon Tortue
         9:
             name: Tortank
+            species: Pokémon Carapace
         10:
             name: Chenipan
+            species: Pokémon Ver
         11:
             name: Chrysacier
             species: Pokémon Cocon
             description: L'armure qu'il revêt étant composée d'un alliage de titanium et d'or, elle lui octroie une très forte robustesse.
         12:
             name: Papilusion
+            species: Pokémon Papillion
         13:
             name: Aspicot
         14:

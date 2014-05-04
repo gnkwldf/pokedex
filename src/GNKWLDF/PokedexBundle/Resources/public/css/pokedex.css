@@ -130,14 +130,14 @@
     display: table-cell;
     padding: 10px 5px;
 }
-.pokedex-info ul
+ul.pokedex-info
 {
     margin: 0px;
     padding: 0px;
 }
 
 
-.pokedex-info ul li
+ul.pokedex-info li
 {
     list-style-type: none;
 }
