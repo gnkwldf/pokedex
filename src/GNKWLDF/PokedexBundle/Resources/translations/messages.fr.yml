@@ -1,5 +1,6 @@
 pokedex:
     title:
+        about: À propos
         select: Sélection du pokémon
 pokemon:
     type:
