@@ -1,0 +1,5 @@
+{
+    "species" : true,
+    "types" : ["dark", "fire"],
+    "description" : false
+}
