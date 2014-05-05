@@ -1,0 +1,5 @@
+{
+    "species" : true,
+    "types" : ["ice", "flying"],
+    "description" : false
+}
