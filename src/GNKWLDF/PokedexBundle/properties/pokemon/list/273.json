@@ -1,0 +1,5 @@
+{
+    "species" : true,
+    "types" : ["grass", "dark"],
+    "description" : false
+}
