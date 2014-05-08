@@ -119,6 +119,7 @@ pokemon:
         28:
             name: Sablaireau
             species: Pokémon Souris
+            description: Sa capacité à se rouler en boule hérissée supersonique lui est utile aussi défensivement qu'offensivement.
         29:
             name: Nidoran♀
             species: Pokémon Venepic

@@ -22,6 +22,7 @@ pokemon:
     list:
         0:
             name: MissingNo.
+            description: Error 404: Pokémon not found
         1:
             name: Bulbasaur
         2:
@@ -44,6 +45,7 @@ pokemon:
             name: Caterpie
         11:
             name: Metapod
+            description: The defense he wears, made of an alloy of titanium and gold, grants him a very high robustness.
         12:
             name: Butterfree
         13:
@@ -78,6 +80,7 @@ pokemon:
             name: Sandshrew
         28:
             name: Sandslash
+            description: Its ability to curling up into a bristly supersonic ball is useful for him, as much defensively as offensively.
         29:
             name: Nidoran♀
         30:
