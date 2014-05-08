@@ -1,5 +1,5 @@
 {% if description is not null %}
-    <p class="pokedex-img"><img src="{{ description.image }}" height="150px" width="150px" alt="{{ description.name }}" title="{{ description.name }}"></p>
+    <p class="pokedex-img"><img src="{{ description.image }}" height="150" width="150" alt="{{ description.name }}" title="{{ description.name }}" /></p>
     <ul class="pokedex-info">
         <li><strong class="pokedex-pokemon-name">{{ description.name }}</strong></li>
         <li class="pokedex-pokemon-species">{{ description.species }}</li>
@@ -15,7 +15,7 @@
         {{ description.description }}
     </p>
 {% else %}
-    <p class="pokedex-img"><img src="{{ asset('bundles/gnkwldfpokedex/images/pokemon/pokemon.jpg') }}" height="150px" width="150px" alt="Pokémon"></p>
+    <p class="pokedex-img"><img src="{{ asset('bundles/gnkwldfpokedex/images/pokemon/pokemon.jpg') }}" height="150" width="150" alt="Pokémon" /></p>
     <ul class="pokedex-info">
         <li><strong class="pokedex-pokemon-name">Pokédex</strong></li>
     </ul>
