@@ -1,0 +1,5 @@
+{
+    "species" : true,
+    "types" : ["normal", "fairy"],
+    "description" : false
+}
