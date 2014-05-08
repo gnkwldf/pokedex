@@ -29,7 +29,7 @@ class DefaultController extends Controller
     /**
      * Standard action
      * @Route("/")
-     * @Route("/{number}", name="pokedex_index")
+     * @Route("/pokemon/{number}", name="pokedex_index")
      * @Template()
      */
     public function indexAction($number = null)
@@ -39,20 +39,27 @@ class DefaultController extends Controller
             'fr',
             'en'
         )));
-        $description = null;
-        if(isset($number))
-        {
-            $description = $this->getDescription($number);
-        }
-        return array('number' => $this->pokemonNumber, 'description' => $description);
+        return array('pokemonNumber' => $this->pokemonNumber, 'number' => $number);
+    }
+    
+
+    /**
+     * Standard action
+     * @Route("/pokemon/{number}/description", name="pokedex_pokemon_description", options={"expose"=true})
+     * @Template()
+     */
+    public function descriptionAction($number)
+    {
+        $description = $this->getDescription($number);
+        return array('description' => $description);
     }
     
     /**
      * Standard action
-     * @Route("/api/pokemon/description/{number}", name="pokedex_api_pokemon_description", options={"expose"=true})
+     * @Route("/api/pokemon/{number}/description", name="pokedex_api_pokemon_description")
      * @Method("GET")
      */
-    public function descriptionAction($number)
+    public function apiDescriptionAction($number)
     {
         $description = $this->getDescription($number);
         if(null === $description)
