@@ -29,7 +29,7 @@ class DefaultController extends Controller
     /**
      * Standard action
      * @Route("/")
-     * @Route("/{number}", name="pokedex_index")
+     * @Route("/pokemon/{number}", name="pokedex_index")
      * @Template()
      */
     public function indexAction($number = null)

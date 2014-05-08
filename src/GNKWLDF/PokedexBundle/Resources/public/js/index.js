@@ -1,6 +1,7 @@
 $(document).ready(function(){
     $(".pokedex-action").click(function(event){
         event.preventDefault();
+        var pageurl = $(this).attr('href');
         var number = $(this).attr("data-pokemon-number");
         $.ajax({
             type: "GET",
@@ -29,6 +30,7 @@ $(document).ready(function(){
                         $('.pokelabel-'+data.types[key].tag).text(data.types[key].name);
                     }
                 }
+                window.history.pushState({path:pageurl},null,pageurl);
             },
         });
     });
