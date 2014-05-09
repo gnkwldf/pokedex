@@ -1,5 +1,5 @@
 {
     "species" : true,
-    "types" : ["dragon", "Flying"],
+    "types" : ["dragon", "flying"],
     "description" : false
 }
