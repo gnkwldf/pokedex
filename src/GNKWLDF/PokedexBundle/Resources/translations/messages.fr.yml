@@ -2,6 +2,13 @@ pokedex:
     title:
         about: À propos
         select: Sélection du pokémon
+    about:
+        name: nom
+        situation: situation
+        situation.developer: développeur
+        situation.translator: traducteur
+        situation.integrator: intégrateur
+        situation.drawer: Dessinateur
 pokemon:
     type:
         bird: bird

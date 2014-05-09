@@ -1,0 +1,37 @@
+{% extends "GNKWLDFPokedexBundle::layout.html.twig" %}
+
+{% block title %}{{ parent() }} - {% trans %}pokedex.title.about{% endtrans %}{% endblock %}
+
+{% block body %}
+<div class="container">
+    <article>
+        <h1>{% trans %}pokedex.title.about{% endtrans %}</h1>
+        <table class="table table-bordered table-condensed">
+            <thead>
+                <tr>
+                    <th>{{ 'pokedex.about.name'|trans|capitalize }}</th>
+                    <th>{{ 'pokedex.about.situation'|trans|capitalize }}</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Gnuk</td>
+                    <td>{{ 'pokedex.about.situation.developer'|trans|capitalize }}</td>
+                </tr>
+                <tr>
+                    <td>LDF</td>
+                    <td>{{ 'pokedex.about.situation.drawer'|trans|capitalize }}</td>
+                </tr>
+                <tr>
+                    <td>Neozetare</td>
+                    <td>{{ 'pokedex.about.situation.integrator'|trans|capitalize }}</td>
+                </tr>
+                <tr>
+                    <td>Sika</td>
+                    <td>{{ 'pokedex.about.situation.translator'|trans|capitalize }}</td>
+                </tr>
+            </tbody>
+        </table>
+    </article>
+</div>
+{% endblock %}

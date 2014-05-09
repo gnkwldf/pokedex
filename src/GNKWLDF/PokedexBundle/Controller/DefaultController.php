@@ -42,9 +42,8 @@ class DefaultController extends Controller
         return array('pokemonNumber' => $this->pokemonNumber, 'number' => $number);
     }
     
-
     /**
-     * Standard action
+     * Description action
      * @Route("/pokemon/{number}/description", name="pokedex_pokemon_description", options={"expose"=true})
      * @Template()
      */
@@ -53,9 +52,19 @@ class DefaultController extends Controller
         $description = $this->getDescription($number);
         return array('description' => $description);
     }
-    
+
     /**
      * Standard action
+     * @Route("/about")
+     * @Template()
+     */
+    public function aboutAction()
+    {
+        return array();
+    }
+    
+    /**
+     * Api Description action
      * @Route("/api/pokemon/{number}/description", name="pokedex_api_pokemon_description")
      * @Method("GET")
      */
@@ -74,12 +83,16 @@ class DefaultController extends Controller
      */
     private function getDescription($number)
     {
-        $number = intval($number);
         $request = $this->getRequest();
         $request->setLocale($request->getPreferredLanguage(array(
             'fr',
             'en'
         )));
+        if(null === $number)
+        {
+            return null;
+        }
+        $number = intval($number);
         if(!is_int($number) OR $this->pokemonNumber < $number OR 0 > $number)
         {
             return null;
