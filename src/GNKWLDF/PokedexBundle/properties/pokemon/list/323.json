@@ -1,0 +1,5 @@
+{
+    "species" : true,
+    "types" : ["fire", "ground"],
+    "description" : false
+}
