@@ -1,0 +1,5 @@
+{
+    "species" : true,
+    "types" : ["normal", "water"],
+    "description" : false
+}
