@@ -1,0 +1,5 @@
+{
+    "species" : true,
+    "types" : ["water", "dragon"],
+    "description" : false
+}
