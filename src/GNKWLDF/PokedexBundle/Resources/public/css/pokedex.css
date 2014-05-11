@@ -25,9 +25,12 @@
 }
 .pokedex-choice .pokedex-area .pokedex-element{
     height: 42px;
-    background: #41caff;
+    background: #bbb;
     border-radius: 5px;
     border: 1px solid #fff;
+}
+.pokedex-choice .pokedex-area .pokedex-element.pokemon-drawn{
+    background: #41caff;
 }
 .pokedex-hf{
     display: table;
