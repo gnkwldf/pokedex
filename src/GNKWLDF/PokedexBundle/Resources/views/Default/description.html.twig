@@ -6,7 +6,7 @@
         {% if description.types is not null %}
         <li>
             {% for type in description.types %}
-            <span class="label pokelabel-{{ type.tag }}">{{ type.name }}</span>
+            <span class="label pokelabel-{{ type.tag }}">{{ type.name|capitalize }}</span>
             {% endfor %}
         </li>
         {% endif %}
