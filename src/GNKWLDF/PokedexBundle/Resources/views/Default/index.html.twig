@@ -43,7 +43,7 @@
                         {% if i > 0 %}
                         <span class="hide">&nbsp;| </span>
                         {% endif %}
-                        <span class="pokedex-area col-sm-4 col-md-2 col-xs-3"><a class="pokedex-action" href="{{ path('pokedex_index', { 'number': i }) }}" data-pokemon-number="{{ i }}" title="{{('pokemon.list.' ~ i ~ '.name')|trans}}"><span class="col-xs-12 pokedex-element{% if i == number %} selected{% endif %}{% if i in drawn %} pokemon-drawn{% endif %}"><span class="pokesprite pokesprite-{{i}}"></span><span class="pokedex-number">{{ i }}</span></span></a></span>
+                        <span class="pokedex-area col-sm-4 col-md-2 col-xs-3"><a class="pokedex-action" href="{{ path('pokedex_index', { 'number': i }) }}" data-pokemon-number="{{ i }}" title="{{('pokemon.list.' ~ i ~ '.name')|trans}}"><span class="col-xs-12 pokedex-element{% if i == number and number is not null %} selected{% endif %}{% if i in drawn %} pokemon-drawn{% endif %}"><span class="pokesprite pokesprite-{{i}}"></span><span class="pokedex-number">{{ i }}</span></span></a></span>
                         {% if ((i+1) % 12) == 0 %}
                         <span class="clearfix visible-md clearfix visible-sm clearfix visible-xs"></span>
                         {% elseif ((i+1) % 6) == 0 %}
