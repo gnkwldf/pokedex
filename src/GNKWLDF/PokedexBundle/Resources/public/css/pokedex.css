@@ -25,12 +25,36 @@
 }
 .pokedex-choice .pokedex-area .pokedex-element{
     height: 42px;
-    background: #bbb;
-    border-radius: 5px;
-    border: 1px solid #fff;
+    background: #abc;
+    border-radius: 3px;
+    border: 1px solid #89a;
+}
+.pokedex-choice .pokedex-area .pokedex-element.pokemon-drawn:hover{
+    background: #0cd;
+}
+.pokedex-choice .pokedex-area .pokedex-element:hover{
+    background: #0ab;
 }
 .pokedex-choice .pokedex-area .pokedex-element.pokemon-drawn{
-    background: #41caff;
+    background: #8de;
+    border: 1px solid #6bc;
+}
+.pokedex-choice .pokedex-area .pokedex-element.selected,
+.pokedex-choice .pokedex-area .pokedex-element.pokemon-drawn.selected{
+    border: 1px #000 solid;
+    color: #000;
+}
+.pokedex-choice .pokedex-area .pokedex-element{
+    color: #89a;
+}
+.pokedex-choice .pokedex-area .pokedex-element.pokemon-drawn{
+    color: #49a;
+}
+.pokedex-choice .pokedex-area .pokedex-element:hover{
+    color: #8de;
+}
+.pokedex-choice .pokedex-area .pokedex-element.pokemon-drawn:hover{
+    color: #fff;
 }
 .pokedex-hf{
     display: table;
@@ -257,7 +281,6 @@ ul.pokedex-info li
     position: absolute;
     bottom: 2px;
     right: 2px;
-    color: #fff;
 }
 
 .pokesprite
