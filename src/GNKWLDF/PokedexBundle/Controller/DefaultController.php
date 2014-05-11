@@ -39,7 +39,7 @@ class DefaultController extends Controller
             'fr',
             'en'
         )));
-        return array('pokemonNumber' => $this->pokemonNumber, 'number' => $number);
+        return array('pokemonNumber' => $this->pokemonNumber, 'number' => $number, 'drawn' => $this->pokemonDrawnList());
     }
     
     /**
@@ -76,6 +76,13 @@ class DefaultController extends Controller
             return new Response('Problem with number', 400);
         }
         return new FormattedResponse($description);
+    }
+    
+    private function pokemonDrawnList()
+    {
+        $pokemonFileList = scandir(__DIR__ . '/../Resources/public/images/pokemon/normal/');
+        $pokemonList = preg_filter('#(.+).jpg#' , '$1', $pokemonFileList);
+        return $pokemonList;
     }
     
     /**
