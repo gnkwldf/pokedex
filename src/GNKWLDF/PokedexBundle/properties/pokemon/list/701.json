@@ -1,0 +1,5 @@
+{
+    "species" : true,
+    "types" : ["fight", "flying"],
+    "description" : false
+}

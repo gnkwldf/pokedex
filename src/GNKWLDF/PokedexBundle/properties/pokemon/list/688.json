@@ -1,0 +1,5 @@
+{
+    "species" : true,
+    "types" : ["rock", "water"],
+    "description" : false
+}
