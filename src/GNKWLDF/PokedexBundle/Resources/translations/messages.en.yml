@@ -25,6 +25,7 @@ pokemon:
             description: Error 404: Pokémon not found
         1:
             name: Bulbasaur
+            description: The spores that he rejects from his bulb spread a message of peace in the world since his birth.
         2:
             name: Ivysaur
         3:
