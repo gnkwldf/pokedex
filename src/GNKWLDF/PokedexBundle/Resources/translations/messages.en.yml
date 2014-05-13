@@ -22,1446 +22,2166 @@ pokemon:
     list:
         0:
             name: MissingNo.
+            species: 1001101
             description: Error 404: Pokémon not found
         1:
             name: Bulbasaur
+            species: Seed Pokémon
             description: The spores that he rejects from his bulb spread a message of peace in the world since his birth.
         2:
             name: Ivysaur
+            species: Seed Pokémon
         3:
             name: Venusaur
+            species: Seed Pokémon
         4:
             name: Charmander
+            species: Lizard Pokémon
         5:
             name: Charmeleon
+            species: Flame Pokémon
         6:
             name: Charizard
+            species: Flame Pokémon
         7:
             name: Squirtle
+            species: Tiny Turtle Pokémon
         8:
             name: Wartortle
+            species: Turtle Pokémon
         9:
             name: Blastoise
+            species: Shellfish Pokémon
         10:
             name: Caterpie
+            species: Worm Pokémon
         11:
             name: Metapod
+            species: Cocoon Pokémon
             description: The defense he wears, made of an alloy of titanium and gold, grants him a very high robustness.
         12:
             name: Butterfree
+            species: Butterfly Pokémon
         13:
             name: Weedle
+            species: Hary Bug Pokémon
         14:
             name: Kakuna
+            species: Cocoon Pokémon
         15:
             name: Beedrill
+            species: Poison Bee Pokémon
         16:
             name: Pidgey
+            species: Tiny Bird Pokémon
         17:
             name: Pidgeotto
+            species: Bird Pokémon
         18:
             name: Pidgeot
+            species: Bird Pokémon
         19:
             name: Rattata
+            species: Mouse Pokémon
         20:
             name: Raticate
+            species: Mouse Pokémon
         21:
             name: Spearow
+            species: Tiny Bird Pokémon
         22:
             name: Fearow
+            species: Break Pokémon
         23:
             name: Ekans
+            species: Snake Pokémon
         24:
             name: Arbok
+            species: Cobra Pokémon
         25:
             name: Pikachu
+            species: Mouse Pokémon
         26:
             name: Raichu
+            species: Mouse Pokémon
         27:
             name: Sandshrew
+            species: Mouse Pokémon
         28:
             name: Sandslash
+            species: Mouse Pokémon
             description: Its ability to curling up into a bristly supersonic ball is useful for him, as much defensively as offensively.
         29:
             name: Nidoran♀
+            species: Poison Pin Pokémon
         30:
             name: Nidorina
+            species: Poison Pin Pokémon
         31:
             name: Nidoqueen
+            species: Din Pokémon
         32:
             name: Nidoran♂
+            species: Poison Pin
         33:
             name: Nidorino
+            species: Poison Pin Pokémon
         34:
             name: Nidoking
+            species: Drill Pokémon
         35:
             name: Clefairy
+            species: Fairy Pokémon
         36:
             name: Clefable
+            species: Fairy Pokémon
         37:
             name: Vulpix
+            species: Fox Pokémon
         38:
             name: Ninetales
+            species: Fox Pokémon
         39:
             name: Jigglypuff
+            species: Balloon Pokémon
         40:
             name: Wigglytuff
+            species: Balloon Pokémon
         41:
             name: Zubat
+            species: Bat Pokémon
         42:
             name: Golbat
+            species: Bat Pokémon
         43:
             name: Oddish
+            species: Weed Pokémon
         44:
             name: Gloom
+            species: Weed Pokémon
         45:
             name: Vileplume
+            species: Flower Pokémon
         46:
             name: Paras
+            species: Mushroom Pokémon
         47:
             name: Parasect
+            species: Mushroom Pokémon
         48:
             name: Venonat
+            species: Insect Pokémon
         49:
             name: Venomoth
+            species: Poison Moth Pokémon
         50:
             name: Diglett
+            species: Mole Pokémon
         51:
             name: Dugtrio
+            species: Mole Pokémon
         52:
             name: Meowth
+            species: Scratch Cat Pokémon
         53:
             name: Persian
+            species: Classy Cat Pokémon
         54:
             name: Psyduck
+            species: Duck Pokémon
         55:
             name: Golduck
+            species: Duck Pokémon
         56:
             name: Mankey
+            species: Pig Monkey Pokémon
         57:
             name: Primeape
+            species: Pig Monkey Pokémon
         58:
             name: Growlithe
+            species: Puppy Pokémon
         59:
             name: Arcanine
+            species: Legendary Pokémon
         60:
             name: Poliwag
+            species: Tapdole Pokémon
         61:
             name: Poliwhirl
+            species: Tapdole Pokémon
         62:
             name: Poliwrath
+            species: Tapdole Pokémon
         63:
             name: Abra
+            species: Psi Pokémon
         64:
             name: Kadabra
+            species: Psi Pokémon
         65:
             name: Alakazam
+            species: Psi Pokémon
         66:
             name: Machop
+            species: Superpower Pokémon
         67:
             name: Machoke
+            species: Superpower Pokémon
         68:
             name: Machamp
+            species: Superpower Pokémon
         69:
             name: Bellsprout
+            species: Flower Pokémon
         70:
             name: Weepinbell
+            species: Flycatcher Pokémon
         71:
             name: Victreebel
+            species: Flycatcher Pokémon
         72:
             name: Tentacool
+            species: Jellyfish Pokémon
         73:
             name: Tentacruel
+            species: Jellyfish Pokémon
         74:
             name: Geodude
+            species: Rock Pokémon
         75:
             name: Graveler
+            species: Rock pokémon
         76:
             name: Golem
+            species: Megaton Pokémon
         77:
             name: Ponyta
+            species: Fire Horse Pokémon
         78:
             name: Rapidash
+            species: Fire Horse Pokémon
         79:
             name: Slowpoke
+            species: Dopey Pokémon
         80:
             name: Slowbro
+            species: Hermit Crab Pokmon
         81:
             name: Magnemite
+            species: Magnet Pokémon
         82:
             name: Magneton
+            species: Magnet Pokémon
         83:
             name: Farfetch
+            species: Wild Duck Pokémon
         84:
             name: Doduo
+            species: Twin Bird Pokémon
         85:
             name: Dodrio
+            species: Triple Bird Pokémon
         86:
             name: Seel
+            species: Sea Lion Pokémon
         87:
             name: Dewgong
+            species: Sea Lion Pokémon
         88:
             name: Grimer
+            species: Sludge Pokémon
         89:
             name: Muk
+            species: Sludge Pokémon
         90:
             name: Shellder
+            species: Bivalve Pokémon
         91:
             name: Cloyster
+            species: Bivalve Pokémon
         92:
             name: Gastly
+            species: Gas Pokémon
         93:
             name: Haunter
+            species: Gas Pokémon
         94:
             name: Gengar
+            species: Shadow Pokémon
         95:
             name: Onix
+            species: Rock Snake Pokémon
         96:
             name: Drowzee
+            species: Hypnosis Pokémon
         97:
             name: Hypno
+            species: Hypnosis Pokémon
         98:
             name: Krabby
+            species: River Crab Pokémon
         99:
             name: Kingler
+            species: Pincer Pokémon
         100:
             name: Voltorb
+            species: Ball Pokémon
         101:
             name: Electrode
+            species: Ball Pokémon
         102:
             name: Exeggcute
+            species: Egg Pokémon
         103:
             name: Exeggutor
+            species: Coconut Pokémon
         104:
             name: Cubone
+            species: Lonely Pokémon
         105:
             name: Marowak
+            species: Bone Keeper Pokémon
         106:
             name: Hitmonlee
+            species: Kicking Pokémon
         107:
             name: Hitmonchan
+            species: Punching Pokémon
         108:
             name: Lickitung
+            species: Licking Pokémon
         109:
             name: Koffing
+            species: Poison Gas Pokémon
         110:
             name: Weezing
+            species: Poison Gas Pokémon
         111:
             name: Rhyhorn
+            species: Spikes Pokémon
         112:
             name: Rhydon
+            species: Drill Pokémon
         113:
             name: Chansey
+            species: Egg Pokémon
         114:
             name: Tangela
+            species: Vine Pokémon
         115:
             name: Kangaskhan
+            species: Parent Pokémon
         116:
             name: Horsea
+            species: Dragon Pokémon
         117:
             name: Seadra
+            species: Dragon Pokémon
         118:
             name: Goldeen
+            species: Goldfish Pokémon
         119:
             name: Seaking
+            species: Goldfish
         120:
             name: Staryu
+            species: Star Shape Pokémon
         121:
             name: Starmie
+            species: Mysterious Pokémon
         122:
             name: Mr. Mime
+            species: Barrier Pokémon
         123:
             name: Scyther
+            species: Mantis Pokémon
         124:
             name: Jynx
+            species: Human Shape Pokémon
         125:
             name: Electabuzz
+            species: Electric Pokémon
         126:
             name: Magmar
+            species: Spitfire Pokémon
         127:
             name: Pinsir
+            species: Stag Beetle Pokémon
         128:
             name: Tauros
+            species: Wild Buttle Pokémon
         129:
             name: Magikarp
+            species: Fish Pokémon
         130:
             name: Gyarados
+            species: Atrocious Pokémon
         131:
             name: Lapras
+            species: Transport Pokémon
         132:
             name: Ditto
+            species: Transform Pokémon
         133:
             name: Eevee
+            species: Evolution Pokémon
         134:
             name: Vaporeon
+            species: Bubble Jet Pokémon
         135:
             name: Jolteon
+            species: Lightning Pokémon
         136:
             name: Flareon
+            species: Fire Pokémon
         137:
             name: Porygon
+            species: Virtual Pokémon
         138:
             name: Omanyte
+            species: Spiral Pokémon
         139:
             name: Omastar
+            species: Spiral Pokémon
         140:
             name: Kabuto
+            species: Shellfish Pokémon
         141:
             name: Kabutops
+            species: Shellfish Pokémon
         142:
             name: Aerodactyl
+            species: Fossil Pokémon
         143:
             name: Snorlax
+            species: Sleeping Pokémon
         144:
             name: Articuno
+            species: Freeze Pokémon
         145:
             name: Zapdos
+            species: Electric Pokémon
         146:
             name: Moltres
+            species: Flame Pokémon
         147:
             name: Dratini
+            species: Dragon Pokémon
         148:
             name: Dragonair
+            species: Dragon Pokémon
         149:
             name: Dragonite
+            species: Dragon Pokémon
         150:
             name: Mewtwo
+            species: Genetic Pokémon
         151:
             name: Mew
+            species: New Species Pokémon
         152:
             name: Chikorita
+            species: Leaf Pokémon
         153:
             name: Bayleef
+            species: Leaf Pokémon
         154:
             name: Meganium
+            species: Herb Pokémon
         155:
             name: Cyndaquil
+            species: Fire Mousse Pokémon
         156:
             name: Quilava
+            species: Volcano Pokémon
         157:
             name: Typhlosion
+            species: Volcano Pokémon
         158:
             name: Totodile
+            species: Big Jaw Pokémon
         159:
             name: Croconaw
+            species: Big Jaw Pokémon
         160:
             name: Feraligatr
+            species: Big Jaw Pokémon
         161:
             name: Sentret
+            species: Scoot Pokémon
         162:
             name: Furret
+            species: Long Body Pokémon
         163:
             name: Hoothoot
+            species: Owl Pokémon
         164:
             name: Noctowl
+            species: Owl Pokémon
         165:
             name: Ledyba
+            species: Five Star Pokémon
         166:
             name: Ledian
+            species: Five Star Pokémon
         167:
             name: Spinarak
+            species: String Spit Pokémon
         168:
             name: Ariados
+            species: Long Leg Pokémon
         169:
             name: Crobat
+            species: Bat Pokémon
         170:
             name: Chinchou
+            species: Angler Pokémon
         171:
             name: Lanturn
+            species: Light Pokémon
         172:
             name: Pichu
+            species: Tiny Mouse Pokémon
         173:
             name: Cleffa
+            species: Star Shape Pokémon
         174:
             name: Igglybuff
+            species: Balloon Pokémon
         175:
             name: Togepi
+            species: Spike Ball Pokémon
         176:
             name: Togetic
+            species: Hapiness Pokémon
         177:
             name: Natu
+            species: Tiny Bird Pokémon
         178:
             name: Xatu
+            species: Mystic Pokémon
         179:
             name: Mareep
+            species: Wool Pokémon
         180:
             name: Flaaffy
+            species: Wool Pokémon
         181:
             name: Ampharos
+            species: Light Pokémon
         182:
             name: Bellossom
+            species: Flower Pokémon
         183:
             name: Marill
+            species: Aqua Mouse Pokémon
         184:
             name: Azumarill
+            species: Aqua Rabbit Pokémon
         185:
             name: Sudowoodo
+            species: Imitation Pokémon
         186:
             name: Politoed
+            species: Frog Pokémon
         187:
             name: Hoppip
+            species: Cottonweed Pokémon
         188:
             name: Skiploom
+            species: Cottonweed Pokémon
         189:
             name: Jumpluff
+            species: Cottonweed Pokémon
         190:
             name: Aipom
+            species: Long Tail Pokémon
         191:
             name: Sunkern
+            species: Seed Pokémon
         192:
             name: Sunflora
+            species: Sun Pokémon
         193:
             name: Yanma
+            species: Clear Wing Pokémon
         194:
             name: Wooper
+            species: Water Fish Pokémon
         195:
             name: Quagsire
+            species: Water Fish Pokémon
         196:
             name: Espeon
+            species: Sun Pokémon
         197:
             name: Umbreon
+            species: Moonlight Pokémon
         198:
             name: Murkrow
+            species: Darkness Pokémon
         199:
             name: Slowking
+            species: Royal Pokémon
         200:
             name: Misdreavus
+            species: Screech Pokémon
         201:
             name: Unown
+            species: Symbol Pokémon
         202:
             name: Wobbuffet
+            species: Patient Pokémon
         203:
             name: Girafarig
+            species: Long Neck Pokémon
         204:
             name: Pineco
+            species: Bagworm Pokémon
         205:
             name: Forretress
+            species: Bagworm Pokémon
         206:
             name: Dunsparce
+            species: Land Snake Pokémon
         207:
             name: Gligar
+            species: Fly Scorpion Pokémon
         208:
             name: Steelix
+            species: Iron Snake Pokémon
         209:
             name: Snubbull
+            species: Fairy Pokémon
         210:
             name: Granbull
+            species: Fairy Pokémon
         211:
             name: Qwilfish
+            species: Balloon Pokémon
         212:
             name: Scizor
+            species: Pincer Pokémon
         213:
             name: Shuckle
+            species: Moid Pokémon
         214:
             name: Heracross
+            species: Single Horn Pokémon
         215:
             name: Sneasel
+            species: Sharp Claw Pokémon
         216:
             name: Teddiursa
+            species: Little Bear Pokémon
         217:
             name: Ursaring
+            species: Hibernator Pokémon
         218:
             name: Slugma
+            species: Lava Pokémon
         219:
             name: Magcargo
+            species: Lava Pokémon
         220:
             name: Swinub
+            species: Pig Pokémon
         221:
             name: Piloswine
+            species: Swine Pokémon
         222:
             name: Corsola
+            species: Corail Pokémon
         223:
             name: Remoraid
+            species: Jet Pokémon
         224:
             name: Octillery
+            species: Jet Pokémon
         225:
             name: Delibird
+            species: Delivery Pokémon
         226:
             name: Mantine
+            species: Kite Pokémon
         227:
             name: Skarmory
+            species: Armor Bird Pokémon
         228:
             name: Houndour
+            species: Dark Pokémon
         229:
             name: Houndoom
+            species: Dark Pokémon
         230:
             name: Kingdra
+            species: Dragon Pokémon
         231:
             name: Phanpy
+            species: Long Nose Pokémon
         232:
             name: Donphan
+            species: Armor Pokémon
         233:
-            name: Porygon
+            name: Porygon2
+            species: Virtual Pokémon
         234:
             name: Stantler
+            species: Big Horn Pokémon
         235:
             name: Smeargle
+            species: Painter Pokémon
         236:
             name: Tyrogue
+            species: Scuffle Pokémon
         237:
             name: Hitmontop
+            species: Handstand Pokémon
         238:
             name: Smoochum
+            species: Kiss Pokémon
         239:
             name: Elekid
+            species: Electric Pokémon
         240:
             name: Magby
+            species: Live Coal Pokémon
         241:
             name: Miltank
+            species: Milk Cow Pokémon
         242:
             name: Blissey
+            species: Happiness Pokémon
         243:
             name: Raikou
+            species: Thunder Pokémon
         244:
             name: Entei
+            species: Volcano Pokémon
         245:
             name: Suicune
+            species: Aurora Pokémon
         246:
             name: Larvitar
+            species: Rock Skin Pokémon
         247:
             name: Pupitar
+            species: Hard Shell Pokémon
         248:
             name: Tyranitar
+            species: Armor Pokémon
         249:
             name: Lugia
+            species: Diving Pokémon
         250:
             name: Ho-Oh
+            species: Rainbow Pokémon
         251:
             name: Celebi
+            species: Time Travel Pokémon
         252:
             name: Treecko
+            species: Wood Gecko Pokémon
         253:
             name: Grovyle
+            species: Wood Gecko Pokémon
         254:
             name: Sceptile
+            species: Forest Pokémon
         255:
             name: Torchic
+            species: Chick Pokémon
         256:
             name: Combusken
+            species: Yong Fowl Pokémon
         257:
             name: Blaziken
+            species: Blaze Pokémon
         258:
             name: Mudkip
+            species: Mud Fish Pokémon
         259:
             name: Marshtomp
+            species: Mud Fish Pokémon
         260:
             name: Swampert
+            species: Mud Fish Pokémon
         261:
             name: Poochyena
+            species: Bite Pokémon
         262:
             name: Mightyena
+            species: Bite Pokémon
         263:
             name: Zigzagoon
+            species: Tiny Raccoon Pokémon
         264:
             name: Linoone
+            species: Rushing Pokémon
         265:
             name: Wurmple
+            species: Worm Pokémon
         266:
             name: Silcoon
+            species: Cocoon Pokémon
         267:
             name: Beautifly
+            species: Butterfly Pokémon
         268:
             name: Cascoon
+            species: Cocoon Pokémon
         269:
             name: Dustox
+            species: Poison Moth Pokémon
         270:
             name: Lotad
+            species: Water Weed Pokémon
         271:
             name: Lombre
+            species: Jolly Pokémon
         272:
             name: Ludicolo
+            species: Carafree Pokémon
         273:
             name: Seedot
+            species: Acorn Pokémon
         274:
             name: Nuzleaf
+            species: Willy Pokémon
         275:
             name: Shiftry
+            species: Wicked Pokémon
         276:
             name: Taillow
+            species: Tiny Swallow Pokémon
         277:
             name: Swellow
+            species: Swallow Pokémon
         278:
             name: Wingull
+            species: Seagull Pokémon
         279:
             name: Pelipper
+            species: Water Bird
         280:
             name: Ralts
+            species: Feeling
         281:
             name: Kirlia
+            species: Emotion Pokémon
         282:
             name: Gardevoir
+            species: Embrace Pokémon
         283:
             name: Surskit
+            species: Pond Skater Pokémon
         284:
             name: Masquerain
+            species: Eyeball Pokémon
         285:
             name: Shroomish
+            species: Mushroom Pokémon
         286:
             name: Breloom
+            species: Mushroom Pokémon
         287:
             name: Slakoth
+            species: Slacker Pokémon
         288:
             name: Vigoroth
+            species: Wild Monkey Pokémon
         289:
             name: Slaking
+            species: Lazy Pokémon
         290:
             name: Nincada
+            species: Trainee Pokémon
         291:
             name: Ninjask
+            species: Ninja Pokémon
         292:
             name: Shedinja
+            species: Shed Pokémon
         293:
             name: Whismur
+            species: Whisper Pokémon
         294:
             name: Loudred
+            species: Bug Voice Pokémon
         295:
             name: Exploud
+            species: Loud Noise Pokémon
         296:
             name: Makuhita
+            species: Guts Pokémon
         297:
             name: Hariyama
+            species: Arm Thrust Pokémon
         298:
             name: Azurill
+            species: Polka Dot Pokémon
         299:
             name: Nosepass
+            species: Compass Pokémon
         300:
             name: Skitty
+            species: Kitten Pokémon
         301:
             name: Delcatty
+            species: Prim Pokémon
         302:
             name: Sableye
+            species: Darkness Pokémon
         303:
             name: Mawile
+            species: Deceiver Pokémon
         304:
             name: Aron
+            species: Iron Armor Pokémon
         305:
             name: Lairon
+            species: Iron Armor Pokémon
         306:
             name: Aggron
+            species: Iron Armor Pokémon
         307:
             name: Meditite
+            species: Meditate Pokémon
         308:
             name: Medicham
+            species: Meditate Pokémon
         309:
             name: Electrike
+            species: Lightning Pokémon
         310:
             name: Manectric
+            species: Discharge Pokémon
         311:
             name: Plusle
+            species: Cheerling Pokémon
         312:
             name: Minun
+            species: Cheerling Pokémon
         313:
             name: Volbeat
+            species: Firefly Pokémon
         314:
             name: Illumise
+            species: Firefly Pokémon
         315:
             name: Roselia
+            species: Thorn Pokémon
         316:
             name: Gulpin
+            species: Stomach Pokémon
         317:
             name: Swalot
+            species: Poison Bag Pokémon
         318:
             name: Carvanha
+            species: Savage Pokémon
         319:
             name: Sharpedo
+            species: Brutal Pokémon
         320:
             name: Wailmer
+            species: Ball Whale Pokémon
         321:
             name: Wailord
+            species: Float Whale Pokémon
         322:
             name: Numel
+            species: Numb Pokémon
         323:
             name: Camerupt
+            species: Eruption Pokémon
         324:
             name: Torkoal
+            species: Coal Pokémon
         325:
             name: Spoink
+            species: Bounce Pokémon
         326:
             name: Grumpig
+            species: Manipulte Pokémon
         327:
             name: Spinda
+            species: Spot Panda Pokémon
         328:
             name: Trapinch
+            species: Ant Pit Pokémon
         329:
             name: Vibrava
+            species: Vibration Pokémon
         330:
             name: Flygon
+            species: Mystic Pokémon
         331:
             name: Cacnea
+            species: Cactus Pokémon
         332:
             name: Cacturne
+            species: Scarecrow Pokémon
         333:
             name: Swablu
+            species: Cotton Bird Pokémon
         334:
             name: Altaria
+            species: Humming Pokémon
         335:
             name: Zangoose
+            species: Cat Ferret Pokémon
         336:
             name: Seviper
+            species: Fang Snake Pokémon
         337:
             name: Lunatone
+            species: Meteorite Pokémon
         338:
             name: Solrock
+            species: Meteorite Pokémon
         339:
             name: Barboach
+            species: Whiskers Pokémon
         340:
             name: Whiscash
+            species: Whiskers Pokémon
         341:
             name: Corphish
+            species: Ruffian Pokémon
         342:
             name: Crawdaunt
+            species: Rogue Pokémon
         343:
             name: Baltoy
+            species: Clay Doll Pokémon
         344:
             name: Claydol
+            species: Clay Doll Pokémon
         345:
             name: Lileep
+            species: Sea Lily Pokémon
         346:
             name: Cradily
+            species: Barnacie Pokémon
         347:
             name: Anorith
+            species: Old Shrimp Pokémon
         348:
             name: Armaldo
+            species: Plate Pokémon
         349:
             name: Feebas
+            species: Fish Pokémon
         350:
             name: Milotic
+            species: Tender Pokémon
         351:
             name: Castform
+            species: Weather Pokémon
         352:
             name: Kecleon
+            species: Color Swap Pokémon
         353:
             name: Shuppet
+            species: Puppet Pokémon
         354:
             name: Banette
+            species: Marionette Pokémon
         355:
             name: Duskull
+            species: Requiem Pokémon
         356:
             name: Dusclops
+            species: Beckon Pokémon
         357:
             name: Tropius
+            species: Fruit Pokémon
         358:
             name: Chimecho
+            species: Wind Chrime Pokémon
         359:
             name: Absol
+            species: Disaster Pokémon
         360:
             name: Wynaut
+            species: Bright Pokémon
         361:
             name: Snorunt
+            species: Snow Hat Pokémon
         362:
             name: Glalie
+            species: Face Pokémon
         363:
             name: Spheal
+            species: Clap Pokémon
         364:
             name: Sealeo
+            species: Ball Roll Pokémon
         365:
             name: Walrein
+            species: Ice Break Pokémon
         366:
             name: Clamperl
+            species: Bivalve Pokémon
         367:
             name: Huntail
+            species: Deep Sea Pokémon
         368:
             name: Gorebyss
+            species: South Sea Pokémon
         369:
             name: Relicanth
+            species: Longevity Pokémon
         370:
             name: Luvdisc
+            species: Rendezvous Pokémon
         371:
             name: Bagon
+            species: Rock Head Pokémon
         372:
             name: Shelgon
+            species: Endurance Pokémon
         373:
             name: Salamence
+            species: Dragon Pokémon
         374:
             name: Beldum
+            species: Iron Ball Pokémon
         375:
             name: Metang
+            species: Iron Claw Pokémon
         376:
             name: Metagross
+            species: Iron Leg Pokémon
         377:
             name: Regirock
+            species: Rock Peak Pokémon
         378:
             name: Regice
+            species: Iceberg Pokémon
         379:
             name: Registeel
+            species: Iron Pokémon
         380:
             name: Latias
+            species: Eon Pokémon
         381:
             name: Latios
+            species: Eon Pokémon
         382:
             name: Kyogre
+            species: Sea Basin Pokémon
         383:
             name: Groudon
+            species: Continent Pokémon
         384:
             name: Rayquaza
+            species: Sky High Pokémon
         385:
             name: Jirachi
+            species: Wish Pokémon
         386:
             name: Deoxys
+            species: DNA Pokémon
         387:
             name: Turtwig
+            species: Tiny Leaf
         388:
             name: Grotle
+            species: Grove Pokémon
         389:
             name: Torterra
+            species: Continent Pokémon
         390:
             name: Chimchar
+            species: Chimp Pokémon
         391:
             name: Monferno
+            species: Playful Pokémon
         392:
             name: Infernape
+            species: Flame Pokémon
         393:
             name: Piplup
+            species: Penguin Pokémon
         394:
             name: Prinplup
+            species: Penguin Pokémon
         395:
             name: Empoleon
+            species: Emperor Pokémon
         396:
             name: Starly
+            species: Starling Pokémon
         397:
             name: Staravia
+            species: Starling Pokémon
         398:
             name: Staraptor
+            species: Predator Pokémon
         399:
             name: Bidoof
+            species: Plump Pokémon
         400:
             name: Bibarel
+            species: Beaver Pokémon
         401:
             name: Kricketot
+            species: Cricket Pokémon
         402:
             name: Kricketune
+            species: Cricket Pokémon
         403:
             name: Shinx
+            species: Flash Pokémon
         404:
             name: Luxio
+            species: Spark Pokémon
         405:
             name: Luxray
+            species: Gleam Eyes Pokémon
         406:
             name: Budew
+            species: Bud Pokémon
         407:
             name: Roserade
+            species: Bouquet Pokémon
         408:
             name: Cranidos
+            species: Head Butt Pokémon
         409:
             name: Rampardos
+            species: Head Butt Pokémon
         410:
             name: Shieldon
+            species: Shield Pokémon
         411:
             name: Bastiodon
+            species: Shield Pokémon
         412:
             name: Burmy
+            species: Bagworm Pokémon
         413:
             name: Wormadam
+            species: Bagworm Pokémon
         414:
             name: Mothim
+            species: Moth Pokémon
         415:
             name: Combee
+            species: Tiny Bee Pokémon
         416:
             name: Vespiquen
+            species: Beehive Pokémon
         417:
             name: Pachirisu
+            species: EleSquirrel
         418:
             name: Buizel
+            species: Sea Weasel
         419:
             name: Floatzel
+            species: Sea Weasel
         420:
             name: Cherubi
+            species: Cherry Pokémon
         421:
             name: Cherrim
+            species: Blossom Pokémon
         422:
             name: Shellos
+            species: Sea Slug Pokémon
         423:
             name: Gastrodon
+            species: Sea Slug Pokémon
         424:
             name: Ambipom
+            species: Long Tail Pokémon
         425:
             name: Drifloon
+            species: Balloon Pokémon
         426:
             name: Drifblim
+            species: Blimp Pokémon
         427:
             name: Buneary
+            species: Rabbit Pokémon
         428:
             name: Lopunny
+            species: Rabbit Pokémon
         429:
             name: Mismagius
+            species: Magical Pokémon
         430:
             name: Honchkrow
+            species: Big Boss
         431:
             name: Glameow
+            species: Catty Pokémon
         432:
             name: Purugly
+            species: Tiger Cat Pokémon
         433:
             name: Chingling
+            species: Bell Pokémon
         434:
             name: Stunky
+            species: Stunk Pokémon
         435:
             name: Skuntank
+            species: Stunk Pokémon
         436:
             name: Bronzor
+            species: Bronze Pokémon
         437:
             name: Bronzong
+            species: Bronze Bell Pokémon
         438:
             name: Bonsly
+            species: Bonsai Pokémon
         439:
             name: Mime Jr.
+            species: Mime Pokémon
         440:
             name: Happiny
+            species: Playhouse Pokémon
         441:
             name: Chatot
+            species: Music Note Pokémon
         442:
             name: Spiritomb
+            species: Forbidden Pokémon
         443:
             name: Gible
+            species: Land Shark Pokémon
         444:
             name: Gabite
+            species: Cave Pokémon
         445:
             name: Garchomp
+            species: Mach Pokémon
         446:
             name: Munchlax
+            species: Big Eater Pokémon
         447:
             name: Riolu
+            species: Emanation Pokémon
         448:
             name: Lucario
+            species: Aura Pokémon
         449:
             name: Hippopotas
+            species: Hippo Pokémon
         450:
             name: Hippowdon
+            species: Heavyweight Pokémon
         451:
             name: Skorupi
+            species: Scorpion Pokémon
         452:
             name: Drapion
+            species: Ogre Scorpion Pokémon
         453:
             name: Croagunk
+            species: Toxic Mouth Pokémon
         454:
             name: Toxicroak
+            species: Toxic Mouth Pokémon
         455:
             name: Carnivine
+            species: Bug Catcher Pokémon
         456:
             name: Finneon
+            species: Wing Fish Pokémon
         457:
             name: Lumineon
+            species: Neon Pokémon
         458:
             name: Mantyke
+            species: Kite Pokémon
         459:
             name: Snover
+            species: Frost Tree
         460:
             name: Abomasnow
+            species: Frost Tree Pokémon
         461:
             name: Weavile
+            species: Sharp Claw Pokémon
         462:
             name: Magnezone
+            species: Magnet Area Pokémon
         463:
             name: Lickilicky
+            species: Licking Pokémon
         464:
             name: Rhyperior
+            species: Drill Pokémon
         465:
             name: Tangrowth
+            species: Vine Pokémon
         466:
             name: Electivire
+            species: Thunderbolt Pokémon
         467:
             name: Magmortar
+            species: Blast Pokémon
         468:
             name: Togekiss
+            species: Jubilee Pokémon
         469:
             name: Yanmega
+            species: Ogre Darner Pokémon
         470:
             name: Leafeon
+            species: Verdant Pokémon
         471:
             name: Glaceon
+            species: Fresh Snow Pokémon
         472:
             name: Gliscor
+            species: Fang Scorpion Pokémon
         473:
             name: Mamoswine
+            species: Twin Tusk Pokémon
         474:
             name: Porygon-Z
+            species: Virtual Pokémon
         475:
             name: Gallade
+            species: Blade Pokémon
         476:
             name: Probopass
+            species: Compass Pokémon
         477:
             name: Dusknoir
+            species: Gripper Pokémon
         478:
             name: Froslass
+            species: Snow Land Pokémon
         479:
             name: Rotom
+            species: Plasma Pokémon
         480:
             name: Uxie
+            species: Knowledge Pokémon
         481:
             name: Mesprit
+            species: Emotion Pokémon
         482:
             name: Azelf
+            species: Willpower Pokémon
         483:
             name: Dialga
+            species: Temporal Pokémon
         484:
             name: Palkia
+            species: Spatial Pokémon
         485:
             name: Heatran
+            species: Lava Dome Pokémon
         486:
             name: Regigigas
+            species: Colossal Pokémon
         487:
             name: Giratina
+            species: Renegade Pokémon
         488:
             name: Cresselia
+            species: Lunar Pokémon
         489:
             name: Phione
+            species: Sea Drifter Pokémon
         490:
             name: Manaphy
+            species: Seafaring
         491:
             name: Darkrai
+            species: Pitch-Black Pokémon
         492:
             name: Shaymin
+            species: Gratitude Pokémon
         493:
             name: Arceus
+            species: Alpha Pokémon
         494:
             name: Victini
+            species: Victory Pokémon
         495:
             name: Snivy
+            species: Grass Snake Pokémon
         496:
             name: Servine
+            species: Grass Snake Pokémon
         497:
             name: Serperior
+            species: Regal Pokémon
         498:
             name: Tepig
+            species: Fire Pig Pokémon
         499:
             name: Pignite
+            species: Fire Pig Pokémon
         500:
             name: Emboar
+            species: Mega Fire Pig Pokémon
         501:
             name: Oshawott
+            species: Sea Otter Pokémon
         502:
             name: Dewott
+            species: Discipline Pokémon
         503:
             name: Samurott
+            species: Formidable Pokémon
         504:
             name: Patrat
+            species: Scout Pokémon
         505:
             name: Watchog
+            species: Lookout Pokémon
         506:
             name: Lillipup
+            species: Puppy Pokémon
         507:
             name: Herdier
+            species: Loyal Dog Pokémon
         508:
             name: Stoutland
+            species: Big-Hearted Pokémon
         509:
             name: Purrloin
+            species: Devious Pokémon
         510:
             name: Liepard
+            species: Cruel Pokémon
         511:
             name: Pansage
+            species: Grass Monkey Pokémon
         512:
             name: Simisage
+            species: Thorn Monkey Pokémon
         513:
             name: Pansear
+            species: High Temp Pokémon
         514:
             name: Simisear
+            species: Ember Pokémon
         515:
             name: Panpour
+            species: Spray Pokémon
         516:
             name: Simipour
+            species: Geyser Pokémon
         517:
             name: Munna
+            species: Dream Eater Pokémon
         518:
             name: Musharna
+            species: Drowsing Pokémon
         519:
             name: Pidove
+            species: Tiny Pigeon Pokémon
         520:
             name: Tranquill
+            species: Wild Pigeon Pokémon
         521:
             name: Unfezant
+            species: Proud Pokémon
         522:
             name: Blitzle
+            species: Electrified Pokémon
         523:
             name: Zebstrika
+            species: Thunderbolt
         524:
             name: Roggenrola
+            species: Mantle Pokémon
         525:
             name: Boldore
+            species: Ore Pokémon
         526:
             name: Gigalith
+            species: Compressed Pokémon
         527:
             name: Woobat
+            species: Bat Pokémon
         528:
             name: Swoobat
+            species: Courting Pokémon
         529:
             name: Drilbur
+            species: Mole Pokémon
         530:
             name: Excadrill
+            species: Subterrene Pokémon
         531:
             name: Audino
+            species: Hearing Pokémon
         532:
             name: Timburr
+            species: Muscular Pokémon
         533:
             name: Gurdurr
+            species: Muscular Pokémon
         534:
             name: Conkeldurr
+            species: Muscular Pokémon
         535:
             name: Tympole
+            species: Tadpole Pokémon
         536:
             name: Palpitoad
+            species: Vibration Pokémon
         537:
             name: Seismitoad
+            species: Vibration Pokémon
         538:
             name: Throh
+            species: Judo Pokémon
         539:
             name: Sawk
+            species: Karate Pokémon
         540:
             name: Sewaddle
+            species: Sewing Pokémon
         541:
             name: Swadloon
+            species: Leaf-Wrapped Pokémon
         542:
             name: Leavanny
+            species: Nurturing Pokémon
         543:
             name: Venipede
+            species: Centipede Pokémon
         544:
             name: Whirlipede
+            species: Curlipede Pokémon
         545:
             name: Scolipede
+            species: Megapede Pokémon
         546:
             name: Cottonee
+            species: Cotton Puff Pokémon
         547:
             name: Whimsicott
+            species: Windveiled Pokémon
         548:
             name: Petilil
+            species: Bulb Pokémon
         549:
             name: Lilligant
+            species: Flowering Pokémon
         550:
             name: Basculin
+            species: Hostile Pokémon
         551:
             name: Sandile
+            species: Desert Croc Pokémon
         552:
             name: Krokorok
+            species: Desert Croc Pokémon
         553:
             name: Krookodile
+            species: Intimidation Pokémon
         554:
             name: Darumaka
+            species: Zen Charm Pokémon
         555:
             name: Darmanitan
+            species: Blazing Pokémon
         556:
             name: Maractus
+            species: Cactus Pokémon
         557:
             name: Dwebble
+            species: Rock Inn Pokémon
         558:
             name: Crustle
+            species: Stone Home Pokémon
         559:
             name: Scraggy
+            species: Shedding Pokémon
         560:
             name: Scrafty
+            species: Hoodium Pokémon
         561:
             name: Sigilyph
+            species: Avianoid
         562:
             name: Yamask
+            species: Spirit Pokémon
         563:
             name: Cofagrigus
+            species: Coffin Pokémon
         564:
             name: Tirtouga
+            species: Prototurtle Pokémon
         565:
             name: Carracosta
+            species: Prototurtle Pokémon
         566:
             name: Archen
+            species: First Bird Pokémon
         567:
             name: Archeops
+            species: First Bird Pokémon
         568:
             name: Trubbish
+            species: Trash Bag Pokémon
         569:
             name: Garbodor
+            species: Trash Heap Pokémon
         570:
             name: Zorua
+            species: Tricky Fox Pokémon
         571:
             name: Zoroark
+            species: Illusion Pokémon
         572:
             name: Minccino
+            species: Chinchilla Pokémon
         573:
             name: Cinccino
+            species: Scarf Pokémon
         574:
             name: Gothita
+            species: Fixation Pokémon
         575:
             name: Gothorita
+            species: Manipulate Pokémon
         576:
             name: Gothitelle
+            species: Astral Body Pokémon
         577:
             name: Solosis
+            species: Cell Pokémon
         578:
             name: Duosion
+            species: Mitosis Pokémon
         579:
             name: Reuniclus
+            species: Multiplying Pokémon
         580:
             name: Ducklett
+            species: Water Bird Pokémon
         581:
             name: Swanna
+            species: White Bird Pokémon
         582:
             name: Vanillite
+            species: Fresh Snow Pokémon
         583:
             name: Vanillish
+            species: Icy Snow Pokémon
         584:
             name: Vanilluxe
+            species: Snowstorm Pokémon
         585:
             name: Deerling
+            species: Season Pokémon
         586:
             name: Sawsbuck
+            species: Season Pokémon
         587:
             name: Emolga
+            species: Sky Squirrel Pokémon
         588:
             name: Karrablast
+            species: Clamping Pokémon
         589:
             name: Escavalier
+            species: Cavalry Pokémon
         590:
             name: Foongus
+            species: Mushroom Pokémon
         591:
             name: Amoonguss
+            species: Mushroom Pokémon
         592:
             name: Frillish
+            species: Floating Pokémon
         593:
             name: Jellicent
+            species: Floating Pokémon
         594:
             name: Alomomola
+            species: Caring Pokémon
         595:
             name: Joltik
+            species: Attaching Pokémon
         596:
             name: Galvantula
+            species: EleSpider Pokémon
         597:
             name: Ferroseed
+            species: Thorn Rod
         598:
             name: Ferrothorn
+            species: Thorn Pod Pokémon
         599:
             name: Klink
+            species: Gear Pokémon
         600:
             name: Klang
+            species: Gear Pokémon
         601:
             name: Klinklang
+            species: Gear Pokémon
         602:
             name: Tynamo
+            species: EleFish Pokémon
         603:
             name: Eelektrik
+            species: EleFish Pokémon
         604:
             name: Eelektross
+            species: EleFish Pokémon
         605:
             name: Elgyem
+            species: Cerebral Pokémon
         606:
             name: Beheeyem
+            species: Cerebral Pokémon
         607:
             name: Litwick
+            species: Candle Pokémon
         608:
             name: Lampent
+            species: Lamp Pokémon
         609:
             name: Chandelure
+            species: Luring Pokémon
         610:
             name: Axew
+            species: Tusk Pokémon
         611:
             name: Fraxure
+            species: Axe Jaw Pokémon
         612:
             name: Haxorus
+            species: Axe Jaw Pokémon
         613:
             name: Cubchoo
+            species: Chill Pokémon
         614:
             name: Beartic
+            species: Freezing
         615:
             name: Cryogonal
+            species: Crystallizing Pokémon
         616:
             name: Shelmet
+            species: Snail Pokémon
         617:
             name: Accelgor
+            species: Shell Out Pokémon
         618:
             name: Stunfisk
+            species: Trap Pokémon
         619:
             name: Mienfoo
+            species: Martial Pokémon
         620:
             name: Mienshao
+            species: Martial Pokémon
         621:
             name: Druddigon
+            species: Cave Pokémon
         622:
             name: Golett
+            species: Automaton Pokémon
         623:
             name: Golurk
+            species: Automaton Pokémon
         624:
             name: Pawniard
+            species: Sharp Blade Pokémon
         625:
             name: Bisharp
+            species: Sharp Sword Pokémon
         626:
             name: Bouffalant
+            species: Bash Buffalo Pokémon
         627:
             name: Rufflet
+            species: Eaglet Pokémon
         628:
             name: Braviary
+            species: Valiant Pokémon
         629:
             name: Vullaby
+            species: Diapered Pokémon
         630:
             name: Mandibuzz
+            species: Bone Vulture Pokémon
         631:
             name: Heatmor
+            species: Anteater Pokémon
         632:
             name: Durant
+            species: Iron Ant Pokémon
         633:
             name: Deino
+            species: Irate Pokémon
         634:
             name: Zweilous
+            species: Hostile Pokémon
         635:
             name: Hydreigon
+            species: Brutal Pokémon
         636:
             name: Larvesta
+            species: Torch Pokémon
         637:
             name: Volcarona
+            species: Sun Pokémon
         638:
             name: Cobalion
+            species: Iron Will Pokémon
         639:
             name: Terrakion
+            species: Cavern Pokémon
         640:
             name: Virizion
+            species: Grassland Pokémon
         641:
             name: Tornadus
+            species: Cyclone Pokémon
         642:
             name: Thundurus
+            species: Bolt Strike Pokémon
         643:
             name: Reshiram
+            species: Vast White Pokémon
         644:
             name: Zekrom
+            species: Deep Black Pokémon
         645:
             name: Landorus
+            species: Abundant Pokémon
         646:
             name: Kyurem
+            species: Boundary Pokémon
         647:
             name: Keldeo
+            species: Colt Pokémon
         648:
             name: Meloetta
+            species: Melody Pokémon
         649:
             name: Genesect
+            species: Paleozoic
         650:
             name: Chespin
+            species: Spiny Nut Pokémon
         651:
             name: Quilladin
+            species: Spiny Armor Pokémon
         652:
             name: Chesnaught
+            species: Spiny Armor Pokémon
         653:
             name: Fennekin
+            species: Fox Pokémon
         654:
             name: Braixen
+            species: Fox Pokémon
         655:
             name: Delphox
+            species: Fox Pokémon
         656:
             name: Froakie
+            species: Bubble Frog Pokémon
         657:
             name: Frogadier
+            species: Bubble Frog Pokémon
         658:
             name: Greninja
+            species: Ninja Pokémon
         659:
             name: Bunnelby
+            species: Digging Pokémon 
         660:
             name: Diggersby
+            species: Digging Pokémon
         661:
             name: Fletchling
+            species: Tiny Robin Pokémon
         662:
             name: Fletchinder
+            species: Ember Pokémon
         663:
             name: Talonflame
+            species: Scorching
         664:
             name: Scatterbug
+            species: Scatterdust
         665:
             name: Spewpa
+            species: Scatterdust
         666:
             name: Vivillon
+            species: Scale Pokémon
         667:
             name: Litleo
+            species: Lion Cub Pokémon
         668:
             name: Pyroar
+            species: Royal Pokémon
         669:
             name: Flab
+            species: Single Bloom Pokémon
         670:
             name: Floette
+            species: Single Bloom Pokémon
         671:
             name: Florges
+            species: Garden Pokémon
         672:
             name: Skiddo
+            species: Mount Pokémon
         673:
             name: Gogoat
+            species: Mount Pokémon
         674:
             name: Pancham
+            species: Playful Pokémon
         675:
             name: Pangoro
+            species: Daunting Pokémon
         676:
             name: Furfrou
+            species: Poodle Pokémon
         677:
             name: Espurr
+            species: Restraint Pokémon
         678:
             name: Meowstic
+            species: Constraint Pokémon
         679:
             name: Honedge
+            species: Sword Pokémon
         680:
             name: Doublade
+            species: Sword Pokémon
         681:
             name: Aegislash
+            species: Royal Sword Pokémon
         682:
             name: Spritzee
+            species: Perfume Pokémon
         683:
             name: Aromatisse
+            species: Fragrance Pokémon
         684:
             name: Swirlix
+            species: Cotton Candy Pokémon
         685:
             name: Slurpuff
+            species: Meringue Pokémon
         686:
             name: Inkay
+            species: Revolving Pokémon
         687:
             name: Malamar
+            species: Overturning Pokémon
         688:
             name: Binacle
+            species: Two-Handed Pokémon
         689:
             name: Barbaracle
+            species: Collective Pokémon
         690:
             name: Skrelp
+            species: Mock Kelp Pokémon
         691:
             name: Dragalge
+            species: Mock Kelp Pokémon
         692:
             name: Clauncher
+            species: Water Gun Pokémon
         693:
             name: Clawitzer
+            species: Howitzer Pokémon
         694:
             name: Helioptile
+            species: Generator Pokémon
         695:
             name: Heliolisk
+            species: Generator Pokémon
         696:
             name: Tyrunt
+            species: Royal Heir Pokémon
         697:
             name: Tyrantrum
+            species: Desport Pokémon
         698:
             name: Amaura
+            species: Tundra Pokémon
         699:
             name: Aurorus
+            species: Tundra Pokémon
         700:
             name: Sylveon
+            species: Intertwining Pokémon
         701:
             name: Hawlucha
+            species: Wrestling Pokémon
         702:
             name: Dedenne
+            species: Antenna Pokémon
         703:
             name: Carbink
+            species: Jewel Pokémon
         704:
             name: Goomy
+            species: Soft Tissue Pokémon
         705:
             name: Sliggoo
+            species: Soft Tissue Pokémon
         706:
             name: Goodra
+            species: Dragon Pokémon
         707:
             name: Klefki
+            species: Key Ring Pokémon
         708:
             name: Phantump
+            species: Stump Pokémon
         709:
             name: Trevenant
+            species: Elder Tree Pokémon
         710:
             name: Pumpkaboo
+            species: Pumpkin Pokémon
         711:
             name: Gourgeist
+            species: Pumpkin Pokémon
         712:
             name: Bergmite
+            species: Ice Chunk Pokémon
         713:
             name: Avalugg
+            species: Iceberg Pokémon
         714:
             name: Noibat
+            species: Sound Wave pokémon
         715:
             name: Noivern
+            species: Sound Wave Pokémon
         716:
             name: Xerneas
+            species: Life Pokémon
         717:
             name: Yveltal
+            species: Destruction Pokémon
         718:
             name: Zygarde
+            species: Order Pokémon
         719:
             name: Diancie
+            species: Jewel Pokémon
 
