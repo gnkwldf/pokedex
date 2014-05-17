@@ -8,11 +8,8 @@
     overflow: auto;
     padding: 0px 20px;
 }
-.pokedex-choice{
+.pokedex-choice, .pokedex-view{
     height: 300px;
-}
-.pokedex-view{
-    max-height: 300px;
 }
 .pokedex-choice .pokedex-area{
     text-align: center;
@@ -148,6 +145,13 @@
 .pokedex-bottom > .pokedex-row > .pokedex-corner-left
 {
     background-image: url('../images/design/medium/clb.png');
+}
+.pokedex-screen .loader {
+    background-image: url('../images/design/pokedex-screen-loader.gif');
+    margin:125px 0px;
+    height:50px;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 .pokedex-view
