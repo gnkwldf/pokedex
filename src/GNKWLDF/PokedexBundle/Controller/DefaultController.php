@@ -55,7 +55,7 @@ class DefaultController extends Controller
 
     /**
      * Standard action
-     * @Route("/about")
+     * @Route("/about", name="pokedex_about")
      * @Template()
      */
     public function aboutAction()
