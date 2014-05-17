@@ -4,11 +4,13 @@ pokedex:
         select: Sélection du pokémon
     about:
         name: nom
-        situation: situation
-        situation.developer: développeur
-        situation.translator: traducteur
-        situation.integrator: intégrateur
-        situation.drawer: Dessinateur
+        role: rôle
+        role.development: développement
+        role.translation: traduction
+        role.integration: intégration
+        role.drawings: dessins
+        role.design: design
+        role.significantHelp: Aide notable
 pokemon:
     type:
         bird: bird
