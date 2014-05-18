@@ -35,6 +35,10 @@ pokemon:
         steel: steel
         fairy: fairy
         unknown: ???
+    default:
+        no:
+            description: This Pokémon does not have description
+            species: Undisclosed species
     list:
         0:
             name: MissingNo.
