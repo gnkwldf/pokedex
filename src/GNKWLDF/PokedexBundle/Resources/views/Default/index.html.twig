@@ -11,7 +11,7 @@
 {% block body %}
 <div class="container">
     <header>
-        <h1 class="hide">Pokédex</h1>
+        <h1 class="hide">{% trans %}pokedex.title{% endtrans %}</h1>
         <div class="pokedex-top pokedex-hf">
             <div class="pokedex-row">
                 <div class="pokedex-corner-left">
@@ -37,13 +37,13 @@
             </section>
             <section>
                 <div id="pokeselect" class="pokedex-choice col-xs-12 col-sm-6">
-                    <h2 class="hide">{% trans %}pokedex.title.select{% endtrans %}</h2>
+                    <h2 class="hide">{% trans %}pokedex.title.home.select{% endtrans %}</h2>
                     <p class="row">
                     {% for i in 0..pokemonNumber %}
                         {% if i > 0 %}
                         <span class="hide">&nbsp;| </span>
                         {% endif %}
-                        <span class="pokedex-area col-sm-4 col-md-2 col-xs-3"><a class="pokedex-action" href="{{ path('pokedex_index', { 'number': i }) }}" data-pokemon-number="{{ i }}" title="{{('pokemon.list.' ~ i ~ '.name')|trans}}"><span class="col-xs-12 pokedex-element{% if i == number and number is not null %} selected{% endif %}{% if i in drawn %} pokemon-drawn{% endif %}"><span class="pokesprite pokesprite-{{i}}"></span><span class="pokedex-number">{{ i }}</span></span></a></span>
+                        <span class="pokedex-area col-sm-4 col-md-2 col-xs-3"><a class="pokedex-action" href="{{ path('pokedex_pokemon', { 'number': i }) }}" data-pokemon-number="{{ i }}" title="{{('pokemon.list.' ~ i ~ '.name')|trans}}"><span class="col-xs-12 pokedex-element{% if i == number and number is not null %} selected{% endif %}{% if i in drawn %} pokemon-drawn{% endif %}"><span class="pokesprite pokesprite-{{i}}"></span><span class="pokedex-number">{{ i }}</span></span></a></span>
                         {% if ((i+1) % 12) == 0 %}
                         <span class="clearfix visible-md clearfix visible-sm clearfix visible-xs"></span>
                         {% elseif ((i+1) % 6) == 0 %}
@@ -74,7 +74,7 @@
                 </div>
             </div>
         </div>
-        <p>GNKWLDF Pokédex © <a href="http://www.gnkw.org" title="Gnuk's Network Kernel for Web">GNKW</a> &amp; <a href="http://ldfcorp.fr" title="Le Dessinateur Fou">LDF</a> 2014 - <a href="{{ path('pokedex_about') }}" title="{{ 'pokedex.title.about'|trans }}">{{ 'pokedex.title.about'|trans }}</a> - Sources on MIT License <a href="https://github.com/gnkwldf/pokedex"><em class="label label-primary">Fork me on github</em></a></p>
+        {% include "GNKWLDFPokedexBundle::pokedexFooter.html.twig" %}
     </footer>
 </div>
 {% endblock %}
