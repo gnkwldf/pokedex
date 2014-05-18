@@ -4,6 +4,11 @@ pokedex:
     title.about: About
     title.about.team: Team
     title.about.description: You will find here general Pokédex informations
+    home:
+        default:
+            subject: The Pokédex revisited by a team of fans to show a new aspect of the Pokémon world.
+            explanation: You can now use it, you'll simply click on a number in the list to see your favorite Pokémon.
+            drawn: Drawn
     about:
         name: name
         role: role

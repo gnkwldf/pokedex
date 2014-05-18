@@ -175,6 +175,17 @@
     overflow: auto;
 }
 
+.pokedex-homepage-description{
+    height: 300px;
+    display:table;
+    text-align: justify;
+}
+
+.pokedex-homepage-description .pokedex-content{
+    display:table-cell;
+    vertical-align: middle;
+}
+
 .pokedex-img,
 .pokedex-info
 {

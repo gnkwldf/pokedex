@@ -50,7 +50,11 @@ class DefaultController extends Controller
     public function descriptionAction($number)
     {
         $description = $this->getDescription($number);
-        return array('description' => $description);
+        return array(
+            'description' => $description,
+            'drawn' => $this->pokemonDrawnNumber(),
+            'total' => $this->pokemonNumber
+        );
     }
 
     /**
@@ -83,6 +87,11 @@ class DefaultController extends Controller
         $pokemonFileList = scandir(__DIR__ . '/../Resources/public/images/pokemon/normal/');
         $pokemonList = preg_filter('#(.+).jpg#' , '$1', $pokemonFileList);
         return $pokemonList;
+    }
+    
+    private function pokemonDrawnNumber()
+    {
+        return count($this->pokemonDrawnList());
     }
     
     /**
