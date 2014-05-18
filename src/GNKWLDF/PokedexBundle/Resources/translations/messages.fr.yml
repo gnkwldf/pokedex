@@ -1,7 +1,9 @@
 pokedex:
-    title:
-        about: À propos
-        select: Sélection du pokémon
+    title: Pokédex
+    title.home.select: Sélection du pokémon
+    title.about: À propos
+    title.about.team: Équipe
+    title.about.description: Vous trouverez ici les informations générales du Pokédex
     about:
         name: nom
         role: rôle
