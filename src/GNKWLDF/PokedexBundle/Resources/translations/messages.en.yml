@@ -1,3 +1,18 @@
+pokedex:
+    title: Pokédex
+    title.home.select: Select a Pokémon
+    title.about: About
+    title.about.team: Team
+    title.about.description: You will find here general Pokédex informations
+    about:
+        name: name
+        role: role
+        role.development: development
+        role.translation: translation
+        role.integration: integration
+        role.drawings: drawings
+        role.design: design
+        role.significantHelp: Significant help
 pokemon:
     type:
         bird: bird
@@ -10,6 +25,7 @@ pokemon:
         poison: poison
         electric: electric
         ground: ground
+        psychic: psychic
         rock: rock
         ice: ice
         bug: bug
