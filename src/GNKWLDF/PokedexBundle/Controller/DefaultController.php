@@ -40,7 +40,7 @@ class DefaultController extends Controller
             'en'
         )));
         return array(
-            'pokemonNumber' => $this->pokemonNumber + 1, // MissingNo. is not a Pokémon but he's drawn
+            'pokemonNumber' => $this->pokemonNumber,
             'number' => $number,
             'drawn' => $this->pokemonDrawnList()
         );
@@ -57,7 +57,7 @@ class DefaultController extends Controller
         return array(
             'description' => $description,
             'drawn' => $this->pokemonDrawnNumber(),
-            'total' => $this->pokemonNumber
+            'total' => $this->pokemonNumber + 1 // MissingNo. is not a Pokémon but he's drawn
         );
     }
 
