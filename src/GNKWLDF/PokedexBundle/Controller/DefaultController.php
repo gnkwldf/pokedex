@@ -39,7 +39,11 @@ class DefaultController extends Controller
             'fr',
             'en'
         )));
-        return array('pokemonNumber' => $this->pokemonNumber, 'number' => $number, 'drawn' => $this->pokemonDrawnList());
+        return array(
+            'pokemonNumber' => $this->pokemonNumber,
+            'number' => $number,
+            'drawn' => $this->pokemonDrawnList() + 1 // MissingNo. is not a Pokémon but he's drawn
+        );
     }
     
     /**
