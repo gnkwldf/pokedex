@@ -1,5 +1,5 @@
 {
     "species" : true,
     "types" : ["poison"],
-    "description" : false
+    "description" : true
 }

@@ -1,5 +1,5 @@
 {
     "species" : true,
     "types" : ["ground"],
-    "description" : false
+    "description" : true
 }

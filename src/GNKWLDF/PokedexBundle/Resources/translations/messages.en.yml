@@ -77,6 +77,7 @@ pokemon:
         9:
             name: Blastoise
             species: Shellfish Pokémon
+            description: With two guns under its shell, this war lord is a real weapon of destruction.
         10:
             name: Caterpie
             species: Worm Pokémon
@@ -120,6 +121,7 @@ pokemon:
         23:
             name: Ekans
             species: Snake Pokémon
+            description: This snake's venom is so powerfull, its a symbol of good health in every Pokémon center.
         24:
             name: Arbok
             species: Cobra Pokémon
@@ -199,9 +201,11 @@ pokemon:
         49:
             name: Venomoth
             species: Poison Moth Pokémon
+            description: Since its genetic manipulation, Aeromite is now provided with wheels to crush this enemies.
         50:
             name: Diglett
             species: Mole Pokémon
+            description: Even if it passes the most of his life hiding underground, he doesn't forget to protect himself.
         51:
             name: Dugtrio
             species: Mole Pokémon

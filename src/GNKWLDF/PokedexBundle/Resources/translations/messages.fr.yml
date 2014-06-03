@@ -77,6 +77,7 @@ pokemon:
         9:
             name: Tortank
             species: Pokémon Carapace
+            description: Avec ses deux canons sous sa carapace, ce genéral de guerre est une vraie arme de destruction massive.
         10:
             name: Chenipan
             species: Pokémon Ver
@@ -120,6 +121,7 @@ pokemon:
         23:
             name: Abo
             species: Pokémon Serpent
+            description: Ce serpent au venin si puissant est symbole de bonne santé dans tous les centres Pokémon.
         24:
             name: Arbok
             species: Pokémon Cobra
@@ -199,9 +201,11 @@ pokemon:
         49:
             name: Aéromite
             species: Pokémon Papipoison
+            description: Depuis sa manipulation génétique, Aéromite est désormais pourvu de roues pour écraser ses ennemis.
         50:
             name: Taupiqueur
             species: Pokémon Taupe
+            description: Même s'il passe la plus grande partie de sa vie à se cacher sous terre, il n'oublie pas de se protéger.
         51:
             name: Triopikeur
             species: Pokémon Taupe
