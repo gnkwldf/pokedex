@@ -52,7 +52,7 @@ pokemon:
         1:
             name: Bulbizarre
             species: Pokémon Graine
-            description: Les spores qu'il rejette depuis son bulbe desservent un message de paix dans le monde depuis sa naissance.
+            description: Les spores qu'il rejette depuis son bulbe répandent un message de paix dans le monde depuis sa naissance.
         2:
             name: Herbizarre
             species: Pokémon Graine
@@ -94,6 +94,7 @@ pokemon:
         14:
             name: Coconfort
             species: Pokémon Cocon
+            description: Incapable de se déplacer, Coconfort se terre dans son fort pendant que sa transformation s'opère.
         15:
             name: Dardargnan
             species: Pokémon Guêpoison
@@ -171,6 +172,7 @@ pokemon:
         39:
             name: Rondoudou
             species: Pokémon Bouboule
+            description: Si vous apercevez ce Pokémon, bouchez-vous les oreilles au risque de passer votre journée à dormir.
         40:
             name: Grodoudou
             species: Pokémon Bouboule
@@ -233,6 +235,7 @@ pokemon:
         59:
             name: Arcanin
             species: Pokémon Légendaire
+            description: Sous son apparence de chien docile, il reste tout de même le féroce compagnon des forces de l'ordre.
         60:
             name: Ptitard
             species: Pokémon Têtard
@@ -260,6 +263,7 @@ pokemon:
         68:
             name: Mackogneur
             species: Pokémon Colosse
+            description: À l'aide de ses quatre bras, il manipule le sabre laser comme les plus grands chevaliers jedi.
         69:
             name: Chétiflor
             species: Pokémon Fleur
@@ -281,6 +285,7 @@ pokemon:
         75:
             name: Gravalanch
             species: Pokémon Roche
+            description: On dit que s'il est propulsé sur une planète, il pourrait détruire toute vie à sa surface en seulement trois jours.
         76:
             name: Grolem
             species: Pokémon Titanesque
@@ -305,6 +310,7 @@ pokemon:
         83:
             name: Canarticho
             species: Pokémon Canard Fou
+            description: Même s'il est le plus riche des Pokémon, il n'hésite jamais à partir à l'aventure ne serait-ce que pour une pièce.
         84:
             name: Doduo
             species: Pokémon Duoiseau
@@ -479,6 +485,7 @@ pokemon:
         141:
             name: Kabutops
             species: Pokémon Carapace
+            description: Selon certaines légendes, un Kabutops viendrait faucher les âmes des Pokèmon tombés au combat.
         142:
             name: Ptéra
             species: Pokémon Fossile
