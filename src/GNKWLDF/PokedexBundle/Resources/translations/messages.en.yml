@@ -126,6 +126,7 @@ pokemon:
         24:
             name: Arbok
             species: Cobra Pokémon
+            description: Great snake with highly toxic poison, it was worshipped by indigenous peoples centuries ago.
         25:
             name: Pikachu
             species: Mouse Pokémon
@@ -501,6 +502,7 @@ pokemon:
         146:
             name: Moltres
             species: Flame Pokémon
+            description: This bird, representative of the sun in the egyptian mythology, is worshipped since the time of Pharaos.
         147:
             name: Dratini
             species: Dragon Pokémon

@@ -1,5 +1,5 @@
 {
     "species" : true,
     "types" : ["fire", "flying"],
-    "description" : false
+    "description" : true
 }

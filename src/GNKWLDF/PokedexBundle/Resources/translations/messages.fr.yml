@@ -126,6 +126,7 @@ pokemon:
         24:
             name: Arbok
             species: Pokémon Cobra
+            description: Grand serpent au poison très toxique, il était vénéré par des peuples d'indigènes il y a plusieurs siècles de celà.
         25:
             name: Pikachu
             species: Pokémon Souris
@@ -501,6 +502,7 @@ pokemon:
         146:
             name: Sulfura
             species: Pokémon Flamme
+            description: Cet oiseau représentant le soleil dans la mythologie égyptienne est vénéré depuis le temps des pharaons.
         147:
             name: Minidraco
             species: Pokémon Dragon
